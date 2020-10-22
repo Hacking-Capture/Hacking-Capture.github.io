@@ -22,7 +22,7 @@ layout: main
       {{content | markdownify}}
         <div class="page-tag">
           {% for tag in page.tags %}
-            {{ tag }}
+            {{ #tag }}
           {% endfor %}
         </div>
       </div>
