@@ -781,13 +781,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 div.hacking {
-font-family: 'PT Serif', serif;
-font-size: 50px;
-font-weight: 400;
-margin-top: 10%;
-margin-left: 33%;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-left: 30%;
+    margin-top: 10px;
 }
-div.hacking {
+
+div.subtitle {
 font-family: 'PT Serif', serif;
 font-size: 50px;
 font-weight: 400;
