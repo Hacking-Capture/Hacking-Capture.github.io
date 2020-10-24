@@ -787,6 +787,8 @@ h1 {
 }
 h2 {
    font-weight: 400;
+   margin-top: 8%;
+   margin-left: -25%;
 }
 img {
   max-width: 100%;
