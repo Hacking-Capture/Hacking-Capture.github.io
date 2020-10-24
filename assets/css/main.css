@@ -788,8 +788,9 @@ h1 {
 }
 
 div.hacking{
+   font-family: 'PT Serif', serif;
    margin-left: 277px;
-   font-size: 50px;
+   font-size: 55px;
    font-weight: bolder;
 
 }
