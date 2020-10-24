@@ -782,7 +782,7 @@ body {
 }
 div.hacking {
     font-family: 'PT Serif', serif;
-    font-size: 50px;
+    font-size: bolder;
     font-weight: 400;
     margin-left: 30%;
     margin-top: 10px;
@@ -800,9 +800,10 @@ h1 {
   margin-left: 33%;
 }
 h2 {
-   font-weight: 400;
-   margin-top: 8%;
-   margin-left: -25%;
+  font-weight: 400;
+  margin-top: 10%;
+  margin-left: -33%;
+  font-size: x-large;
 }
 h3 {
    font-weight: 400;
