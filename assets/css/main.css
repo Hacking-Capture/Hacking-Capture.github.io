@@ -15,7 +15,7 @@ html {
   /* 2 */
 }
 
-ul {
+.ull {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ ul {
   background-color: #f3f3f3;
 }
 
-li {
+.lli {
   float: right;
   margin-right: 900px;
 }
