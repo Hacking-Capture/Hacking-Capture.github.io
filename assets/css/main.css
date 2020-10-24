@@ -921,6 +921,7 @@ table tfoot td {
 
 .post, .article-page {
   background-color: #fff;
+  margin-top: 10px;
 }
 
 ::-moz-selection {
