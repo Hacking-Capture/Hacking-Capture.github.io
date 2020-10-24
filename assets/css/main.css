@@ -785,7 +785,9 @@ h1 {
   font-weight: 400;
   margin-left: 33%;
 }
-
+h2 {
+   font-weight: 400;
+}
 img {
   max-width: 100%;
   vertical-align: middle;
