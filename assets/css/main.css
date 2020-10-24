@@ -780,11 +780,19 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-div.a {
-  font-size: 15px;
-  font-weight: 400;
-  margin-top: 10%;
-  margin-left: -25%;
+div.hacking {
+font-family: 'PT Serif', serif;
+font-size: 50px;
+font-weight: 400;
+margin-top: 10%;
+margin-left: 33%;
+}
+div.hacking {
+font-family: 'PT Serif', serif;
+font-size: 50px;
+font-weight: 400;
+margin-top: 10%;
+margin-left: 33%;
 }
 h1 {
   font-family: 'PT Serif', serif;
