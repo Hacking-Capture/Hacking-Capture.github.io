@@ -779,13 +779,13 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-div.hacking {
+   
+div.hacking{
     font-family: 'PT Serif', serif;
-    font-size: bolder;
-    font-weight: 400;
+    font-weight: bolder;
     margin-left: 30%;
     margin-top: 10px;
+    font-size: 54px;
 }
 
 div.subtitle {
@@ -795,21 +795,24 @@ font-weight: 400;
 margin-top: 10%;
 margin-left: 33%;
 }
+   
 h1 {
   font-family: 'PT Serif', serif;
   margin-left: 33%;
 }
+   
 h2 {
   font-weight: 400;
   margin-top: 10%;
   margin-left: -33%;
-  font-size: x-large;
+  font-size: ;
 }
 h3 {
    font-weight: 400;
-   margin-top: 8%;
-   margin-left: -25%;
+   margin-top: 10%;
+   margin-left: -34%;
 }
+   
 img {
   max-width: 100%;
   vertical-align: middle;
