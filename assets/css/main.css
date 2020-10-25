@@ -806,6 +806,10 @@ h1 {
 
 div.container{
       font-size:29px;
+      top: 50%; /* IMPORTANT */
+      left: 50%; /* IMPORTANT */
+      display: block;
+      position: absolute;
 
 }
 
