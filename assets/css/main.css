@@ -16,7 +16,9 @@ html {
 }
 
 .post-content1{
-   text-align:"center"}
+   position: relative;
+   left: 20px;
+   margin-left: auto;}
 /* Style the links inside the navigation bar */
 .topnav a {
      float: left;
