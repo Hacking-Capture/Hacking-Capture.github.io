@@ -798,6 +798,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.artigo_nome {
+    border: 1px dotted blue;
+    display: inline-block;
+    max-width: 250px;
+    padding: 10px;
+    word-break: break-all; /* optional */
+}
+
 h1 {
    font-size: 21px;
    margin-top: 68px;
