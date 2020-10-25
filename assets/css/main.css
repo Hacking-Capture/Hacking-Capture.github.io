@@ -804,14 +804,6 @@ h1 {
    margin-left: -298px;
 }
 
-div.container{
-      font-size:29px;
-      top: 50%; /* IMPORTANT */
-      left: 50%; /* IMPORTANT */
-      display: block;
-      position: absolute;
-
-}
 
 }
 div.h3{
@@ -820,7 +812,6 @@ div.h3{
     width: 100%;
     font-size: 21px;
     margin-top: 80px;
-    margin-left: -337px;
 }
 img {
   max-width: 100%;
