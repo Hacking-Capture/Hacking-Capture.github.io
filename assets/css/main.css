@@ -804,19 +804,9 @@ h1 {
    margin-left: -298px;
 }
 
-@media (max-width: 480px) {
-    .container2{
-        top: 50%; /* IMPORTANT */
-        left: 50%; /* IMPORTANT */
-        display: block;
-        position: absolute;
-        background: url(images/background.png) no-repeat center center;
-        width: 750px;
-        height: 417px;
+div.container{
+      font-size:29px;
 
-        margin-top: -208.5px; /* HALF OF THE HEIGHT */
-        margin-left: -375px; /* HALF OF THE WIDTH */
-    }
 }
 
 }
