@@ -815,6 +815,9 @@ div.hacking{
 
 }
 div.h3{
+    display: inline-block;
+    position: relative;
+    width: 100%;
     font-size: 21px;
     margin-top: 80px;
     margin-left: -337px;
