@@ -14,7 +14,11 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-
+.post1{
+   position: relative;
+   left: 20px;
+   margin-left: auto;
+}
 .post-content1{
    position: relative;
    left: 20px;
