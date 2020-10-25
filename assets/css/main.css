@@ -804,21 +804,20 @@ h1 {
    margin-left: -298px;
 }
 
-#container2 {
-   line-height: 1.4em;
-    border: 1px solid red;
-    color: white;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    max-width: 600px;
-}
+@media (max-width: 480px) {
+    #container {
+        top: 50%; /* IMPORTANT */
+        left: 50%; /* IMPORTANT */
+        display: block;
+        position: absolute;
+        background: url(images/background.png) no-repeat center center;
+        width: 750px;
+        height: 417px;
 
-@media only screen and (max-width: 479px){
-    #container2 { width: 90%; }
+        margin-top: -208.5px; /* HALF OF THE HEIGHT */
+        margin-left: -375px; /* HALF OF THE WIDTH */
+    }
 }
-
 
 }
 div.h3{
