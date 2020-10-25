@@ -805,7 +805,7 @@ h1 {
 }
 
 @media (max-width: 480px) {
-    #container2{
+    .container2{
         top: 50%; /* IMPORTANT */
         left: 50%; /* IMPORTANT */
         display: block;
