@@ -805,10 +805,13 @@ h1 {
 }
 
 div.hacking{
-   font-family: 'PT Serif', serif;
-   margin-left: 277px;
-   font-size: 55px;
-   font-weight: bolder;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+    margin-left: 277px;
+    font-size: 55px;
+    font-weight: bolder;
 
 }
 div.h3{
