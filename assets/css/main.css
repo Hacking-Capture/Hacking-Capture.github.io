@@ -23,7 +23,10 @@ html {
       font-weight: bolder;
 }
 .subhacking{
-
+     width: 86%;
+     text-align: center;
+     font-size: large;
+     font-weight: initial;
 
 }
 /* Style the links inside the navigation bar */
