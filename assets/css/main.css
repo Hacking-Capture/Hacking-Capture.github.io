@@ -14,9 +14,9 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-
+@media (max-width: 480px) {
 .responsive {
-  ``````top: 50%; /* IMPORTANT */
+        top: 50%; /* IMPORTANT */
         left: 50%; /* IMPORTANT */
         display: block;
         position: absolute;
@@ -27,7 +27,7 @@ html {
         margin-top: -208.5px; /* HALF OF THE HEIGHT */
         margin-left: -375px; /* HALF OF THE WIDTH */
 }
-
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
