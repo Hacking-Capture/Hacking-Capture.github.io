@@ -31,7 +31,7 @@ html {
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-    color: #1a1616;
+    padding: 14px 11px;;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
