@@ -15,20 +15,6 @@ html {
   /* 2 */
 }
 
- @media (max-width: 480px) {
-    outerBox{
-        top: 50%; /* IMPORTANT */
-        left: 50%; /* IMPORTANT */
-        display: block;
-        position: absolute;
-        background: url(images/background.png) no-repeat center center;
-        width: 750px;
-        height: 417px;
-
-        margin-top: -208.5px; /* HALF OF THE HEIGHT */
-        margin-left: -375px; /* HALF OF THE WIDTH */
-    }
-}
 
 /* Style the links inside the navigation bar */
 .topnav a {
