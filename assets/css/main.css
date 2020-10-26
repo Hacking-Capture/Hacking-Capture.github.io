@@ -17,9 +17,10 @@ html {
 
 .hacking{
          font-family: 'PT Serif', serif;
-         width: 70%;
+         width: 75%;
          text-align: center;
-
+         font-size: xx-large;
+         font-weight: bolder;
 
 }
 /* Style the links inside the navigation bar */
