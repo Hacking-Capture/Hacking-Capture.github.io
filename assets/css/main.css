@@ -14,11 +14,6 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
 }
-.post1{
-   position: relative;
-   left: 20px;
-   margin-left: auto;
-}
 /* Style the links inside the navigation bar */
 .topnav a {
      float: left;
