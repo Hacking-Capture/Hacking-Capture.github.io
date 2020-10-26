@@ -16,7 +16,7 @@ html {
 }
 
  @media (max-width: 480px) {
-    .outerBox {
+    outerBox{
         top: 50%; /* IMPORTANT */
         left: 50%; /* IMPORTANT */
         display: block;
