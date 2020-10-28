@@ -10,7 +10,7 @@ tags:
 iptables is a command-line firewall utility that uses policy chains to allow or block traffic. When a connection tries to establish itself on your system, iptables looks for a rule in its list to match it to. If it doesn’t find one, it resorts to the default action.
 
 Iptables filters packets based on:\
-    Tables: Tables are files that join similar actions. A table consists of several chains.\
+<space><space>    Tables: Tables are files that join similar actions. A table consists of several chains.\
     Chains: A chain is a string of rules. When a packet is received, iptables finds the appropriate table, then runs it through the chain of rules until it                             
     finds a match.\
     Rules: A rule is a statement that tells the system what to do with a packet. Rules can block one type of packet, or forward another type of packet. The                                             outcome, where a packet is sent, is called a target.\
