@@ -24,10 +24,13 @@ Firstly Diploy the machine and Wait a minute for get ip address to start.
      
 the result like look,<br />
 
-![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/nmap.png)  
+  
+   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/validateuser.png)
+   
 
 There can see ftp running on port 21,ssh running on port 22 and webserver in port 80 Then try Open browser enter ip address default webserver running in port 80 
-![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/indexphp.png)
+  
+   ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/indexphp.png)
 
 I trying sqlinjection but nothing changes ,So Check the directories using gobuster 
 
