@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tryhackme Chocolate Factory Walkthrough 
-date: 2017-09-12 00:00:00 +0300
+date: 2021-02-03
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: titlephoto1.jpg # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
@@ -55,7 +55,8 @@ OK.. Here see home.php <br />
    
    use python3 shell for better interaction <br />
       
-      python3 -c 'import pty; pty.spawn("/bin/sh")' <br />
+      python3 -c 'import pty; pty.spawn("/bin/sh")' 
+      
    then list out file and read key
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/cat.key.png)
