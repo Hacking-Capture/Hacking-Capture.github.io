@@ -57,6 +57,10 @@ OK.. Here see home.php <br />
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/cat.key.png)
   
+   Read validate.php
+   
+   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/validateuser.png)
+   
    change the user to charlie <br/>
    /home/charlie and list all files <br />
    found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change permission
