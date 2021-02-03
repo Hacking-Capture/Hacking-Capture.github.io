@@ -78,7 +78,6 @@ OK.. Here see home.php <br />
    read the user key <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) <br />
    
- ### Privilege Escalation 
   
   check the current user privilege 
    
@@ -102,5 +101,5 @@ OK.. Here see home.php <br />
    run the file with key
    DONE 
   
- 
+ ## Privilege Escalation
 
