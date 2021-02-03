@@ -27,6 +27,7 @@ the result like look,<br />
 ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/nmap.png)  
 
 There can see ftp running on port 21,ssh running on port 22 and webserver in port 80 Then try Open browser enter ip address default webserver running in port 80 
+![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/indexphp.png)
 
 I trying sqlinjection but nothing changes ,So Check the directories using gobuster 
 
@@ -41,7 +42,7 @@ OK.. Here see home.php <br />
  remember one thing  disable your ufw firewall before run the listerning netcat <br />
   listerning  our system 
   
-     nc -lvnp  
+     nc -lvnp <port> 
     -l listen mode, for inbound connects 
     -v verbose 
     -n numeric-only IP addresses, no DNS 
