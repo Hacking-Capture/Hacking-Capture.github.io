@@ -77,14 +77,17 @@ OK.. Here see home.php <br />
  <br/>
  ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userprivilege.png) <br />
    get root permission using vi <br />
-   use this website gtfobins.github.io/ <br />
+   use this website [GTFOBINS](http://gtfobins.github.io/) <br />
    search vi get result 
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/root.png) <br />
-   copy the command and paste into terminal 
-   Now root user
-   change charlie to root 
-   su root 
+   copy the command and paste into terminal <br />
+   Now root user <br >
+   change charlie to root <br />
+   
+    su root <br />
+    
+   ![success]({{site.baseurl}}/assets/img/cholocate.tryhackme/root3.png) <br />
    run the file with key
    DONE 
   
