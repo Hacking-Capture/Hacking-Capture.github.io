@@ -68,15 +68,17 @@ OK.. Here see home.php <br />
    /home/charlie and list all files <br />
    found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change permission
    
+   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/id_rsa.png) <br />
+   
     chmod 600 filename 
     
-   login with ssh charlie 
+   login with ssh charlie user
     
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/sshcharlie.png) <br />
    read the user key <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) <br />
    
- ### privilege escalation 
+ ### Privilege Escalation 
   
   check the current user privilege 
    
