@@ -50,7 +50,8 @@ OK.. Here see home.php <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/reverse2.png) 
    
    use python3 shell for better interaction <br />
-   python3 -c 'import pty; pty.spawn("/bin/sh")' <br />
+      
+      python3 -c 'import pty; pty.spawn("/bin/sh")' <br />
    then list out file and read key
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/cat.key.png)
@@ -59,13 +60,14 @@ OK.. Here see home.php <br />
    /home/charlie and list all files <br />
    found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change permission
    
-    chmod 600 filename <br />
+    chmod 600 filename 
     
    login with ssh charlie 
     
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/sshcharlie.png) <br />
    read the user key <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) <br />
+   
   ### privilege escalation 
   
   check the current user privilege 
