@@ -68,7 +68,7 @@ OK.. Here see home.php <br />
    read the user key <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) <br />
    
-  ### privilege escalation 
+ ### privilege escalation 
   
   check the current user privilege 
    
@@ -80,12 +80,13 @@ OK.. Here see home.php <br />
    use this website [GTFOBINS](http://gtfobins.github.io/) <br />
    search vi get result 
    
+   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/gtbl.png) <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/root.png) <br />
    copy the command and paste into terminal <br />
    Now root user <br >
    change charlie to root <br />
    
-    su root <br />
+    su root 
     
    ![success]({{site.baseurl}}/assets/img/cholocate.tryhackme/root3.png) <br />
    run the file with key
