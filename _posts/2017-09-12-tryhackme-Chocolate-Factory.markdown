@@ -83,7 +83,7 @@ OK.. Here see home.php <br />
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/gtbl.png) <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/root.png) <br />
-   copy the command and paste into terminal <br />
+   copy the command and paste into terminal and hit enter <br />
    Now root user <br >
    change charlie to root <br />
    
