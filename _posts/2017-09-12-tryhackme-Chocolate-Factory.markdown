@@ -12,4 +12,4 @@ Today’s blog post — I will give a walk-through on room called, “Chocolate 
 Let’s get started.
 Firstly Diploy the machine and Wait a minute for get ip address to start.
 
-![init]({{site.baseurl}}/assets/img/cholocate/init.png)
+![init]({{site.baseurl}}/assets/img/cholocate.tryhackme/init.png)
