@@ -25,7 +25,7 @@ Firstly Diploy the machine and Wait a minute for get ip address to start.
 the result like look,<br />
 
   
-   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/validateuser.png)
+   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/nmap.png)
    
 
 There can see ftp running on port 21,ssh running on port 22 and webserver in port 80 Then try Open browser enter ip address default webserver running in port 80 
