@@ -14,7 +14,8 @@ Firstly Diploy the machine and Wait a minute for get ip address to start.
 
 ![init]({{site.baseurl}}/assets/img/cholocate.tryhackme/init.png)
 
-## Enumeration 
+## Enumeration
+## Privilege Escalation 
  
      sudo nmap -sV -sC -v <ip>
      <br />
