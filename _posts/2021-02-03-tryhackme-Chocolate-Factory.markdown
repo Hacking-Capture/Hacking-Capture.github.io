@@ -15,7 +15,6 @@ Firstly Diploy the machine and Wait a minute for get ip address to start.
 ![init]({{site.baseurl}}/assets/img/cholocate.tryhackme/init.png)
 
 ## Enumeration
-## Privilege Escalation 
  
      sudo nmap -sV -sC -v <ip>
      <br />
@@ -80,7 +79,8 @@ OK.. Here see home.php <br />
    read the user key <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) <br />
    
- ## Privilege Escalation  
+ ## Privilege Escalation 
+ ## Privilege Escalation 
   check the current user privilege 
    
      sudo -l 
