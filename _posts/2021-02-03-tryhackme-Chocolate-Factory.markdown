@@ -77,9 +77,8 @@ OK.. Here see home.php <br />
     
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/sshcharlie.png) <br />
    read the user key <br />
-   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) <br />
+   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) 
    
- ## Privilege Escalation 
  ## Privilege Escalation 
   check the current user privilege 
    
