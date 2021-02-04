@@ -34,7 +34,7 @@ There can see ftp running on port 21,ssh running on port 22 and webserver in por
 
 I trying sqlinjection but nothing changes ,So Check the directories using gobuster 
 
-      gobuser dir -u <ip> -w /usr/share/seclists
+      gobuser dir -u <ip> -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt
   
 OK.. Here see home.php <br />
  ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/command.ls.png)  
