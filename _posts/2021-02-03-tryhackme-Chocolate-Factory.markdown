@@ -96,10 +96,11 @@ OK.. Here see home.php <br />
    Now root user <br >
    change charlie to root <br />
    
-    su root 
-    
+    su root
+   
+   
+   list the files and run python file ,enter the key 
    ![success]({{site.baseurl}}/assets/img/cholocate.tryhackme/root3.png) <br />
-   run the file with key
-   DONE 
+   DONE !!!
   
 
