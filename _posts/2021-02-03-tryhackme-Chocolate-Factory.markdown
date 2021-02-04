@@ -75,11 +75,12 @@ OK.. Here see home.php <br />
     
    login with ssh charlie user
     
-   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/sshcharlie.png) <br />
-   read the user key <br />
-   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) 
+  ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/sshcharlie.png) <br />
+  read the user key <br />
+  ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) 
    
- ## Privilege Escalation 
+ ## Privilege Escalation
+ <br />
   check the current user privilege 
    
      sudo -l 
