@@ -15,7 +15,7 @@ Let’s get started. Firstly Deploy the machine and wait a minute for getting th
 ## Enumeration
  
      sudo nmap -sV -sC -v <ip>
-     <br />
+    
      -sV: Probe open ports to determine service/version info 
      -sC: equivalent to --script=default 
      -v: verbose mode 
