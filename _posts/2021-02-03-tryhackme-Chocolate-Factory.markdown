@@ -20,7 +20,7 @@ Let’s get started. Firstly Deploy the machine and wait a minute for getting th
      -sC: equivalent to --script=default 
      -v: verbose mode 
      
-the result like look,<br />
+the result looks like,<br />
 
   
   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/init1.png)
