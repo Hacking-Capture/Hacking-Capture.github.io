@@ -9,10 +9,10 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Safwan P # add your name
 author-img: #david-freeman.jpg # add your photo
 about-author: Security Analyst # add description
-social-twitter: paloli_safwan # add your Twitter handle
+social-twitter: safwanpaloli # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: safwanpaloli  # add your Github handle
-social-linkedin: safwan-paloli-5b2477196 # add your Linkedin handle
+social-linkedin: safwanpaloli # add your Linkedin handle
 social-email: safwanpaloli6@gmail.com #add your Email address
 
 # Disqus
