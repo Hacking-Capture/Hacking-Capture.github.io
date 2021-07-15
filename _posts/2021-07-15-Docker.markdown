@@ -13,7 +13,7 @@ tags: [Docker, Programmer] # add tag
 
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
-Components of a Docker architecture
+## Components of a Docker architecture
 
 Docker comprises the following different components within its core architecture:
 
@@ -32,5 +32,11 @@ Images are like blueprints containing instructions for creating a Docker contain
    The processes that should run when the application launches
 
 You can get images from DockerHub or create your own images by including specific instructions within a file called Dockerfile.
+
+## Containers
+
+Containers are live instances of images on which an application or its independent modules are run.
+
+In an object-oriented programming analogy, an image is a class and the container is an instance of that class. This allows operational efficiency by allowing to you to multiple containers from a single image.
 ## Installation
 
