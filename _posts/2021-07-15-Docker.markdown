@@ -7,10 +7,9 @@ img: titlephoto1.jpg # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
 
-
-<img src="/assets/img/docker/docker-logo.png" width="200"/>
-![init]({{site.baseurl}}/assets/img/docker/docker-logo.png)
-
+<p align="center">
+<img src="/assets/img/docker/docker-logo.png" width="350"/>
+</p>
 ## Installation
  
  ![reverseconnection]({{site.baseurl}}/assets/img/cholocate.tryhackme/init1.png)
