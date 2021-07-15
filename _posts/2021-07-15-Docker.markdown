@@ -8,7 +8,7 @@ tags: [Tryhackme, CTF] # add tag
 ---
 
 
-<img src="docker-logo.png" alt="drawing" width="200"/>
+<img src="docker-logo.png" width="200"/>
 ![init]({{site.baseurl}}/assets/img/docker/docker-logo.png)
 
 ## Installation
