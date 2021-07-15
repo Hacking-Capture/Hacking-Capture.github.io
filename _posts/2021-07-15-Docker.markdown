@@ -17,10 +17,10 @@ Components of a Docker architecture
 
 Docker comprises the following different components within its core architecture:
 
-    Images
-    Containers
-    Registries
-    Docker Engine
+  - Images
+  - Containers
+  - Registries
+  - Docker Engine
 
 ## Installation
 
