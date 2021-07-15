@@ -29,8 +29,8 @@ Docker comprises the following different components within its core architecture
 
 Images are like blueprints containing instructions for creating a Docker container. Images define:
 
-   Application dependencies.
-   The processes that should run when the application launches.
+  Application dependencies.
+  The processes that should run when the application launches.
 
 You can get images from DockerHub or create your own images by including specific instructions within a file called Dockerfile.
 
