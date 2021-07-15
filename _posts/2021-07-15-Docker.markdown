@@ -24,6 +24,7 @@ Docker comprises the following different components within its core architecture
   <p align="center">
   <img src="/assets/img/docker/images.png" width="450"/>
   </p>
+  
 ## Images
 
 Images are like blueprints containing instructions for creating a Docker container. Images define:
