@@ -28,7 +28,7 @@ Docker comprises the following different components within its core architecture
   
 ## Images
 
-Images are like blueprints containing instructions for creating a Docker container. Images define:
+Images are like blueprints containing instructions for creating a Docker container. A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Image layers are also read-only files. Once a container is created, a writable layer is added on top of the unchangeable images, allowing a user to make changes.
 
 Application dependencies.
 The processes that should run when the application launches.
