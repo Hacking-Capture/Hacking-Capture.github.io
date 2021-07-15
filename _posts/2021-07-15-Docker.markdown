@@ -21,6 +21,8 @@ Docker comprises the following different components within its core architecture
   - Containers
   - Registries
   - Docker Engine
+  
+  <img src="/assets/img/docker/images.png" width="350"/>
 
 ## Images
 
