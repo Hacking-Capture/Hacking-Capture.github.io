@@ -27,7 +27,7 @@ Docker comprises the following different components within its core architecture
  
   
 ## Images
-Images are like blueprints containing instructions for creating a Docker container. A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Image layers are also read-only files. Once a container is created, a writable layer is added on top of the unchangeable images, allowing a user to make changes. Images can get from Docker hub [Docker hub](https://hub.docker.com) or Create own images by including specific instructions within a file called Dockerfile.
+Images are like blueprints containing instructions for creating a Docker container. A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Image layers are also read-only files. Once a container is created, a writable layer is added on top of the unchangeable images, allowing a user to make changes. Images can get from [Docker hub](https://hub.docker.com) or Create own images by including specific instructions within a file called Dockerfile.
 
 ## Containers
 A Docker container is an open source software development platform. Its main benefit is to package applications in containers, allowing them to be portable to any system running a Linux or Windows operating system (OS). A Windows machine can run Linux containers by using a virtual machine (VM).
