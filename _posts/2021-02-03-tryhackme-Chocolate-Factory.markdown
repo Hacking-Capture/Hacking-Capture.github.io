@@ -4,9 +4,12 @@ title: Tryhackme Chocolate Factory Walkthrough
 date: 2021-02-03
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: titlephoto1.jpg # Add image post (optional)
-tags: [Docker, Programmer] # add tag
+tags: [Tryhackme, CTF] # add tag
 ---
+Today’s blog post — I will give a walk-through on room called, “Chocolate Factory”. This is perfect practice for Beginners. 
+Let’s get started. Firstly Deploy the machine and wait a minute for getting the IP address to start.
 
+![init]({{site.baseurl}}/assets/img/cholocate.tryhackme/init.png)
 
 
 ## Enumeration
