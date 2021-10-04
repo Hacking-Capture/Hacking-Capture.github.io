@@ -8,7 +8,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Safwan P # add your name
 author-img: #david-freeman.jpg # add your photo
-about-author: Security Analyst # add description
+about-author: #Security Analyst # add description
 social-twitter: safwan_paloli # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: safwanpaloli  # add your Github handle
