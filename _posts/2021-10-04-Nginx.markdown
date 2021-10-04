@@ -14,7 +14,7 @@ tags: [nginx,webserver,OpenSource] # add tag
 Nginx, pronounced like “engine-ex”, is an open-source web server that, since its initial success as a web server, is now also used as a reverse proxy, HTTP cache, and load balancer.
 
 
-Features of NGINX
+#### Features of NGINX
 
 Some features of Nginx are as follows:
 
@@ -26,6 +26,10 @@ Some features of Nginx are as follows:
   * FastCGI support with caching
   * URL rewriting and redirection
 
-Installation of Ubuntu 
+#### Installation of Ubuntu 
+Before the nginx installation,update the system.
+ ```
+  <copy-button> fdsfasdfasd</copy-button> sudo apt update 
+ ```
 
 
