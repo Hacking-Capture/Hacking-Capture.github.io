@@ -6,6 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: nginx/nginx.png # Add image post (optional)
 tags: [nginx,webserver,OpenSource] # add tag
 ---
+<!--
 <h2>Let Start with Nginx...</h2> 
 <p align="center">
 <img src="/assets/img/nginx/nginx.png" width="350"/>
@@ -33,3 +34,4 @@ Images are like blueprints containing instructions for creating a Docker contain
 A Docker container is an open source software development platform. Its main benefit is to package applications in containers, allowing them to be portable to any system running a Linux or Windows operating system (OS). A Windows machine can run Linux containers by using a virtual machine (VM).
 
 
+-->
