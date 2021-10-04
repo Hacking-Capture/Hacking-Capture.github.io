@@ -16,13 +16,13 @@ Features of NGINX
 
 Some features of Nginx are as follows:
 
-  Reverse proxy with caching
-  IPV6
-  Load Balancing
-  Web Sockets
-  Handling of static files, index files, and auto-indexing
-  FastCGI support with caching
-  URL rewriting and redirection
+  * Reverse proxy with caching
+  * IPV6
+  * Load Balancing
+  * Web Sockets
+  * Handling of static files, index files, and auto-indexing
+  * FastCGI support with caching
+  * URL rewriting and redirection
 
 Installation of Ubuntu 
 
