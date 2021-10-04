@@ -3,7 +3,7 @@ layout: post
 title: Nginx
 date: 2021-10-04
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: nginx/nginx.png width="100" # Add image post (optional)
+img: nginx/nginx.png # Add image post (optional)
 tags: [nginx,webserver,OpenSource] # add tag
 ---
 
