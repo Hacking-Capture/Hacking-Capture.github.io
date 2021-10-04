@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: nginx/nginx.png width="100" # Add image post (optional)
 tags: [nginx,webserver,OpenSource] # add tag
 ---
-<!--
+
 <h2>Let Start with Nginx...</h2> 
 <p align="center">
 <img src="/assets/img/nginx/nginx.png" width="350"/>
