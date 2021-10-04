@@ -8,9 +8,7 @@ tags: [nginx,webserver,OpenSource] # add tag
 ---
 
 <h2>Let Start with Nginx...</h2> 
-<p align="center">
 <img src="/assets/img/nginx/nginx.png" width="350"/>
-</p>
 Nginx, pronounced like “engine-ex”, is an open-source web server that, since its initial success as a web server, is now also used as a reverse proxy, HTTP cache, and load balancer.
 
 
