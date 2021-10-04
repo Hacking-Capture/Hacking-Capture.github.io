@@ -39,8 +39,10 @@ Before the nginx installation,update the system.
  ```
  ![install nginx]({{site.baseurl}}/assets/img/nginx/nginx_installation.png)
  
- check nginx status 
+ check nginx status it will show properly whether nginx installed and running
  ```
     sudo systemctl status nginx 
 ```
  ![nginx status]({{site.baseurl}}/assets/img/nginx/nginx_status_check.png)
+  It will show properly whether nginx installed and running.
+ 
