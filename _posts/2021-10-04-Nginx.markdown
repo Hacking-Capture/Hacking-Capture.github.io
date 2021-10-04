@@ -64,4 +64,5 @@ To stop and then start the service again, type:
  
  <img src="/assets/img/nginx/curl_localhost.png" width="450"/> 
  
- ### Custom website configuration 
+ ### Custom website configuration  
+ 
