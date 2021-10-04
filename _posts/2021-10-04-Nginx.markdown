@@ -40,4 +40,4 @@ Before the nginx installation,update the system.
  check nginx status 
  ```
     sudo systemctl status nginx 
-
+```
