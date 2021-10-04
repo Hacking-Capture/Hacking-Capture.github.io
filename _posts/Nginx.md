@@ -1,0 +1,36 @@
+---
+layout: post
+title: Nginx
+date: 2021-07-15
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: docker/docker-logo.png # Add image post (optional)
+tags: [Docker, Programmer,Container,OpenSource] # add tag
+---
+
+<!-- <h2>Let Start with Nginx...</h2> 
+<p align="center">
+<img src="/assets/img/docker/docker-logo.png" width="350"/>
+</p>
+
+Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+ 
+ <p align="center">
+  <img src="/assets/img/docker/images.png" width="450"/>
+  </p>
+## Components of a Docker architecture
+
+Docker comprises the following different components within its core architecture:
+
+  - Images
+  - Containers
+  - Registries
+  - Docker Engine
+ 
+  
+## Images
+Images are like blueprints containing instructions for creating a Docker container. A Docker image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Image layers are also read-only files. Once a container is created, a writable layer is added on top of the unchangeable images, allowing a user to make changes. Images can get from [Docker hub](https://hub.docker.com) or Create own images by including specific instructions within a file called Dockerfile.
+
+## Containers
+A Docker container is an open source software development platform. Its main benefit is to package applications in containers, allowing them to be portable to any system running a Linux or Windows operating system (OS). A Windows machine can run Linux containers by using a virtual machine (VM).
+
+
