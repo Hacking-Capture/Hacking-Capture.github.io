@@ -29,7 +29,10 @@ Some features of Nginx are as follows:
 #### Installation of Ubuntu 
 Before the nginx installation,update the system.
  ```
-  <copy-button> fdsfasdfasd</copy-button> sudo apt update 
+   sudo apt update 
  ```
-
+ After completing the updation,install the nginx
+ ```
+    sudo apt-get install nginx
+ ```
 
