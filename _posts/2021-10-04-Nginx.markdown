@@ -37,12 +37,12 @@ Before the nginx installation,update the system.
  
    > sudo apt-get install nginx 
 
-
  ![install nginx]({{site.baseurl}}/assets/img/nginx/nginx_installation.png)
  
  check nginx status it will show properly whether nginx installed and running
 
    > sudo systemctl status nginx 
+
  ![nginx status]({{site.baseurl}}/assets/img/nginx/nginx_status_check.png)
   It will show properly whether nginx installed and running.
  
