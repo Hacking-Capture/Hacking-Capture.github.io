@@ -35,7 +35,7 @@ Before the Nginx installation,update the system.
 
  After completing the updating process,install the Nginx
  
-   > sudo apt-get install nginx 
+   > sudo apt-get install ginx 
 
  <img src="/assets/img/nginx/nginx_installation.png" width="450"/> 
   
@@ -64,5 +64,4 @@ To stop and then start the service again, type:
  
  <img src="/assets/img/nginx/curl_localhost.png" width="450"/> 
  
- 
- 
+ ### Custom website configuration 
