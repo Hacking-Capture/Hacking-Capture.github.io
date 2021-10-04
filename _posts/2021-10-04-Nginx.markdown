@@ -12,6 +12,8 @@ tags: [nginx,webserver,OpenSource] # add tag
 <img src="/assets/img/nginx/nginx.png" width="350"/>
 </p>
 Nginx, pronounced like “engine-ex”, is an open-source web server that, since its initial success as a web server, is now also used as a reverse proxy, HTTP cache, and load balancer.
+
+
 Features of NGINX
 
 Some features of Nginx are as follows:
