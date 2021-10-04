@@ -47,4 +47,6 @@ Before the nginx installation,update the system.
  
  It will show properly whether nginx installed and running
 
-run localhost in curl for looking response nginx page.this will respond with welcome nginx page
+ Run localhost in curl for looking response Nginx page
+ 
+ ![curl]({{site.baseurl}}/assets/img/nginx/curl_localhost.png)
