@@ -31,7 +31,8 @@ Before the nginx installation,update the system.
  ```
    sudo apt update 
  ```
-![updation!](/assets/imag/update.png)
+![updation!](/assets/imag/nginx/update.png)
+![nmap]({{site.baseurl}}/assets/img/nginx/update.png)
 
  After completing the updating process,install the nginx
  ```
