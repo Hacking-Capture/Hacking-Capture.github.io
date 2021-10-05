@@ -97,4 +97,21 @@ create a html page in /var/www/hacking-capture.com/index.html
 save and exit
 
 nginx server block
-/etc/nginx/
+In nginx server configuration block, which is similar to the default, but updated for our new directory and domain name:
+
+sudo nano /etc/nginx/sites-available/hacking-capture.com
+```
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /var/www/hacking-capture.com/;
+        index index.html;
+
+        server_name hacking-capture.com www.hacking-capture.com;
+
+        location / {
+                try_files $uri $uri/ =404;
+        }
+}
+```
