@@ -60,7 +60,8 @@ To stop and then start the service again, type:
  
  <img src="/assets/img/nginx/curl_localhost.png" width="450"/> 
  
- ### Enable UFW (Uncomplicated Firewall)
+ #### Enable UFW (Uncomplicated Firewall)
+ 
 Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
 
 To enable ufw service,type:
