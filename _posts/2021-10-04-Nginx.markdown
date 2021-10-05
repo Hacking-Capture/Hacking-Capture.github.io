@@ -76,3 +76,4 @@ To check ufw status
 > sudo ufw status
  
 #### Setting up server block
+Nginx on Ubuntu 18.04 has one server block enabled by default that is configured to serve documents out of a directory at /var/www/html.
