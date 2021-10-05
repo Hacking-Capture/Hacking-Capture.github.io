@@ -91,6 +91,7 @@ set the permission of directory
 > sudo chmod -R  755 /var/www/hacking-capture.com/
 
 create a html page in /var/www/hacking-capture.com/index.html
+
 <img src="/assets/img/nginx/index_page.png" width="450"/>
 
 save and exit
