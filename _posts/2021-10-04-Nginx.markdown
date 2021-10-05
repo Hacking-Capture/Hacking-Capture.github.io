@@ -33,7 +33,7 @@ Before the Nginx installation,update the system.
 
  After completing the updating process,install the Nginx
  
-   > sudo apt-get install ginx 
+   > sudo apt-get install nginx 
 
   
  Check nginx status 
