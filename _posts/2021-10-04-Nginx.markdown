@@ -115,6 +115,29 @@ server {
         }
 }
 ```
-enable the file by creating a link from it to the sites-enabled directory, which Nginx reads from during startup:
- sudo ln -s /etc/nginx/sites-available/careMonster.com /etc/nginx/sites-enabled/
- sudo nano /etc/nginx/nginx.conf
+#### Enable the server block
+Enable the file by creating a link from it to the sites-enabled directory, which Nginx reads from during startup:
+ > sudo ln -s /etc/nginx/sites-available/hacking-capture.com /etc/nginx/sites-enabled/
+
+To avoid a possible hash bucket memory problem that can arise from adding additional server names, it is necessary to adjust a single value in the /etc/nginx/nginx.conf file.
+
+> sudo nano /etc/nginx/nginx.conf
+
+Find the server_names_hash_bucket_size directive and remove the # symbol to uncomment the line
+
+```
+...
+http {
+    ...
+    server_names_hash_bucket_size 64;
+    ...
+}
+...
+```
+test the nginx syntax error in any nginx files
+
+> nginx -t 
+
+Then, reload the nginx 
+
+> sudo systemctl reload nginx 
