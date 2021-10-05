@@ -115,3 +115,6 @@ server {
         }
 }
 ```
+enable the file by creating a link from it to the sites-enabled directory, which Nginx reads from during startup:
+ sudo ln -s /etc/nginx/sites-available/careMonster.com /etc/nginx/sites-enabled/
+ sudo nano /etc/nginx/nginx.conf
