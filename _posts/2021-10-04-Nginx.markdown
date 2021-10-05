@@ -26,11 +26,12 @@ Some features of Nginx are as follows:
   * FastCGI support with caching
   * URL rewriting and redirection
 
-#### Installation of Ubuntu 
+#### Installation 
 Before the Nginx installation,update the system.
 
    > sudo apt update -y
 
+#### Managing the Nginx Process
  After completing the updating process,install the Nginx
  
    > sudo apt-get install nginx 
@@ -59,5 +60,7 @@ To stop and then start the service again, type:
  
  <img src="/assets/img/nginx/curl_localhost.png" width="450"/> 
  
- ### Custom website configuration  
+ ### Enable UFW (Uncomplicated Firewall)
+Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
+
  
