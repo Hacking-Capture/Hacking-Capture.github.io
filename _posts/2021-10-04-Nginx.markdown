@@ -75,3 +75,4 @@ To allow Nginx Full service
 To check ufw status 
 > sudo ufw status
  
+#### Setting up server block
