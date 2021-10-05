@@ -63,4 +63,15 @@ To stop and then start the service again, type:
  ### Enable UFW (Uncomplicated Firewall)
 Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
 
+To enable ufw service,type:
+> sudo ufw enable
+
+To list available application
+> sudo ufw app list 
+
+To allow Nginx Full service
+> sudo ufw allow 'Nginx Full'
+
+To check ufw status 
+> sudo ufw status
  
