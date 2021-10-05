@@ -66,7 +66,7 @@ Uncomplicated Firewall is a program for managing a netfilter firewall designed t
 To enable ufw service,type:
 > sudo ufw enable
 
-To list available application
+To view which applications have installed a profile
 > sudo ufw app list 
 
 To allow Nginx Full service
