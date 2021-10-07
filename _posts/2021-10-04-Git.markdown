@@ -10,6 +10,7 @@ tags: [] # add tag
 <img src="/assets/img/git/git.jpeg" width="350"/>
 </p>
 
+Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
 
 #### Features of GIT
 
@@ -22,4 +23,8 @@ Before the git installation,update the system.
 After completing the updating process,install the Nginx
  
    > sudo apt-get install git
+
+
+
+
 
