@@ -7,9 +7,9 @@ img: git/git.jpeg  # Add image post (optional)
 tags: [] # add tag
 ---
 
-<h2>Let Start with Nginx...</h2> 
+<h2>Let Start with GIT...</h2> 
 <p align="center">
-<img src="/assets/img/nginx/nginx.png" width="350"/>
+<img src="/assets/img/git/git.png" width="350"/>
 </p>
 Nginx, pronounced like “engine-ex”, is an open-source web server that, since its initial success as a web server, is now also used as a reverse proxy, HTTP cache, and load balancer.
 
@@ -31,12 +31,12 @@ Before the Nginx installation,update the system.
 
    > sudo apt update -y
 
-#### Managing the Nginx Process
- After completing the updating process,install the Nginx
+After completing the updating process,install the Nginx
  
    > sudo apt-get install nginx 
 
-  
+#### Managing the Nginx Process
+ 
  Check nginx status 
  
    > sudo systemctl status nginx 
