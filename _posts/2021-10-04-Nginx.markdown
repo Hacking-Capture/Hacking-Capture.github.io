@@ -31,11 +31,11 @@ Before the Nginx installation,update the system.
 
    > sudo apt update -y
 
-#### Managing the Nginx Process
  After completing the updating process,install the Nginx
  
    > sudo apt-get install nginx 
 
+#### Managing the Nginx Process
   
  Check nginx status 
  
