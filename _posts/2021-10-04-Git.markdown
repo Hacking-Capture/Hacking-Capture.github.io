@@ -9,22 +9,13 @@ tags: [] # add tag
 
 <h2>Let Start with GIT...</h2> 
 <p align="center">
-<img src="/assets/img/git/git.png" width="350"/>
+<img src="/assets/img/git/git.jpeg" width="350"/>
 </p>
 Nginx, pronounced like “engine-ex”, is an open-source web server that, since its initial success as a web server, is now also used as a reverse proxy, HTTP cache, and load balancer.
 
 
-#### Features of NGINX
+#### Features of GIT
 
-Some features of Nginx are as follows:
-
-  * Reverse proxy with caching
-  * IPV6
-  * Load Balancing
-  * Web Sockets
-  * Handling of static files, index files, and auto-indexing
-  * FastCGI support with caching
-  * URL rewriting and redirection
 
 #### Installation 
 Before the Nginx installation,update the system.
