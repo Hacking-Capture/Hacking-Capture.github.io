@@ -1,13 +1,11 @@
 ---
 layout: post
-title: Git
+#title: Git
 date: 2021-10-04
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: git/git.jpeg  # Add image post (optional)
 tags: [] # add tag
 ---
-
-<h2>Let Start with GIT...</h2> 
 <p align="center">
 <img src="/assets/img/git/git.jpeg" width="350"/>
 </p>
@@ -17,7 +15,7 @@ tags: [] # add tag
 
 
 #### Installation 
-Before the Nginx installation,update the system.
+Before the git installation,update the system.
 
    > sudo apt update -y
 
