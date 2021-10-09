@@ -10,7 +10,7 @@ tags: [Tryhackme, CTF] # add tag
   <img src="/assets/img/root-me/init.png" width="1200"/>
  </p>
    
- 1.Reconnaissance 
+### Reconnaissance 
  
  > sudo nmap -sC -sV "ip"
  
