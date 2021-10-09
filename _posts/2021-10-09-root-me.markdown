@@ -6,8 +6,11 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img:  # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
-  <img src="/assets/img/root-me/init.png" width="450"/> 
-1.Reconnaissance 
+<p align="center">
+  <img src="/assets/img/root-me/init.png" width="1200"/>
+ </p>
+   
+ 1.Reconnaissance 
  
  > sudo nmap -sC -sV "ip"
    <img src="/assets/img/root-me/nmap.png" width="450"/> 
