@@ -26,7 +26,7 @@ Some features of Nginx are as follows:
   * FastCGI support with caching
   * URL rewriting and redirection
 
-#### Installation 
+#### Installation in ubuntu
 Before the Nginx installation,update the system.
 
    > sudo apt update -y
