@@ -13,7 +13,8 @@ tags: [Tryhackme, CTF] # add tag
  1.Reconnaissance 
  
  > sudo nmap -sC -sV "ip"
-   <img src="/assets/img/root-me/nmap.png" width="450"/> 
+ 
+ <img src="/assets/img/root-me/nmap.png" width="450"/> 
    
 As you can see, the HTTP port is 80, the web server is apache, and ssh is running on 22 by default.
  
@@ -22,6 +23,7 @@ Check the robots.txt file on the website, but it's not there.
  here I decided directory brute-forcing with wfuzz tool. I guess That's better than the gobuster tool.
  
  >  wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u ip.
+ 
  <img src="/assets/img/root-me/wfuzz.png" width="450"/>
  
  There are two directories on the website. One is the panel directory and uploads directories.
