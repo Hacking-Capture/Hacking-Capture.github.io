@@ -3,6 +3,30 @@ layout: post
 title: Tryhackme | RootMe
 date: 2021-10-09
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: cholocate.tryhackme/titlephoto1.jpg # Add image post (optional)
+img:  # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
+   
+Reconnaissance 
+ 
+ > sudo nmap -sC -sV "ip"
+   <img src="/assets/img/nginx/curl_localhost.png" width="450"/> 
+   
+As you can see, the HTTP port is 80, the web server is apache, and ssh is running on 22 by default.
+ 
+Check the robots.txt file on the website, but it's not there.
+
+ here I decided directory brute-forcing with wfuzz tool. I guess That's better than the gobuster tool.
+ 
+ >  wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u ip.
+ 
+ There are two directories on the website. One is the panel directory and uploads directories.
+     
+<img src="/assets/img/nginx/curl_localhost.png" width="450"/>
+2.Enumeration
+  Upload the PHP reverse shell to the panel directory.
+  
+disable the ufw firewall.
+  > sudo ufw disable
+ 
+
