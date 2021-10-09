@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img:  # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
-  <img src="/assets/img/nginx/curl_localhost.png" width="450"/> 
+  <img src="/assets/img/root-me/" width="450"/> 
 1.Reconnaissance 
  
  > sudo nmap -sC -sV "ip"
@@ -23,7 +23,8 @@ Check the robots.txt file on the website, but it's not there.
  
  There are two directories on the website. One is the panel directory and uploads directories.
 
-2.Enumeration
+2. #### Enumeration
+  
   Upload the PHP reverse shell to the panel directory.
   
 disable the ufw firewall.
