@@ -18,7 +18,7 @@ tags: [Tryhackme, CTF] # add tag
  
  <img src="/assets/img/root-me/nmap.png" width="450"/> 
    
-As you can see, the HTTP port is 80, the web server is apache, and ssh is running on 22 by default.
+As you can see, the HTTP port is 80, the web server is apache httpd 2.4.29, and ssh is running on 22 by default.
  
 Check the robots.txt file on the website, but it's not there.
 
