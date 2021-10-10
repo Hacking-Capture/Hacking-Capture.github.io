@@ -19,7 +19,7 @@ tags: [Tryhackme, CTF] # add ta
    
 As you can see, the HTTP port is 80, the web server is apache httpd 2.4.29, and ssh is running on 22 by default.
 
- ![init]({{site.baseurl}}/assets/img/root-me/home-page.png )
+ ![home_page]({{site.baseurl}}/assets/img/root-me/home-page.png )
  
 Check the robots.txt file on the website, but it's not there.
 
