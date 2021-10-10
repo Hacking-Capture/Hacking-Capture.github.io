@@ -467,10 +467,11 @@ template {
 }
 
 .highlight {
-  background-color: #939090;;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  margin: 0;
+background-color: #c4c4c42e;
+-webkit-border-radius: 3px;
+border-radius: 15px;
+margin: 0;
+border-left: 3px solid #78C0A8;
 }
 
 .highlighter-rouge {
