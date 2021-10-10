@@ -15,8 +15,10 @@ tags: [Tryhackme, CTF] # add ta
  
  > sudo nmap -sC -sV "ip"
  
+ <p align="center">
 <img src="/assets/img/root-me/nmap.png" width="450"/> 
-   
+ </p>
+ 
 As you can see, the HTTP port is 80, the web server is apache httpd 2.4.29, and ssh is running on 22 by default.
 
  ![home_page]({{site.baseurl}}/assets/img/root-me/home-page.png )
