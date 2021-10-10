@@ -7,9 +7,6 @@ img: root-me/root-me-logo.png # Add image post (optional)
 tags: [Tryhackme, CTF] # add ta
 
 ---
-<p align="center">
-  <img src="/assets/img/root-me/init.png" width="1100"/>
- </p>
  ![init]({{site.baseurl}}/assets/img/root-me/init.png)
    
 ### 1. Reconnaissance
@@ -18,9 +15,11 @@ tags: [Tryhackme, CTF] # add ta
  
  > sudo nmap -sC -sV "ip"
  
- <img src="/assets/img/root-me/nmap.png" width="450"/> 
+<img src="/assets/img/root-me/nmap.png" width="450"/> 
    
 As you can see, the HTTP port is 80, the web server is apache httpd 2.4.29, and ssh is running on 22 by default.
+
+ ![init]({{site.baseurl}}/assets/img/root-me/home-page.png )
  
 Check the robots.txt file on the website, but it's not there.
 
@@ -32,7 +31,9 @@ Here, I decided to brute-force the directory using the wfuzz tool. I guess that'
  
  There are two directories on the website. One is the panel directory and uploads directories.
 
+
  ### 2.Enumeration
+ 
  #### 2.Enumeration
   
   Upload the PHP reverse shell to the panel directory.
