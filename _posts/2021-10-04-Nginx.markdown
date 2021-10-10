@@ -54,7 +54,7 @@ To stop and then start the service again, type:
 
    > sudo systemctl restart nginx
 
- It will show properly whether nginx installed and running
+It will show whether nginx is installed and running
 
  Run localhost in curl for looking response Nginx page
  
@@ -78,7 +78,7 @@ To check ufw status
 > sudo ufw status
  
 #### Setting up server block
-Set up a domain called hacking-capture.com, but you should replace this with your own domain name.
+Set up hacking-capture.com as your domain name, but you should replace it with your own.
 Nginx on Ubuntu 18.04 has one server block enabled by default that is configured to serve documents out of a directory at /var/www/html.
 
 
