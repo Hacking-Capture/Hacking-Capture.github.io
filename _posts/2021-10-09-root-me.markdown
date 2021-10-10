@@ -3,7 +3,7 @@ layout: post
 title: Tryhackme | RootMe
 date: 2021-10-09
 description: Tryhackme  # Add post description (optional)
-img: <img src="/assets/img/root-me/init.png" width="1200"/>   # Add image post (optional)
+img: "root-me/init.png" width="1200" # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
 <p align="center">
