@@ -15,7 +15,7 @@ tags: [Tryhackme, CTF] # add ta
  
  > sudo nmap -sC -sV "ip"
  
- <p align="center">
+ <p align="left">
 <img src="/assets/img/root-me/nmap.png" width="450"/> 
  </p>
  
