@@ -32,6 +32,7 @@ Here, I decided to brute-force the directory using the wfuzz tool. I guess that'
  There are two directories on the website. One is the panel directory and uploads directories.
 
  ### 2.Enumeration
+ #### 2.Enumeration
   
   Upload the PHP reverse shell to the panel directory.
   
