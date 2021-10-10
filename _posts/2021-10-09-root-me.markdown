@@ -8,7 +8,7 @@ tags: [Tryhackme, CTF] # add ta
 
 ---
 <p align="center">
-  <img src="/assets/img/root-me/init.png" width="1200"/>
+  <img src="/assets/img/root-me/init.png" width="1100"/>
  </p>
    
 ### 1. Reconnaissance
