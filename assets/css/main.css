@@ -469,7 +469,6 @@ template {
 .highlight {
 background-color: #c4c4c42e;
 -webkit-border-radius: 3px;
-border-radius: 15px;
 margin: 0;
 border-left: 3px solid #78C0A8;
 }
@@ -477,7 +476,6 @@ border-left: 3px solid #78C0A8;
 .highlighter-rouge {
   color: #151414;
   font-weight: 400;
-  border: 1px solid #607D8B;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   padding: 0.1rem 0.5rem;
