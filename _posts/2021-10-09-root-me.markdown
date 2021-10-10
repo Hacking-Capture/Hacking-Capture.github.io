@@ -35,8 +35,11 @@ Here, I decided to brute-force the directory using the wfuzz tool. I guess that'
 >  wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u url/FUZZ --hc 404.
 >
 >    -c			            : Output with colors
+>    
 >    -w wordlist		    : Specify a wordlist file (alias for -z file,wordlist).
+>    
 >    -u url           : Specify a URL for the request.
+>    
 >   --hc              : Hide status code.
  
  <img src="/assets/img/root-me/wfuzz.png" width="450"/>
