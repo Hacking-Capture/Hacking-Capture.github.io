@@ -12,7 +12,7 @@ Let’s get started. Firstly Deploy the machine and wait a minute for getting th
 ![init]({{site.baseurl}}/assets/img/cholocate.tryhackme/init.png)
 
 
-## Enumeration
+## Reconnaissance
  
      sudo nmap -sV -sC -v <ip>
     
@@ -33,7 +33,9 @@ There can see FTP running on port 21, ssh running on port 22, and webserver in p
 I trying SQL injection but nothing changes, So Check the directories using the gobuster tool.
 
     gobuser dir -u <ip> -w /usr/share/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt
-  
+ 
+#### Enumeration 
+
 OK.. Here see home.php <br />
  ![nmap]({{site.baseurl}}/assets/img/cholocate.tryhackme/command.ls.png)  
   Try system commands then reverse connection command 
