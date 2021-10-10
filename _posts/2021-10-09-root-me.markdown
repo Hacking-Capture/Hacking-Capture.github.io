@@ -3,14 +3,16 @@ layout: post
 title: Tryhackme | RootMe
 date: 2021-10-09
 description: Tryhackme  # Add post description (optional)
-img: /root-me/root-me-logo.png  width=1200 # Add image post (optional)
+img: /root-me/root-me-logo.png  # Add image post (optional)
 tags: [Tryhackme, CTF] # add tag
 ---
 <p align="center">
   <img src="/assets/img/root-me/init.png" width="1200"/>
  </p>
    
-### Reconnaissance 
+### 1. Reconnaissance 
+ 
+ First, let's get information about the target
  
  > sudo nmap -sC -sV "ip"
  
@@ -20,7 +22,7 @@ As you can see, the HTTP port is 80, the web server is apache, and ssh is runnin
  
 Check the robots.txt file on the website, but it's not there.
 
- here I decided directory brute-forcing with wfuzz tool. I guess That's better than the gobuster tool.
+Here, I decided to brute-force the directory using the wfuzz tool. I guess that's better than the gobuster tool.
  
  >  wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u ip.
  
@@ -28,7 +30,7 @@ Check the robots.txt file on the website, but it's not there.
  
  There are two directories on the website. One is the panel directory and uploads directories.
 
-2. #### Enumeration
+ ### 2.Enumeration
   
   Upload the PHP reverse shell to the panel directory.
   
