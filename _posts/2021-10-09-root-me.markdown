@@ -10,7 +10,7 @@ tags: [Tryhackme, CTF] # add ta
 
  ![init]({{site.baseurl}}/assets/img/root-me/init.png)
    
- A ctf for beginners, can you root me?
+ #### A ctf for beginners, can you root me?
    <br>
    <br>
    
