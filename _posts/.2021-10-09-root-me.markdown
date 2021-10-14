@@ -97,7 +97,7 @@ After file upload successfully.
 In the uploads directory, see upload files.
 
 <p align="left">
-<img src="/assets/img/root-me/uploads.png" width="450"/> 
+<img src="/assets/img/root-me/uploads1.png" width="450"/> 
 </p>
 
 Disable the ufw firewall.
