@@ -10,15 +10,14 @@ tags: [Tryhackme, CTF] # add ta
 
  ![init]({{site.baseurl}}/assets/img/root-me/init.png)
    
- #### A ctf for beginners, can you root me?
-   <br>
-   <br>
-   
+#### A ctf for beginners, can you root me?
+  
+  
 ### 1. Reconnaissance
  
  First, let's get information about the target
  
- > sudo nmap -sC -sV "ip"
+ > sudo nmap -sC -sV 10.10.148.128
  
  <p align="left">
 <img src="/assets/img/root-me/nmap.png" width="450"/> 
@@ -36,7 +35,7 @@ Check the robots.txt file on the website, but it's not there.
 
 Here, I decided to brute-force the directory using the wfuzz tool. I guess that's better than the gobuster tool.
  
-     wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u url/FUZZ --hc 404.
+     wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u http://10.10.148.128/FUZZ --hc 404.
      
      -c	    : Output with colors. 
      -w wordlist: Specify a wordlist file (alias for -z file,wordlist).
@@ -53,7 +52,7 @@ Here, I decided to brute-force the directory using the wfuzz tool. I guess that'
 
 In the panel directory, upload the PHP reverse shell.
   
-Download the php shell in https://github.com/pentestmonkey/php-reverse-shell.
+Download the php shell in  [php-reverse-shell](https://github.com/pentestmonkey/php-reverse-shell) 
  
 Edit the code with leafpad editor.
  
