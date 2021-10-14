@@ -117,6 +117,9 @@ Run the nc (netcat).
 
 and click the uploaded shell.
 
+<p align="left">
+<img src="/assets/img/root-me/rv1.png" width="450"/> 
+</p>
 Got it .
 
 Better shell for :
