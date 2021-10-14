@@ -142,8 +142,19 @@ Search for files with SUID permission,
 <img src="/assets/img/root-me/python.png" width="450"/> 
 </p>
 
+Whenever exploit a system binary we refer to “GTOBins” who have instructions on how these binary files could be exploited.
+https://gtfobins.github.io
+
 <p align="left">
 <img src="/assets/img/root-me/privilege.png" width="450"/> 
+</p>
+
+<p align="left">
+<img src="/assets/img/root-me/root.png" width="450"/> 
+</p>
+
+<p align="left">
+<img src="/assets/img/root-me/root_text.png" width="450"/> 
 </p>
 
 
