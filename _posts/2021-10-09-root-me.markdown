@@ -142,6 +142,8 @@ Search for files with SUID permission,
 <img src="/assets/img/root-me/python.png" width="450"/> 
 </p>
 
-
+<p align="left">
+<img src="/assets/img/root-me/privilege.png" width="450"/> 
+</p>
 
 
