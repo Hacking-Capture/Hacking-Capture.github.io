@@ -149,12 +149,17 @@ https://gtfobins.github.io
 <img src="/assets/img/root-me/privilege.png" width="450"/> 
 </p>
 
+Get the root access.
+
 <p align="left">
 <img src="/assets/img/root-me/root.png" width="450"/> 
 </p>
 
+Find the root text.
+
 <p align="left">
 <img src="/assets/img/root-me/root_text.png" width="450"/> 
 </p>
+
 
 
