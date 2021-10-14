@@ -103,8 +103,7 @@ After the add payloads,click start attack.
 
 
 
-
-In the uploads directory, see upload files.
+In the uploads directory, see uploaded files.
 
 <p align="left">
 <img src="/assets/img/root-me/uploads1.png" width="450"/> 
