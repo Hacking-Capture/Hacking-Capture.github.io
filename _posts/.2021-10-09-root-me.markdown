@@ -56,15 +56,13 @@ Edit the code with leafpad editor.
 In php code, change ip and port no.(preferable).
  
  <p align="left">
-<img src="/assets/img/root-me/
-shellediting.png " width="450"/> 
+<img src="/assets/img/root-me/shellediting.png " width="450"/> 
 </p>
   
   It is not possible to upload a .php file.
 
 <p align="left">
-<img src="/assets/img/root-me/
-shellediting.png " width="450"/> 
+<img src="/assets/img/root-me/failed_upload.png" width="450"/> 
 </p>
 
 So, Here to bypass file upload.
@@ -72,15 +70,13 @@ So, Here to bypass file upload.
 Burpsuite request intercepted and sent to intruder.
 
  <p align="left">
-<img src="/assets/img/root-me/
-shellediting.png " width="450"/> 
+<img src="/assets/img/root-me/burpsuite.png" width="450"/> 
 </p>
 
 Select the payload position and payloads tab add payloads.
  
  <p align="left">
-<img src="/assets/img/root-me/
-shellediting.png " width="450"/> 
+<img src="/assets/img/root-me/burpsuite4.png" width="450"/> 
 </p>
 
 File Upload Bypass:
@@ -92,15 +88,21 @@ Asp: .asp,aspx,.config,.ashx,.aspq,.axd,.cshtm,cshtml,.rem,.soap,.vbhtml,.vbhtml
 After the add payloads,click start attack.
 
  <p align="left">
-<img src="/assets/img/root-me/
-shellediting.png " width="450"/> 
+<img src="/assets/img/root-me/burpsuite2.png" width="450"/> 
 </p>
 
 After file upload successfully.
 
+
+In the uploads directory, see upload files.
+
+<p align="left">
+<img src="/assets/img/root-me/uploads.png" width="450"/> 
+</p>
+
 Disable the ufw firewall.
 
-  > sudo ufw disable
+> sudo ufw disable
 
 Run the nc (netcat).
 
@@ -112,18 +114,18 @@ Got it .
 
 Better shell for 
 
-   python3 -c 'pty;pty.spawn('/bin/bash')'
+> python3 -c 'import pty; pty.spawn("/bin/sh")' 
 
 find the user.txt file 
 
-find / -type f -iname "user.txt" 2>/dev/null
+> find / -type f -iname "user.txt" 2>/dev/null
 
 Now to privilege escalation
 
 
 Search for files with SUID permission,
 
-find / -user root -perm -4000 2>/dev/null
+> find / -user root -perm -4000 2>/dev/null
 
 
 
