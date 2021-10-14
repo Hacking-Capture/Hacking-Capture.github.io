@@ -10,6 +10,9 @@ tags: [Tryhackme, CTF] # add ta
 
  ![init]({{site.baseurl}}/assets/img/root-me/init.png)
    
+ A ctf for beginners, can you root me?
+   
+   
 ### 1. Reconnaissance
  
  First, let's get information about the target
@@ -81,9 +84,12 @@ Select the payload position and payloads tab add payloads.
 
 File Upload Bypass:
 
+```
 Php : .php,.php2,.php3,.php4,.php5,.php6,.php7,.phps,.pht,.phtml,.pgif,.shtml,.htaccess,.phar,.inc
  
 Asp: .asp,aspx,.config,.ashx,.aspq,.axd,.cshtm,cshtml,.rem,.soap,.vbhtml,.vbhtml,.asa,.cer,.shtml
+
+```
 
 After the add payloads,click start attack.
 
@@ -112,13 +118,17 @@ and click the uploaded shell.
 
 Got it .
 
-Better shell for 
+Better shell for :
 
 > python3 -c 'import pty; pty.spawn("/bin/sh")' 
 
-find the user.txt file 
+Find the user.txt file
 
 > find / -type f -iname "user.txt" 2>/dev/null
+
+<p align="left">
+<img src="/assets/img/root-me/usertext.png" width="450"/> 
+</p>
 
 Now to privilege escalation
 
@@ -127,7 +137,8 @@ Search for files with SUID permission,
 
 > find / -user root -perm -4000 2>/dev/null
 
-
-
+<p align="left">
+<img src="/assets/img/root-me/python.png" width="450"/> 
+</p>
 
 
