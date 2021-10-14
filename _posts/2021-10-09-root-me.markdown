@@ -18,7 +18,7 @@ tags: [Tryhackme, CTF] # add ta
  
  First, let's get information about the target
  
- > sudo nmap -sC -sV 10.10.148.128
+ > sudo nmap -sC -sV "ip"
  
  <p align="left">
 <img src="/assets/img/root-me/nmap.png" width="450"/> 
@@ -36,7 +36,7 @@ Check the robots.txt file on the website, but it's not there.
 
 Here, I decided to brute-force the directory using the wfuzz tool. I guess that's better than the gobuster tool.
  
-     wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u http://10.10.148.128/FUZZ --hc 404.
+     wfuzz -c -w /usr/share/SecLists/Discovery/Web-Content/raft-large-directories.txt -u url/FUZZ --hc 404.
      
      -c	    : Output with colors. 
      -w wordlist: Specify a wordlist file (alias for -z file,wordlist).
@@ -73,11 +73,13 @@ So, Here to bypass file upload.
 
 Burpsuite request intercepted and sent to intruder.
 
+Select the payload position 
+
  <p align="left">
 <img src="/assets/img/root-me/burpsuite.png" width="450"/> 
 </p>
 
-Select the payload position and payloads tab add payloads.
+In payloads tab, add payloads.
  
  <p align="left">
 <img src="/assets/img/root-me/burpsuite4.png" width="450"/> 
@@ -86,9 +88,11 @@ Select the payload position and payloads tab add payloads.
 File Upload Bypass:
 
 ```
-Php : .php,.php2,.php3,.php4,.php5,.php6,.php7,.phps,.pht,.phtml,.pgif,.shtml,.htaccess,.phar,.inc
+Note 
+
+Php : .php .php2 .php3 .php4 .php5 .php6 .php7 .phps .pht .phtml .pgif .shtml .htaccess .phar .inc
  
-Asp: .asp,aspx,.config,.ashx,.aspq,.axd,.cshtm,cshtml,.rem,.soap,.vbhtml,.vbhtml,.asa,.cer,.shtml
+Asp : .asp .aspx .config .ashx .aspq .axd .cshtm .cshtml .rem .soap .vbhtml .vbhtml .asa .cer .shtml
 
 ```
 
@@ -98,7 +102,7 @@ After the add payloads,click start attack.
 <img src="/assets/img/root-me/burpsuite2.png" width="450"/> 
 </p>
 
-After file upload successfully.
+
 
 
 In the uploads directory, see upload files.
@@ -117,9 +121,6 @@ Run the nc (netcat).
 
 and click the uploaded shell.
 
-<p align="left">
-<img src="/assets/img/root-me/rv1.png" width="450"/> 
-</p>
 Got it .
 
 Better shell for :
