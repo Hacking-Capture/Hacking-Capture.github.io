@@ -25,7 +25,7 @@ After completing the updating process,install the Nginx
  
 Check the version of git 
   > git --version
-<p align="center">
+<p align="left">
 <img src="/assets/img/git/git_version.png" width="350"/>
 </p>
 
