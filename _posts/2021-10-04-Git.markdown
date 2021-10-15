@@ -23,6 +23,7 @@ Before the git installation,update the system.
 After completing the updating process,install the Nginx
  
    > sudo apt-get install git
+ 
 
 
 
