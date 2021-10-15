@@ -22,6 +22,8 @@ After completing the updating process,install the Nginx
  
    > sudo apt-get install git
  
+Check the version of git 
+  > git --version
 
 
 
