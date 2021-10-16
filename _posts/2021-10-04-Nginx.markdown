@@ -99,7 +99,7 @@ save and exit
 nginx server block
 In nginx server configuration block, which is similar to the default, but updated for our new directory and domain name:
 
-sudo nano /etc/nginx/sites-available/hacking-capture.com
+> sudo nano /etc/nginx/sites-available/hacking-capture.com
 ```
 server {
         listen 80;
