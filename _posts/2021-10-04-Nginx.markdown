@@ -115,6 +115,7 @@ server {
         }
 }
 ```
+
 #### Enable the server block
 Enable the file by creating a link from it to the sites-enabled directory, which Nginx reads from during startup:
  > sudo ln -s /etc/nginx/sites-available/hacking-capture.com /etc/nginx/sites-enabled/
