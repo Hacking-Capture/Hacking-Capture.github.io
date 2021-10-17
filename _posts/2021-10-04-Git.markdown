@@ -60,7 +60,7 @@ Differently types files add to git
 
 > git add 1.txt
 > 
-> git add -A //add all files.
+> git add -A  //add all files.
 > 
 > git add .  // add all files.
 > 
