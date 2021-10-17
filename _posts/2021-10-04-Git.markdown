@@ -34,7 +34,7 @@ Check the version of git
 Firstly, setting up Git 
  >  git config --global user.name "safwan"
  >  
- >  git config --global user.email "safwanpaloli6@gmail.com
+ >  git config --global user.email "safwanpaloli6@gmail.com"
  
  
  Initialization Git 
