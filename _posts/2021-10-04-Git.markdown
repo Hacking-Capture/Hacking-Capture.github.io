@@ -42,5 +42,5 @@ git init creates an empty Git repository or re-initializes an existing one. In e
 
 > git init
 
-<img src="/assets/img/git/git _init.png " style="margin-left:2%;" width="449"/>
+<img src="/assets/img/git/git _init.png " style="margin-left:2%;" width="449" height="100"/>
 
