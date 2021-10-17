@@ -60,7 +60,9 @@ The files are untracked, so add them to git and commit
 #Differently files add to git
 
 > git add 1.txt
+> 
 > Add all files.
+> 
 > git add -A  
 > 
 > git add . 
@@ -90,7 +92,7 @@ Here see that Commit IDs are unique SHA-1 hashes that are created whenever a new
 
 Create a new branch 
   
-> #### Here created two branches, One is that feature and design.
+> #### Created two branches, One is that feature and design.
 > 
 > git branch feature
 > 
