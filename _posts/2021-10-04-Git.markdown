@@ -84,13 +84,13 @@ Add more content on 1.txt file, and add file to git and again to commit file
 
 > git log --all
 
-<img src="/assets/img/git/git-log-and-all.jpg" style="margin-left:2%;" width="449" />
+<img src="/assets/img/git/git-log-all.jpg" style="margin-left:2%;" width="449" />
 
 Here see that Commit IDs are unique SHA-1 hashes that are created whenever a new commit is recorded. If you want to push changes to such a repository, you can use the workspace command line to manually commit and push to a new branch.
 
 Create a new branch 
   
-> ### Here created two branches, One is that feature and design.
+> #### Here created two branches, One is that feature and design.
 > 
 > git branch feature
 > 
