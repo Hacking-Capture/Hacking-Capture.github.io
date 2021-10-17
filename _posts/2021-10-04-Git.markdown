@@ -49,7 +49,7 @@ Create a file, file name is 1.txt
 > touch  1.txt 
 Add content to 1.txt using nano editor.
 
-<img src="/assets/img/git/add_values1.png" style="margin-left:2%;" width="449" />
+<img src="/assets/img/git/add_values.png" style="margin-left:2%;" width="449" />
 
 Check the Git status
 > git status 
@@ -71,7 +71,7 @@ After the file add and commit a message.
 
 > git commit -m "any message type here"
 
-<img src="/assets/img/git/add_and_commit" style="margin-left:2%;" width="449" />
+<img src="/assets/img/git/git_add_and_commit.png" style="margin-left:2%;" width="449" />
 
 
 
