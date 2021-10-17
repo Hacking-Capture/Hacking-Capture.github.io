@@ -62,13 +62,18 @@ Differently types files add to git
 > 
 > git add -A //add all files.
 > 
-> git add .  // add adll files.
+> git add .  // add all files.
+> 
+> git add --all
 
-After the file add and commit a message
+
+After the file add and commit a message.
 
 > git commit -m "any message type here"
 
 <img src="/assets/img/git/add_and_commit" style="margin-left:2%;" width="449" />
+
+
 
 
 
