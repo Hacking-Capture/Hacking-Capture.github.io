@@ -45,3 +45,6 @@ git init creates an empty Git repository or re-initializes an existing one. In e
 
 <img src="/assets/img/git/git _init.png " style="margin-left:2%;" width="449" />
 
+create a file, file name is 1.txt 
+> touch  1.txt 
+
