@@ -15,19 +15,29 @@ Git is software for tracking changes in any set of files, usually used for coord
 
 #### Installation in Ubuntu
 
-Before the git installation,update the system.
+Before the Git installation,update the system.
 
    > sudo apt update -y
 
-After completing the updating process,install the Nginx
+After completing the updating process,install the Git
  
    > sudo apt-get install git
  
+
+### Commands and Operations 
+
 Check the version of git 
   > git --version
   
 <img src="/assets/img/git/git_version.png" style="margin-left:2%;" width="449"/>
 
+Firstly, setting up Git 
+ >  git config --global user.name "safwan"
+ >  git config --global user.email "safwanpaloli6@gmail.com
+ 
+ 
+ Initialization Git 
+ 
+git init creates an empty Git repository or re-initializes an existing one. In essence, it creates a .git directory with subdirectories and template files. Running a git init in an existing repository will not overwrite things that are already there. Instead, it picks up the newly added templates.
 
-
-
+> git init
