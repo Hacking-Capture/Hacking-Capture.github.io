@@ -45,6 +45,21 @@ git init creates an empty Git repository or re-initializes an existing one. In e
 
 <img src="/assets/img/git/git _init.png " style="margin-left:2%;" width="449" />
 
-create a file, file name is 1.txt 
+Create a file, file name is 1.txt 
 > touch  1.txt 
+Add content to 1.txt using nano editor.
+
+<img src="/assets/img/git/add_values1.png" style="margin-left:2%;" width="449" />
+
+Check the Git status
+> git status 
+
+The files are untracked, so add them to git and commit
+
+differently files add to git
+
+> git add 1.txt
+> git add -A //add all files.
+> git add .  // add adll files.
+
 
