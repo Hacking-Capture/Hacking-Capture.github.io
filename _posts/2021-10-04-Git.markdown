@@ -47,6 +47,7 @@ git init creates an empty Git repository or re-initializes an existing one. In e
 
 Create a file, file name is 1.txt 
 > touch  1.txt 
+
 Add content to 1.txt using nano editor.
 
 <img src="/assets/img/git/add_values.png" style="margin-left:2%;" width="449" />
@@ -78,4 +79,52 @@ Check the log
 > git log 
 
 <img src="/assets/img/git/git_log.png" style="margin-left:2%;" width="449" />
+
+Add more content on 1.txt file, and add file to git and again to commit file 
+
+> git log --all
+
+<img src="/assets/img/git/git-log-and-all.jpg" style="margin-left:2%;" width="449" />
+
+Here see that Commit IDs are unique SHA-1 hashes that are created whenever a new commit is recorded. If you want to push changes to such a repository, you can use the workspace command line to manually commit and push to a new branch.
+
+Create a new branch 
+  
+> ### Here created two branches, One is that feature and design.
+> 
+> git branch feature
+> 
+> git branch design
+
+List the git branches
+
+> git branch 
+
+<img src="/assets/img/git/git_branch.png" style="margin-left:2%;" width="449" />
+
+See that now branch is pointed to master. Master branch is default branch in git.
+
+Now change to feature branch.
+
+> git checkout feature
+
+<img src="/assets/img/git/git_feature_branch.png" style="margin-left:2%;" width="449" />
+
+Again Add some text to 1.txt 
+
+Check the different between before commit and after commit.
+ 
+> git diff
+
+<img src="/assets/img/git/git_diff.png" style="margin-left:2%;" width="449" />
+
+The last commit may need to be removed.
+
+> git stash
+
+<img src="/assets/img/git/git_stash.png" style="margin-left:2%;" width="449" />
+
+
+
+
 
