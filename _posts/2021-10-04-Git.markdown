@@ -56,10 +56,21 @@ Check the Git status
 
 The files are untracked, so add them to git and commit
 
-differently files add to git
+Differently types files add to git
 
 > git add 1.txt
+> 
 > git add -A //add all files.
+> 
 > git add .  // add adll files.
+
+After the file add and commit a message
+
+> git commit -m "any message type here"
+
+<img src="/assets/img/git/add_and_commit" style="margin-left:2%;" width="449" />
+
+
+
 
 
