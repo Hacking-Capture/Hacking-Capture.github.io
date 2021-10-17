@@ -41,3 +41,6 @@ Firstly, setting up Git
 git init creates an empty Git repository or re-initializes an existing one. In essence, it creates a .git directory with subdirectories and template files. Running a git init in an existing repository will not overwrite things that are already there. Instead, it picks up the newly added templates.
 
 > git init
+
+<img src="/assets/img/git/git _init.png " style="margin-left:2%;" width="449"/>
+
