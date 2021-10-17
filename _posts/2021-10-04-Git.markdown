@@ -69,13 +69,13 @@ Differently types files add to git
 
 After the file add and commit a message.
 
-> git commit -m "any message type here"
+> git commit -m "message type here"
 
 <img src="/assets/img/git/git_add_and_commit.png" style="margin-left:2%;" width="449" />
 
+Check the log 
 
+> git log 
 
-
-
-
+<img src="/assets/img/git/git_log.png" style="margin-left:2%;" width="449" />
 
