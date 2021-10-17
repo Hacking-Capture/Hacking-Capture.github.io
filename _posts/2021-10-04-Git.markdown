@@ -57,14 +57,14 @@ Check the Git status
 
 The files are untracked, so add them to git and commit
 
-Differently types files add to git
+#Differently files add to git
 
 > git add 1.txt
+> Add all files.
+> git add -A  
 > 
-> git add -A  //add all files.
-> 
-> git add .  // add all files.
-> 
+> git add . 
+>  
 > git add --all
 
 
@@ -124,7 +124,10 @@ The last commit may need to be removed.
 
 <img src="/assets/img/git/git_stash.png" style="margin-left:2%;" width="449" />
 
+To Delete a local branch.
 
+> git branch -d design 
 
+<img src="/assets/img/git/git_delete.png" style="margin-left:2%;" width="449" />
 
 
