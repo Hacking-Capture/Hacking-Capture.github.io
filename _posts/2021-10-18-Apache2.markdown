@@ -25,3 +25,24 @@ Features of Apache Web Server
 7. URL rewriting
 8. .htaccess
 
+Installation on ubuntu 18.04
+
+> sudo apt install apache2
+
+<img src="/assets/img/apache2/.png" width="350"/>
+
+#### Managing the Apache2 process
+
+Check Apache2 status
+
+> sudo systemctl status apache2
+
+To start Apache2 service
+
+> sudo systemctl start apache2
+
+To stop Apache2 service 
+
+> sudo systemctl stop apache2
+
+
