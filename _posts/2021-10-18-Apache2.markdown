@@ -7,4 +7,15 @@ img: apache2/apache2.jpeg # Add image post (optional)
 tags: [apache2,webserver,OpenSource,ufw] # add tag
 ---
 
-Coming soon
+Web Server 
+A web server is a computer that runs websites. It's a computer program that distributes web pages as they are requested. A webserver's primary function is to store, process, and deliver web pages to users. Hypertext Transfer Protocol (HTTP) is used for this communication.
+
+Apache web Server
+
+
+Features of Apache Web Server
+
+1. Handling of static files
+2. Supports HTTP/2
+3. Compatible with IPv6
+4. Load balancing
