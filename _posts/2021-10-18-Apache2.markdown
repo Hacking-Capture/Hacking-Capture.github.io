@@ -45,4 +45,27 @@ To stop Apache2 service
 
 > sudo systemctl stop apache2
 
+To stop the service and then restart it
+
+> sudo systemctl restart apache2
+
+#### Enable UFW (Uncomplicated Firewall)
+ 
+Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
+
+To enable ufw service,type:
+> sudo ufw enable
+
+To view which applications have installed a profile
+> sudo ufw app list 
+   <img src="/assets/img/nginx/ufw.png" width="450"/> 
+ 
+To allow Nginx Full service
+> sudo ufw allow 'Apache Full'
+    <img src="/assets/img/nginx/ufw_apache2.png" width="450"/> 
+To check ufw status 
+> sudo ufw status
+
+#### Configure multiple domains on a single IP address
+
 
