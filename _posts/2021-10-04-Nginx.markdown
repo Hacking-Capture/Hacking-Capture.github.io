@@ -41,16 +41,16 @@ Before the Nginx installation,update the system.
  
    > sudo systemctl status nginx 
    
-To stop your web server, type:
+To stop your web server
 
    > sudo systemctl stop nginx
 
-To start the web server when it is stopped, type:
+To start the web server when it is stopped 
 
    > sudo systemctl start nginx
 
 
-To stop and then start the service again, type:
+To stop and then start the service again
 
    > sudo systemctl restart nginx
 
