@@ -74,4 +74,10 @@ To check ufw status
 
 #### Configure multiple domains on a single IP address
 
+Apache Virtual Host allows you to maximize the use of the server's resources.Multiple domains can be hosted using a single server and IP address.
+
+#### Set up a Name-base virtual Host
+Name-based virtual hosting allows the client to report the hostname to the server, as an element of the HTTP header. This feature means that one machine can host multiple websites sharing the same IP address.
+           
+#### Create a Directory Structure
 
