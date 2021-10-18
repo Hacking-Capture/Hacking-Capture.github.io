@@ -3,6 +3,7 @@ layout: post
 title: Apache2
 date: 2021-10-04
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: apache2/apache2.png # Add image post (optional)
+img: apache2/apache2.jpeg # Add image post (optional)
 tags: [apache2,webserver,OpenSource,ufw] # add tag
 ---
+
