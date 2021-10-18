@@ -80,4 +80,113 @@ Apache Virtual Host allows you to maximize the use of the server's resources.Mul
 Name-based virtual hosting allows the client to report the hostname to the server, as an element of the HTTP header. This feature means that one machine can host multiple websites sharing the same IP address.
            
 #### Create a Directory Structure
+Each virtual host needs to have a directory for storing virtual host data. Create directories and a directory structure at the following location /var/www. In our example, we’ve created testing.com and testing1.com directories, one for each domain name.
 
+ > sudo mkdir -p /var/www/testing.com/html/
+
+ > sudo mkdir -p /var/www/testing1.com/html/
+ 
+ create a sample index.html page for each domain, using nano or your favorite text editor. Start with the first domain:
+  
+ > nano /var/www/testing.com/html/index.html
+ 
+ 3. Add the following sample HTML:
+
+```
+   /var/www/testing1.com/html/index.html
+ 
+ <html>
+ <head>
+      <title>Welcome to testing</title>
+ </head>
+ <body>
+      <h1>Well done! Testing.com is working properly</h1>
+ </body>
+ <html>
+ ```
+ Save and exit the file.
+ 
+ create a sample page for the second domain
+ 
+ > nano /var/www/testing1.com/html/index.html
+ 
+ ```
+ <html>
+ <head>
+       <title>Welcome to Testing1!</title>
+ </head>
+ <body>
+       <h1>Well done! Testing1.com is working properly</h1>
+ </body>
+ </html>
+```
+ Save and exit the second HTML file.
+ 
+ To prevent any permission issues modify the ownership of your document’s root directory to www-data. The chown command is useful in this instance:
+ 
+ > sudo chown –R www-data:www-data /var/www/testing.com
+
+ > sudo chown –R www-data:www-data /var/www/testing1.com
+ 
+ > Note :  On Ubuntu the default user for apache2 is www-data.
+
+#### Virtual Host Configuration File
+
+Apache Virtual Host configuration files are stored in the /etc/apache2/sites-available directory.
+
+To create a basic configuration file for your first domain,
+
+> sudo nano /etc/apache2/sites-available/testing.com.conf
+
+Add the following configuration block to create a basic configuration file. This example uses the first test domain, testing.com. Make sure to enter the correct domain for your website:
+
+```
+<VirtualHost *:80>
+
+ServerAdmin webmaster@testing.com
+ServerName testing.com
+ServerAlias www.testing.com
+DocumentRoot /var/www/testing.com/html
+
+ErrorLog ${APACHE_LOG_DIR}/testing.com-error.log
+CustomLog ${APACHE_LOG_DIR}/testing.com-access.log combined
+
+</VirtualHost>
+```
+    ServerName – represents the domain
+    ServerAlias – represents all other domains such as subdomains
+    DocumentRoot – the directory used by Apache to serve domain files
+    ErrorLog, CustomLog – designates the log files location
+    
+> sudo nano /etc/apache2/sites-available/testing1.com.conf
+
+```
+<VirtualHost *:80>
+
+ServerAdmin webmaster@testing1.com
+ServerName testing1.com
+ServerAlias www.testing1.com
+DocumentRoot /var/www/testin1.com/html
+
+ErrorLog ${APACHE_LOG_DIR}/testing1.com-error.log
+CustomLog ${APACHE_LOG_DIR}/testing1.com-access.log combined
+
+</VirtualHost>
+```
+#### Enable Virtual Host Configuration Files
+To enable the virtual host file, create a symbolic link from the virtual host file to the sites-enabled directory. Apache2 reads this file when staring.
+
+enable the virtual host file with the command:
+
+enable the testing.com
+> sudo a2ensite testing.com.conf
+ image 
+ 
+enable the testing1.com
+> sudo a2ensite testing1.com.conf
+ image
+
+> sudo apachectl configtest
+The message in the terminal will confirm that the syntax is correct: “Syntax OK”
+
+> sudo systemctl restart apache2
