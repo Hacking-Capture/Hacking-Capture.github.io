@@ -19,3 +19,7 @@ Features of Apache Web Server
 2. Supports HTTP/2
 3. Compatible with IPv6
 4. Load balancing
+5. Gzip compression and decompression
+6. URL rewriting
+7. .htaccess
+
