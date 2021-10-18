@@ -29,7 +29,7 @@ Installation on ubuntu 18.04
 
 > sudo apt install apache2
 
-<img src="/assets/img/apache2/.png" width="350"/>
+<img src="/assets/img/apache2/apache_install.png" width="350"/>
 
 #### Managing the Apache2 process
 
@@ -53,16 +53,22 @@ To stop the service and then restart it
  
 Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
 
-To enable ufw service,type:
+To enable ufw service
+
 > sudo ufw enable
 
 To view which applications have installed a profile
+
 > sudo ufw app list 
-   <img src="/assets/img/nginx/ufw.png" width="450"/> 
+
+   <img src="/assets/img/apache2/ufw.png" width="450"/> 
  
 To allow Nginx Full service
+
 > sudo ufw allow 'Apache Full'
-    <img src="/assets/img/nginx/ufw_apache2.png" width="450"/> 
+ 
+ <img src="/assets/img/apache2/ufw_apache2.png" width="450"/>
+    
 To check ufw status 
 > sudo ufw status
 
