@@ -198,3 +198,6 @@ a2ensite1.png
 The message in the terminal will confirm that the syntax is correct: “Syntax OK”
 
 > sudo systemctl restart apache2
+
+<img src="/assets/img/apache2/1_website.png" width="450"/> 
+<img src="/assets/img/apache2/2_website.png" width="450"/> 
