@@ -132,15 +132,37 @@ To Delete a local branch.
 
 <img src="/assets/img/git/git_delete.png" style="margin-left:2%;" width="449" />
 
-Push to Github
+#### Github
 
-1.Create repository
+1.Create repository on Github
 <p>
 <img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
 </p>
 <p>
-<img src="/assets/img/git/github_create.png" style="margin-left:2%;" width="449" />
+<img src="/assets/img/git/github_create1.png" style="margin-left:2%;" width="449" />
+</p>
+
+#### Push branch to Github
+
+> git remote add new_repo https://github.com/safwanpaloli/new_repo.git
+   
+   new_repo is 
+
+> git push new_repo master 
+
+<img src="/assets/img/git/github_error.png" style="margin-left:2%;" width="449" />
+
+#### Create a token 
+Settings -> Developer Settings -> Personal access tokens 
+
+<img src="/assets/img/git/github_error.png" style="margin-left:2%;" width="449" />
+<p>
+<img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
 </p>
 <p>
 <img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
 </p>
+
+
+
+
