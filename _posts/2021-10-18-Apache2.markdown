@@ -204,5 +204,8 @@ Restart Apache2 to apply the changes
 
 > sudo systemctl restart apache2
 
+In the browser, type the domain name 
+
 <img src="/assets/img/apache2/1_website.png" width="450"/> 
+
 <img src="/assets/img/apache2/2_website.png" width="450"/> 
