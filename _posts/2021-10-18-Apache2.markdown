@@ -190,6 +190,9 @@ enable the safwan1.com
 
 <img src="/assets/img/apache2/a2ensite2.png" width="450"/> 
 
+a2ensite1.png 
+a2ensite1.png 
+
 > sudo apachectl configtest
 
 The message in the terminal will confirm that the syntax is correct: “Syntax OK”
