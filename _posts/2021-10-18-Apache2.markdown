@@ -160,6 +160,7 @@ ErrorLog, CustomLog – designates the log files location
     
 > sudo nano /etc/apache2/sites-available/safwan1.com.conf
 
+add the configuration block as in the example above, making sure to change the values for safwan1.com
 ```
 <VirtualHost *:80>
 
@@ -180,13 +181,17 @@ enable the virtual host file with the command:
 
 enable the safwan.com
 > sudo a2ensite safwan.com.conf
- image 
+ 
+ <img src="/assets/img/apache2/a2ensite1.png" width="450"/> 
+ 
  
 enable the safwan1.com
 > sudo a2ensite safwan1.com.conf
- image
+
+<img src="/assets/img/apache2/a2ensite2.png" width="450"/> 
 
 > sudo apachectl configtest
+
 The message in the terminal will confirm that the syntax is correct: “Syntax OK”
 
 > sudo systemctl restart apache2
