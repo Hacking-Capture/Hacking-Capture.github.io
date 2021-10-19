@@ -62,7 +62,7 @@ To view which applications have installed a profile
 > sudo ufw app list 
 <p>
 <img src="/assets/img/apache2/ufw_app_list.png" width="450"/> 
-<p>
+</p>
  
 To allow Nginx Full service
 
@@ -73,7 +73,6 @@ To allow Nginx Full service
 
 To check ufw status 
 > sudo ufw status
-
 
 #### Configure multiple domains on a single IP address
 
