@@ -154,8 +154,11 @@ CustomLog ${APACHE_LOG_DIR}/safwan.com-access.log combined
 </VirtualHost>
 ```
 ServerName – represents the domain
+
 ServerAlias – represents all other domains such as subdomains
+
 DocumentRoot – the directory used by Apache to serve domain files
+
 ErrorLog, CustomLog – designates the log files location
     
 > sudo nano /etc/apache2/sites-available/safwan1.com.conf
@@ -190,8 +193,6 @@ enable the safwan1.com
 
 <img src="/assets/img/apache2/a2ensite2.png" width="450"/> 
 
-a2ensite1.png 
-a2ensite1.png 
 
 > sudo apachectl configtest
 
