@@ -60,15 +60,17 @@ To enable ufw service
 To view which applications have installed a profile
 
 > sudo ufw app list 
-
+<p>
 <img src="/assets/img/apache2/ufw_app_list.png" width="450"/> 
+<p>
  
 To allow Nginx Full service
 
 > sudo ufw allow 'Apache Full'
- 
+<p>
 <img src="/assets/img/apache2/ufw_add_apache2.png" width="450"/>
-    
+</p>
+
 To check ufw status 
 > sudo ufw status
 
