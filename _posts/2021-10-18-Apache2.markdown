@@ -193,10 +193,14 @@ enable the safwan1.com
 
 <img src="/assets/img/apache2/a2ensite2.png" width="450"/> 
 
-
+Using the command, verify the configuration file syntax is correct
+ 
 > sudo apachectl configtest
 
 The message in the terminal will confirm that the syntax is correct: “Syntax OK”
+
+
+Restart Apache2 to apply the changes
 
 > sudo systemctl restart apache2
 
