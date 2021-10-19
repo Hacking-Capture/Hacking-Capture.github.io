@@ -61,7 +61,7 @@ To view which applications have installed a profile
 
 > sudo ufw app list 
 
-   <img src="/assets/img/apache2/ufw.png" width="450"/> 
+<img src="/assets/img/apache2/ufw.png" width="450"/> 
  
 To allow Nginx Full service
 
@@ -82,19 +82,17 @@ Name-based virtual hosting allows the client to report the hostname to the serve
 #### Create a Directory Structure
 Each virtual host needs to have a directory for storing virtual host data. Create directories and a directory structure at the following location /var/www. In our example, we’ve created safwan.com and safwan1.com directories, one for each domain name.
 
- > sudo mkdir -p /var/www/safwan.com/html/
+> sudo mkdir -p /var/www/safwan.com/html/
 
- > sudo mkdir -p /var/www/safwan1.com/html/
+> sudo mkdir -p /var/www/safwan1.com/html/
  
- create a sample index.html page for each domain, using nano or your favorite text editor. Start with the first domain:
+Create a sample index.html page for each domain, using nano or your favorite text editor. Start with the first domain:
  
  > nano /var/www/safwan.com/html/index.html
  
- 3. Add the following sample HTML:
+Add the following sample HTML:
 
 ```
-   /var/www/safwan.com/html/index.html
- 
  <html>
  <head>
       <title>Welcome to safwan</title>
@@ -104,11 +102,11 @@ Each virtual host needs to have a directory for storing virtual host data. Creat
  </body>
  <html>
  ```
- Save and exit the file.
+Save and exit the file.
  
- create a sample page for the second domain
+Create a sample page for the second domain
  
- > nano /var/www/safwan1.com/html/index.html
+> nano /var/www/safwan1.com/html/index.html
  
  ```
  <html>
@@ -120,13 +118,13 @@ Each virtual host needs to have a directory for storing virtual host data. Creat
  </body>
  </html>
 ```
- Save and exit the second HTML file.
+Save and exit the second HTML file.
  
- To prevent any permission issues modify the ownership of your document’s root directory to www-data. The chown command is useful in this instance:
+To prevent any permission issues modify the ownership of your document’s root directory to www-data. The chown command is useful in this instance:
  
- > sudo chown –R www-data:www-data /var/www/safwan.com
+> sudo chown –R www-data:www-data /var/www/safwan.com
 
- > sudo chown –R www-data:www-data /var/www/safwan1.com
+> sudo chown –R www-data:www-data /var/www/safwan1.com
  
  > Note :  On Ubuntu the default user for apache2 is www-data.
 
@@ -163,7 +161,7 @@ ErrorLog, CustomLog – designates the log files location
     
 > sudo nano /etc/apache2/sites-available/safwan1.com.conf
 
-add the configuration block as in the example above, making sure to change the values for safwan1.com
+Add the configuration block as in the example above, making sure to change the values for safwan1.com
 ```
 <VirtualHost *:80>
 
@@ -180,15 +178,15 @@ CustomLog ${APACHE_LOG_DIR}/safwan1.com-access.log combined
 #### Enable Virtual Host Configuration Files
 To enable the virtual host file, create a symbolic link from the virtual host file to the sites-enabled directory. Apache2 reads this file when staring.
 
-enable the virtual host file with the command:
+Enable the virtual host file with the command:
 
-enable the safwan.com
+Enable the safwan.com
 > sudo a2ensite safwan.com.conf
  
  <img src="/assets/img/apache2/a2ensite1.png" width="450"/> 
  
  
-enable the safwan1.com
+Enable the safwan1.com
 > sudo a2ensite safwan1.com.conf
 
 <img src="/assets/img/apache2/a2ensite2.png" width="450"/> 
