@@ -57,7 +57,7 @@ Check the Git status
 
 The files are untracked, so add them to git and commit
 
-#Differently files add to git
+Files can differently add to git
 
 > git add 1.txt
 > 
