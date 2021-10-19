@@ -822,7 +822,7 @@ img {
   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
-  margin-left: 17px;
+  margin-left: 1px;
 }
 
 img + em {
