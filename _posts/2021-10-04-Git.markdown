@@ -132,4 +132,15 @@ To Delete a local branch.
 
 <img src="/assets/img/git/git_delete.png" style="margin-left:2%;" width="449" />
 
+Push to Github
 
+1.Create repository
+<p>
+<img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
+</p>
+<p>
+<img src="/assets/img/git/github_create.png" style="margin-left:2%;" width="449" />
+</p>
+<p>
+<img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
+</p>
