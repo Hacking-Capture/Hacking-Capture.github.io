@@ -139,7 +139,11 @@ To Delete a local branch.
 
 ##### Push a branch to Github 
 
+<!--
+
 > git remote add new_repo https://github.com/safwanpaloli/new_repo.git 
+
+-->
 
 > git push new_repo master 
 
