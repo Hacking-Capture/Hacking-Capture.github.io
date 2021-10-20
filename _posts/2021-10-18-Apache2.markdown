@@ -72,7 +72,7 @@ To allow Nginx Full service
 To check ufw status 
 > sudo ufw status
 
-<!--
+
 #### Configure multiple domains on a single IP address
 
 Apache Virtual Host allows you to maximize the use of the server's resources.Multiple domains can be hosted using a single server and IP address.
@@ -91,6 +91,7 @@ Create a sample index.html page for each domain, using nano or your favorite tex
  
 > nano /var/www/safwan.com/html/index.html
  
+ <!--
 Add the following sample HTML:
 
 ```
