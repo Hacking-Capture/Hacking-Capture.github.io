@@ -71,6 +71,7 @@ To allow Nginx Full service
 
 To check ufw status 
 > sudo ufw status
+
 <!--
 #### Configure multiple domains on a single IP address
 
@@ -201,7 +202,7 @@ Restart Apache2 to apply the changes
 
 > sudo systemctl restart apache2
 
-In the browser, type the domain name 
+In the browser, type the domain name -->
 
 <!-- <img src="/assets/img/apache2/1_website.png" width="449"/> 
 
