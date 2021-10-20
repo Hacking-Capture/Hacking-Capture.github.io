@@ -154,7 +154,7 @@ Log in and visit the GitHub homepage to create a new repository on GitHub.
  
 #### Create a Personal Access Token  
  
-github -> Settings-> Developer Settings -> personal access token 
+Settings-> Developer Settings -> personal access token -> Generate new token
 
 <img src="/assets/img/git/ezgif.com-gif-maker(3).gif" style="margin-left:2%;" width="700" />
 
