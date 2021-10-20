@@ -135,6 +135,7 @@ To Delete a local branch.
 #### Create a Repository in Github
 
 <img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
+
 <img src="/assets/img/git/github_create1.png" style="margin-left:2%;" width="449" />
 
 ##### Push a branch to Github 
