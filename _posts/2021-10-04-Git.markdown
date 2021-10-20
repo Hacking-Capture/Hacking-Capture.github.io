@@ -162,7 +162,7 @@ Settings-> Developer Settings -> personal access token -> Generate new token
 
 <img src="/assets/img/git/git_copy_token.png" style="margin-left:2%;" width="449" />
 
-At last, ##### Push branch to github 
+##### Push branch to github 
 
 > git push new_repo master.
  
