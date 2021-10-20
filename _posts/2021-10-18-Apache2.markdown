@@ -106,10 +106,7 @@ Save and exit the file.
  
 Create a sample page for the second domain
 
-<!--
-  > nano /var/www/safwan1.com/html/index.html  
- 
--->
+nano /var/www/safwan1.com/html/index.html  
 
 ```
  <html>
