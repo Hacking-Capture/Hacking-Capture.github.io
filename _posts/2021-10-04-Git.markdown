@@ -140,6 +140,8 @@ To Delete a local branch.
 
 coudn't upload file with github password, we have to create a personal access token 
 
+<!--
+
 #### Create a Repository in Github
 
 <img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
@@ -151,5 +153,5 @@ github -> Settings-> Developer Settings -> personal access token
 
 <img src="/assets/img/git/ezgif.com-gif-maker(1).gif" style="margin-left:2%;" width="600" />
 
-
+-->
 
