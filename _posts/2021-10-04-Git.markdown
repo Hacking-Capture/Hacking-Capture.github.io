@@ -152,5 +152,7 @@ coudn't upload file with github password, we have to create a personal access to
  
 github -> Settings-> Developer Settings -> personal access token 
 
-<img src="/assets/img/git/ezgif.com-gif-maker(1).gif" style="margin-left:2%;" width="600" />
+<img src="/assets/img/git/ezgif.com-gif-maker(1).gif" style="margin-left:2%;" width="700" />
+
+Give your token a descriptive name. 
 
