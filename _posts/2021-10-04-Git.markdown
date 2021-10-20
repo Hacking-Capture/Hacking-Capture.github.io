@@ -132,7 +132,9 @@ To Delete a local branch.
 
 <img src="/assets/img/git/git_delete.png" style="margin-left:2%;" width="449" />
 
-> git remote add new_repo https://github.com/safwanpaloli/new_repo.git
+<!--
+
+> git remote add new_repo https://github.com/safwanpaloli/new_repo.git -->
 
 > git push new_repo master 
 
@@ -140,7 +142,6 @@ To Delete a local branch.
 
 coudn't upload file with github password, we have to create a personal access token 
 
-<!--
 
 #### Create a Repository in Github
 
