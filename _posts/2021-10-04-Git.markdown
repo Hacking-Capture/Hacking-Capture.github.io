@@ -134,9 +134,9 @@ To Delete a local branch.
 
 #### Create a Repository in Github
 
-<img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
+Log in and visit the GitHub homepage to create a new repository on GitHub.
 
-<img src="/assets/img/git/github_create1.png" style="margin-left:2%;" width="449" />
+<img src="/assets/img/git/ezgif.com-gif-maker(2).gif" style="margin-left:2%;" width="449" />
 
 ##### Push a branch to Github 
 
@@ -149,30 +149,24 @@ To Delete a local branch.
 > git push new_repo master 
 
 <img src="/assets/img/git/git_error.png" style="margin-left:2%;" width="449" />
-
-coudn't upload file with github password, we have to create a personal access token 
-
-
+ 
+ Uploading files with a Github password wasn't possible; we needed to create an access token 
+ 
 #### Create a Personal Access Token  
  
 github -> Settings-> Developer Settings -> personal access token 
 
-<img src="/assets/img/git/ezgif.com-gif-maker(1).gif" style="margin-left:2%;" width="700" />
+<img src="/assets/img/git/ezgif.com-gif-maker(3).gif" style="margin-left:2%;" width="700" />
 
-Give your token a name and Tick on repo. 
-
-<img src="/assets/img/git/git_create_token.png" style="margin-left:2%;" width="449" />
-
-click generate token.
-
-copy the token 
+##### copy the token 
 
 <img src="/assets/img/git/git_copy_token.png" style="margin-left:2%;" width="449" />
 
-At last, Push branch to github 
+At last, ##### Push branch to github 
 
 > git push new_repo master.
-   in password is token value paste their.
+ 
+ Note : Use Personal access token is the password of git when the branch push.
    
    <img src="/assets/img/git/git_new_push1.png" style="margin-left:2%;" width="449" />
-
+   
