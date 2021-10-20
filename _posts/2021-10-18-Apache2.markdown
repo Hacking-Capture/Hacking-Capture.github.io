@@ -61,13 +61,13 @@ To view which applications have installed a profile
 
 > sudo ufw app list 
 
-<img src="/assets/img/apache2/ufw_app_list.png" width="250"/> 
+<img src="/assets/img/apache2/ufw_app_list.png" width="350"/> 
  
 To allow Nginx Full service
 
 > sudo ufw allow 'Apache Full'
 
-<img src="/assets/img/apache2/ufw_add_apache2.png" width="250"/>
+<img src="/assets/img/apache2/ufw_add_apache2.png" width="350"/>
 
 To check ufw status 
 > sudo ufw status
