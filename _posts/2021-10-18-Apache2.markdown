@@ -92,6 +92,8 @@ Create a sample index.html page for each domain, using nano or your favorite tex
 
 > nano /var/www/safwan.com/html/index.html
 
+-->
+
 Add the following sample HTML:
 
 ```
@@ -108,7 +110,11 @@ Save and exit the file.
  
 Create a sample page for the second domain
 
-nano /var/www/safwan1.com/html/index.html 
+<!--
+nano /var/www/safwan1.com/html/index.html
+ 
+-->
+
 ```
  <html>
  <head>
@@ -206,4 +212,4 @@ In the browser, type the domain name
 
 <img src="/assets/img/apache2/1_website.png" width="449"/> 
 
-<img src="/assets/img/apache2/2_website.png" width="449"/> -->
+<img src="/assets/img/apache2/2_website.png" width="449"/> 
