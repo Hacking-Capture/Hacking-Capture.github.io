@@ -150,7 +150,7 @@ Log in and visit the GitHub homepage to create a new repository on GitHub.
 
 <img src="/assets/img/git/git_error.png" style="margin-left:2%;" width="449" />
  
- Uploading files with a Github password wasn't possible; we needed to create an access token 
+ Uploading files with a Github password wasn't possible; we needed to create an access token.
  
 #### Create a Personal Access Token  
  
@@ -166,12 +166,14 @@ Settings-> Developer Settings -> personal access token -> Generate new token
 
 > git push new_repo master.
  
- Note : Use Personal access token is the password of git when the push branch.
+ Note : Use Personal access token is the password of git when the push the branch.
    
    <img src="/assets/img/git/git_push_success.png" style="margin-left:2%;" width="449" />
  
 Check the git repository.
 
 <img src="/assets/img/git/github_master_branch.png" style="margin-left:2%;" width="449" />
+
+Successfully branch pushed to github.
 
 Have a Nice Day...
