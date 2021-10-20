@@ -139,9 +139,9 @@ Log in and visit the GitHub homepage to create a new repository on GitHub.
 <img src="/assets/img/git/ezgif.com-gif-maker(2).gif" style="margin-left:2%;" width="449" />
 
 ##### Push a branch to Github 
-
-> git remote add new_repo https://github.com/safwanpaloli/new_repo.git 
-
+```
+git remote add new_repo https://github.com/safwanpaloli/new_repo.git 
+```
 > git push new_repo master 
 
 <img src="/assets/img/git/git_error.png" style="margin-left:2%;" width="449" />
