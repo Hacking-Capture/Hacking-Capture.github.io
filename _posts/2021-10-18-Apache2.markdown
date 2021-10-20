@@ -71,7 +71,7 @@ To allow Nginx Full service
 
 To check ufw status 
 > sudo ufw status
-
+<!--
 #### Configure multiple domains on a single IP address
 
 Apache Virtual Host allows you to maximize the use of the server's resources.Multiple domains can be hosted using a single server and IP address.
@@ -189,7 +189,7 @@ Enable the safwan.com
 Enable the safwan1.com
 > sudo a2ensite safwan1.com.conf
 
-<img src="/assets/img/apache2/a2ensite2.png" width="449"/> 
+<!-- <img src="/assets/img/apache2/a2ensite2.png" width="449"/> 
 
 Using the command, verify the configuration file syntax is correct
  
@@ -203,6 +203,6 @@ Restart Apache2 to apply the changes
 
 In the browser, type the domain name 
 
-<img src="/assets/img/apache2/1_website.png" width="449"/> 
+<!-- <img src="/assets/img/apache2/1_website.png" width="449"/> 
 
-<img src="/assets/img/apache2/2_website.png" width="449"/> 
+<img src="/assets/img/apache2/2_website.png" width="449"/> -->
