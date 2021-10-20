@@ -156,18 +156,18 @@ github -> Settings-> Developer Settings -> personal access token
 
 Give your token a name and Tick on repo. 
 
-<img src="/assets/img/git/git_create_token.png" style="margin-left:2%;" width="700" />
+<img src="/assets/img/git/git_create_token.png" style="margin-left:2%;" width="449" />
 
 click generate token.
 
 copy the token 
 
-<img src="/assets/img/git/git_copy_token.png" style="margin-left:2%;" width="700" />
+<img src="/assets/img/git/git_copy_token.png" style="margin-left:2%;" width="449" />
 
 At last, Push branch to github 
 
 > git push new_repo master.
    in password is token value paste their.
    
-   <img src="/assets/img/git/git_new_push1.png" style="margin-left:2%;" width="700" />
+   <img src="/assets/img/git/git_new_push1.png" style="margin-left:2%;" width="449" />
 
