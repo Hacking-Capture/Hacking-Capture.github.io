@@ -88,7 +88,7 @@ Each virtual host needs to have a directory for storing virtual host data. Creat
  
 Create a sample index.html page for each domain, using nano or your favorite text editor. Start with the first domain:
  
-<!-- 
+<!--
 
 > nano /var/www/safwan.com/html/index.html
 
@@ -203,7 +203,7 @@ Restart Apache2 to apply the changes
 
 > sudo systemctl restart apache2
 
-In the browser, type the domain name -->
+In the browser, type the domain name
 
 <img src="/assets/img/apache2/1_website.png" width="449"/> 
 
