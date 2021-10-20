@@ -166,7 +166,12 @@ At last, ##### Push branch to github
 
 > git push new_repo master.
  
- Note : Use Personal access token is the password of git when the branch push.
+ Note : Use Personal access token is the password of git when the push branch.
    
-   <img src="/assets/img/git/git_new_push1.png" style="margin-left:2%;" width="449" />
-   
+   <img src="/assets/img/git/git_push_success.png" style="margin-left:2%;" width="449" />
+ 
+Check the git repository.
+
+<img src="/assets/img/git/github_master_branch.png" style="margin-left:2%;" width="449" />
+
+Have a Nice Day...
