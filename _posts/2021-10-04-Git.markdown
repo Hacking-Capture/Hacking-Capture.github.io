@@ -132,9 +132,14 @@ To Delete a local branch.
 
 <img src="/assets/img/git/git_delete.png" style="margin-left:2%;" width="449" />
 
-<!--
+#### Create a Repository in Github
 
-> git remote add new_repo https://github.com/safwanpaloli/new_repo.git -->
+<img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
+<img src="/assets/img/git/github_create1.png" style="margin-left:2%;" width="449" />
+
+##### Push a branch to Github 
+
+> git remote add new_repo https://github.com/safwanpaloli/new_repo.git 
 
 > git push new_repo master 
 
@@ -143,16 +148,26 @@ To Delete a local branch.
 coudn't upload file with github password, we have to create a personal access token 
 
 
-#### Create a Repository in Github
-
-<img src="/assets/img/git/git_create_repo.png" style="margin-left:2%;" width="449" />
-<img src="/assets/img/git/github_create1.png" style="margin-left:2%;" width="449" />
-
 #### Create a Personal Access Token  
  
 github -> Settings-> Developer Settings -> personal access token 
 
 <img src="/assets/img/git/ezgif.com-gif-maker(1).gif" style="margin-left:2%;" width="700" />
 
-Give your token a descriptive name. 
+Give your token a name and Tick on repo. 
+
+<img src="/assets/img/git/" style="margin-left:2%;" width="700" />
+
+click generate token.
+
+copy the token 
+
+<img src="/assets/img/git/" style="margin-left:2%;" width="700" />
+
+At last, Push branch to github 
+
+> git push new_repo master.
+   in password is token value paste their.
+   
+   <img src="/assets/img/git/" style="margin-left:2%;" width="700" />
 
