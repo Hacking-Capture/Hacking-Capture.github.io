@@ -51,7 +51,7 @@ To stop the service and then restart it
 
 #### Enable UFW (Uncomplicated Firewall)
  
-An uncomplicated Firewall is a program for managing a Netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
+An uncomplicated Firewall is a program for managing a Netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 18.04 LTS.
 
 To enable ufw service
 
