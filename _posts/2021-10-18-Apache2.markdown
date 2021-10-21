@@ -63,7 +63,7 @@ To view which applications have installed a profile.
 
 <img src="/assets/img/apache2/ufw_app_list.png" width="350"/> 
  
-To allow Nginx Full service.
+To allow apache2 Full service.
 
 > sudo ufw allow 'Apache Full'
 
