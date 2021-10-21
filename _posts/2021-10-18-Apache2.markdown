@@ -51,25 +51,25 @@ To stop the service and then restart it
 
 #### Enable UFW (Uncomplicated Firewall)
  
-Uncomplicated Firewall is a program for managing a netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
+An uncomplicated Firewall is a program for managing a Netfilter firewall designed to be easy to use.UFW is available by default in all Ubuntu installations after 8.04 LTS.
 
 To enable ufw service
 
 > sudo ufw enable
 
-To view which applications have installed a profile
+To view which applications have installed a profile.
 
 > sudo ufw app list 
 
 <img src="/assets/img/apache2/ufw_app_list.png" width="350"/> 
  
-To allow Nginx Full service
+To allow Nginx Full service.
 
 > sudo ufw allow 'Apache Full'
 
 <img src="/assets/img/apache2/ufw_add_apache2.png" width="350"/>
 
-To check ufw status 
+To check ufw status.
 > sudo ufw status
 
 #### Configure multiple domains on a single IP address
@@ -104,7 +104,7 @@ Add the following sample HTML:
  ```
 Save and exit the file.
  
-Create a sample page for the second domain
+Create a sample page for the second domain.
 
 nano /var/www/safwan1.com/html/index.html  
 
@@ -161,7 +161,7 @@ ErrorLog, CustomLog – designates the log files location
     
 > sudo nano /etc/apache2/sites-available/safwan1.com.conf
 
-Add the configuration block as in the example above, making sure to change the values for safwan1.com
+Add the configuration block as in the example above, making sure to change the values for safwan1.com.
 
 ```
 <VirtualHost *:80>
