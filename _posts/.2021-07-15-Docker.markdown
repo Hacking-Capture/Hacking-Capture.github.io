@@ -16,6 +16,7 @@ Docker is an open platform for developing, shipping, and running applications. D
  <p align="center">
   <img src="/assets/img/docker/images.png" width="450"/>
   </p>
+  
 ## Components of a Docker architecture
 
 Docker comprises the following different components within its core architecture:
