@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tryhackme Chocolate Factory Walkthrough 
+title: Tryhackme | Chocolate Factory Walkthrough 
 date: 2021-02-03
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: cholocate.tryhackme/titlephoto1.jpg # Add image post (optional)
