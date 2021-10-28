@@ -6,3 +6,6 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: docker-compose/docker-compose-button.jpg  # Add image post (optional)
 tags: [] # add tag
 ---
+
+Docker Compose
+Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format. A Compose file is used to define how the one or more containers that make up your application are configured.
