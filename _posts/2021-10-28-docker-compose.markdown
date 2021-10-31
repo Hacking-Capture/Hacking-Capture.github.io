@@ -57,7 +57,7 @@ mariadb:
 
 Your WordPress server's public IP address or domain can be viewed in your web browser to check the installation. The WordPress initial setup page should look like the image shown below.
 
-> sudo ifconfig
+> sudo ifconfig docker0
 
 <p>
  <img src="/assets/img/docker-compose/docker-compose-ip.png" style="margin-left:2%;" width="449"/>
