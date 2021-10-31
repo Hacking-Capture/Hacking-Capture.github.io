@@ -35,7 +35,7 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 
 #### Lists all running containers in the work directory
 
-docker-compose ps
+> docker-compose ps
 
 #### Stops and removes all containers in the work directory
 
