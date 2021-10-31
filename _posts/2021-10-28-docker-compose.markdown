@@ -47,7 +47,7 @@ mariadb:
 
 > docker-compose up -d
 
-#### Check the docker-compose file
+#### Check the docker-compose log 
 
 > docker-compose logs
 
@@ -55,5 +55,10 @@ mariadb:
  <img src="/assets/img/docker-compose/docker-compose-logs.png" style="margin-left:2%;" width="449"/>
 </p>
 
+Your WordPress server's public IP address or domain can be viewed in your web browser to check the installation. The WordPress initial setup page should look like the image shown below.
 
+> sudo ifconfig
 
+<p>
+ <img src="/assets/img/docker-compose/docker-compose-ip.png" style="margin-left:2%;" width="449"/>
+</p>
