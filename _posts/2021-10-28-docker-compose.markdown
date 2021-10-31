@@ -25,27 +25,35 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 
 > leafpad docker-compose.yml
 
+```
+wordpress:
+    image: wordpress
+    links:
+     - mariadb:mysql
+    environment:
+     - WORDPRESS_DB_PASSWORD=password
+     - WORDPRESS_DB_USER=root
+    volumes:
+     - ./html:/var/www/html
+mariadb:
+    image: mariadb
+    environment:
+     - MYSQL_ROOT_PASSWORD=password
+     - MYSQL_DATABASE=wordpress
+    volumes:
+     - ./database:/var/lib/mysql
+ 
+ ```
 
 > docker-compose up -d
 
+#### Check the docker-compose file
 
+> docker-compose logs
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>
+ <img src="/assets/img/docker-compose/docker-compose-logs.png" style="margin-left:2%;" width="449"/>
+</p>
 
 
 
