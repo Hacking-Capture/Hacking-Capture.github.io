@@ -28,3 +28,24 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 
 > docker-compose up -d
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
