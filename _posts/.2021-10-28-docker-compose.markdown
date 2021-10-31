@@ -15,8 +15,11 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 
 #### docker-compose version
 
+> docker-compose version
+
 <p>
  <img src="/assets/img/docker-compose/docker-compose-version.png " style="margin-left:2%;" width="449"/>
 </p>
+
 
 
