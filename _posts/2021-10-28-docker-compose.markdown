@@ -21,7 +21,27 @@ Docker Compose is a tool for running multi-container applications on Docker defi
  <img src="/assets/img/docker-compose/docker-compose-version.png " style="margin-left:2%;" width="449"/>
 </p>
 
-#### Configuring WordPress with Compose
+#### Starts all stopped containers in the work directory
+
+> docker-compose start
+
+#### Stops all currently running containers in the work directory
+
+> docker-compose stop
+
+#### Validates and shows the configuration
+
+> docker-compose config
+
+#### Lists all running containers in the work directory
+
+docker-compose ps
+
+#### Stops and removes all containers in the work directory
+
+> docker-compose down
+
+### Configuring WordPress with Compose
 
 > leafpad docker-compose.yml
 
