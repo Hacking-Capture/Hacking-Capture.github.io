@@ -62,3 +62,16 @@ Your WordPress server's public IP address or domain can be viewed in your web br
 <p>
  <img src="/assets/img/docker-compose/docker-compose-ip.png" style="margin-left:2%;" width="449"/>
 </p>
+
+
+<p>
+ <img src="/assets/img/docker-compose/docker-compose-wordpress.png " style="margin-left:2%;" width="449"/>
+</p>
+
+<p>
+ <img src="/assets/img/docker-compose/docker-compose-wordpress1.png" style="margin-left:2%;" width="449"/>
+</p>
+
+<p>
+ <img src="/assets/img/docker-compose/docker-compose-wordpress2.png " style="margin-left:2%;" width="449"/>
+</p>
