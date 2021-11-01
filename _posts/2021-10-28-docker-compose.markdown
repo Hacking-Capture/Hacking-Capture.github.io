@@ -21,23 +21,23 @@ Docker Compose is a tool for running multi-container applications on Docker defi
  <img src="/assets/img/docker-compose/docker-compose-version.png " style="margin-left:2%;" width="449"/>
 </p>
 
-#### Starts all stopped containers in the work directory
+#### Starts all containers in the working directory that have been stopped
 
 > docker-compose start
 
-#### Stops all currently running containers in the work directory
+#### Stops all running containers in the current directory
 
 > docker-compose stop
 
-#### Validates and shows the configuration
+#### Validates and displays configuration
 
 > docker-compose config
 
-#### Lists all running containers in the work directory
+####  Lists all containers running in the working directory
 
 > docker-compose ps
 
-#### Stops and removes all containers in the work directory
+#### This command stops and removes all containers in the working directory
 
 > docker-compose down
 
