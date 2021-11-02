@@ -47,10 +47,11 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 > docker-compose down
 
 ### Configuring WordPress with Compose
-
-Setting up containers with Docker Compose works by creating a Dockerfile and docker-compose.yml in the desired working directory
+create a wordpress-compose and navigate to it.
 
 > mkdir wordpress-compose && cd wordpress-compose
+
+Setting up containers with Docker Compose works by creating a Dockerfile and docker-compose.yml in the desired working directory
 
 create a docker-compose.yml file. This will tell docker how to configure and start the WordPress and MariaDB containers.
 
