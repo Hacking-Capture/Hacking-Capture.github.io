@@ -80,6 +80,7 @@ mariadb:
 Using the command below, create new containers. This starts both containers in the background and leaves them running. If you wish to see the output from the containers just leave out the -d to deploy the applications in the foreground.
 
 > docker-compose up -d
+> 
 > -d running in foreground
 
 You need to wait until the installation is complete. Once the process is complete, you'll see something similar to the example output below.
