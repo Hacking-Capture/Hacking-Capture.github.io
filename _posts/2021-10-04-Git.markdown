@@ -59,10 +59,12 @@ The files are untracked, so add them to git and commit
 
 Files can differently add to git
 
+#### A specific file is add to git 
+
 > git add 1.txt
-> 
-> Add all files.
-> 
+
+####  Add all files to git
+
 > git add -A  
 > 
 > git add . 
