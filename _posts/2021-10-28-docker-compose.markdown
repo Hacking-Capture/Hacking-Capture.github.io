@@ -7,6 +7,11 @@ img: docker-compose/wordpress-docker-compose.png   # Add image post (optional)
 tags: [] # add tag
 ---
 
+<p align="center">
+ <img src="/assets/img/docker-compose/wordpress-docker-compose.png" style="margin-left:2%;" width="449"/>
+</p>
+
+
 Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format. A Compose file is used to define how the one or more containers that make up your application are configured.
 
 #### Installation on ubuntu 18.04
@@ -18,7 +23,7 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 > docker-compose version
 
 <p>
- <img src="/assets/img/docker-compose/docker-compose-version.png " style="margin-left:2%;" width="449"/>
+ <img src="/assets/img/docker-compose/docker-compose-version.png" style="margin-left:2%;" width="449"/>
 </p>
 
 #### Starts all containers in the working directory that have been stopped
@@ -43,7 +48,11 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 
 ### Configuring WordPress with Compose
 
-Create a directory and change
+Setting up containers with Docker Compose works by creating a Dockerfile and docker-compose.yml in the desired working directory
+
+> mkdir wordpress-compose && cd wordpress-compose
+
+create a docker-compose.yml file. This will tell docker how to configure and start the WordPress and MariaDB containers.
 
 > leafpad docker-compose.yml
 
@@ -67,7 +76,11 @@ mariadb:
  
  ```
 
+Using the command below, create new containers. This starts both containers in the background and leaves them running. If you wish to see the output from the containers just leave out the -d to deploy the applications in the foreground.
+
 > docker-compose up -d
+> -d running in foreground
+
 
 #### Check the docker-compose log 
 
