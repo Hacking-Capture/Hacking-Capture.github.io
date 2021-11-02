@@ -84,7 +84,7 @@ Using the command below, create new containers. This starts both containers in t
 You need to wait until the installation is complete. Once the process is complete, you'll see something similar to the example output below.
 
 <p>
- <img src="/assets/img/docker-compose/docker-compose-creating.png" style="margin-left:2%;" width="449"/>
+ <img src="/assets/img/docker-compose/docker-compose-created.png" style="margin-left:2%;" width="449"/>
 </p>
 
 #### Check the docker-compose log 
