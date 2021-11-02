@@ -43,6 +43,8 @@ Docker Compose is a tool for running multi-container applications on Docker defi
 
 ### Configuring WordPress with Compose
 
+Create a directory and change
+
 > leafpad docker-compose.yml
 
 ```
