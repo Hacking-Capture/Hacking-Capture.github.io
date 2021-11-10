@@ -33,6 +33,7 @@ wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u
 > get 
 > get 
 
+
 phpshell.php
 
 > put phpshell.php
