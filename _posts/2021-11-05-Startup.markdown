@@ -15,9 +15,9 @@ Let's start....
 ip add to hosts 
 
 > sudo leafpad /etc/hosts
-> 
-> sudo nmap -sC -sV 
 
+
+> sudo nmap -sC -sV 
 
 <p align="center">
 <img src="/assets/img/startup/" width="350"/>
