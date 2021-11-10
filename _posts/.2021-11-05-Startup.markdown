@@ -18,7 +18,16 @@ ip add to hosts
 > 
 > sudo nmap -sC -sV 
 
-wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup/FUZZ
+
+<p align="center">
+<img src="/assets/img/startup/" width="350"/>
+</p>
+
+wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
+
+<p align="center">
+<img src="/assets/img/startup/" width="350"/>
+</p>
 
 > ftp startup.thm
 > get 
@@ -37,7 +46,6 @@ nc -lvnp 33456
 > import TERM=xterm
 
 upload linpease.sh file  
-
 
 
 
