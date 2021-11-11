@@ -20,7 +20,7 @@ ip add to hosts
 > sudo nmap -sC -sV 
 
 <p align="center">
-<img src="/assets/img/startup/" width="350"/>
+<img src="/assets/img/startup/nmap.png" width="350"/>
 </p>
 
 wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
