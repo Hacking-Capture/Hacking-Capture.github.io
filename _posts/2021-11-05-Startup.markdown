@@ -44,7 +44,7 @@ From the output, we can see we have 3 ports open. FTP is running on port SSH run
 In FTP, There is a file directory.
 wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
 
-<p align="center">
+<p align="left">
 <img src="/assets/img/startup/" width="350"/>
 </p>
 
