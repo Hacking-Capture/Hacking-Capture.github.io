@@ -38,9 +38,9 @@ FTP login with username is anonymous and password is anonymous.
 <img src="/assets/img/startup/ftp-dir.png" width="350"/>
 </p>
 
-> get 
-> 
-> get 
+> get important.jpg
+>
+> get notice.txt
 
 wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
 
