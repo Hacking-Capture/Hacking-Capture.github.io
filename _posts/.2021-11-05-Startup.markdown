@@ -28,9 +28,7 @@ file is a simple text file that associates IP addresses with hostnames, one line
 <img src="/assets/img/startup/nmap.png" width="350"/>
 </p>
 
-There are three ports are opened 
-
-FTP login with username is anonymous and password is anonymous.
+From the output, we can see we have 3 ports open. FTP is running on port SSH runs on port 22, while HTTP runs on port 80. Now we know what ports are open and what services they are running.FTP login with username is anonymous and password is anonymous.
 
 > ftp startup.thm
 
@@ -41,7 +39,8 @@ FTP login with username is anonymous and password is anonymous.
 > get important.jpg
 >
 > get notice.txt
-
+>
+In FTP, There is a file directory.
 wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
 
 <p align="center">
