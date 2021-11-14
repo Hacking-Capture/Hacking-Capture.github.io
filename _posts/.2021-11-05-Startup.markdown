@@ -28,7 +28,7 @@ Scan the ip in Nmap
     -sV is for enumerating version
 
 <p align="left">
-<img src="/assets/img/startup/nmap.png" width="450"/>
+<img src="/assets/img/startup/nmap-full-scan.png" width="450"/>
 </p>
 
 From the output, we can see we have 3 ports open. FTP is running on port SSH runs on port 22, while HTTP runs on port 80. Now we know what ports are open and what services they are running.FTP login with username is anonymous and password is anonymous.
