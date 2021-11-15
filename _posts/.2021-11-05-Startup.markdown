@@ -70,7 +70,7 @@ Here, I decided to brute-force the directory using the wfuzz tool. I guess that'
 
 Check the robots.txt file on the website, but it's not there.
 
-Here, I decided to brute-force the directory using the wfuzz tool. I guess that's better than the gobuster tool.
+Here, I decided to brute-force the directory using the wfuzz tool.
 
 > wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
 
