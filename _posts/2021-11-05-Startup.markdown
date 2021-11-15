@@ -43,6 +43,8 @@ From the output, we can see we have 3 ports open. FTP is running on port SSH run
 
 In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As we can see few files and we can read them looking at the permission on the left side, lets download them to our box.
 
+#### Downloading files from ftp
+
 > get important.jpg
 >
 > get notice.txt
