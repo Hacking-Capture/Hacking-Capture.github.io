@@ -89,7 +89,7 @@ Well this looks interesting as this contains the files and folders from FTP serv
 #### Revisiting the FTP server 
 
 <p align="left">
-<img src="/assets/img/startup/ftp-dir.png" width="350"/>
+<img src="/assets/img/startup/ftp-perm.png" width="350"/>
 </p>
 
 /ftp directory have write permission. Upload a PHP reverse shell to ftp.
