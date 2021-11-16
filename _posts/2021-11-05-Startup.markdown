@@ -72,7 +72,9 @@ Check the robots.txt file on the website, but it's not there.
 
 Here, I decided to brute-force the directory using the wfuzz tool.
 
-> wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
+```
+ wfuzz -w /usr/share/SecLists/discovery/Webcontents/raft-large-directories.txt -u http://startup.thm/FUZZ
+```
 
 <p align="left">
 <img src="/assets/img/startup/wfuzz.png" width="350"/>
