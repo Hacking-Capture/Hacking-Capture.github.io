@@ -101,7 +101,7 @@ Download 'php reverse shell'.
 In php-shell script replace the IP and ports with our own ip and ports address.
 
 <p align="left">
-<img src="/assets/img/startup/php-shell.php" width="350"/>
+<img src="/assets/img/startup/php-shell.png" width="350"/>
 </p>
 
 #### Uploading the file to the FTP Server
