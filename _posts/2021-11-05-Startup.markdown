@@ -38,7 +38,7 @@ From the output, we can see we have 3 ports open. FTP is running on port SSH run
 > ftp startup.thm
 
 <p align="left">
-<img src="/assets/img/startup/ftp-dir.png" width="350"/>
+<img src="/assets/img/startup/ftp-dir-1.png" width="350"/>
 </p>
 
 In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As we can see few files and we can read them looking at the permission on the left side, lets download them to our box.
@@ -51,20 +51,18 @@ In analyze of FTP service,  dir -a is used to list all files and folders, even t
 
 
 <p align="left">
-<img src="/assets/img/startup/ftp_file_download.png" width="350"/>
+<img src="/assets/img/startup/download-ftp-files.png" width="350"/>
 </p>
 
 Here ftp directory check the directory for further steps.
 
 <p align="left">
-<img src="/assets/img/startup/ftp-dir-1.png" width="350"/>
+<img src="/assets/img/startup/ftp-dir-2.png" width="350"/>
 </p>
 
 There is nothing is see that.
 
 So we have to look to web service.
-
-Here, I decided to brute-force the directory using the wfuzz tool. I guess that's better than the gobuster tool.
 
 <p align="left">
 <img src="/assets/img/startup/home.png" width="350"/>
@@ -80,14 +78,64 @@ Here, I decided to brute-force the directory using the wfuzz tool.
 <img src="/assets/img/startup/wfuzz.png" width="350"/>
 </p>
 
+#### Checking the /files.
 
-phpshell.php
+<p align="left">
+<img src="/assets/img/startup/files-dir.png" width="350"/>
+</p>
 
-> put phpshell.php
+Well this looks interesting as this contains the files and folders from FTP service. If we have a write permission on that FTP server, we can upload a PHP script on the webserver.
 
- Check the ip addr
+#### Revisiting the FTP server 
+
+<p align="left">
+<img src="/assets/img/startup/ftp-dir.png" width="350"/>
+</p>
+
+/ftp directory have write permission. Upload a PHP reverse shell to ftp.
+
+#### Content of shell.php
+
+Download 'php reverse shell'.
+
+In php-shell script replace the IP and ports with our own ip and ports address.
+
+<p align="left">
+<img src="/assets/img/startup/php-shell.php" width="350"/>
+</p>
+
+#### Uploading the file to the FTP Server
+
+ > put phpshell.php 
  
+<p align="left">
+<img src="/assets/img/startup/file-upload-ftp.png" width="350"/>
+</p>
+
+The file has been successfully written.
+
+### Checking the webserver
+
+<p align="left">
+<img src="/assets/img/startup/file-uploaded-web.png" width="350"/>
+</p>
+
+The file is also reflected in the webserver.
+
+#### Netcat listerner
+
+Run the commands on the system
+
 > nc -lvnp 33456
+
+<p align="left">
+<img src="/assets/img/startup/netcat-listerning.png" width="350"/>
+</p>
+
+
+
+
+
 
 > ls -la
 > stty raw -echo 
