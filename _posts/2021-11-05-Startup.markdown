@@ -179,6 +179,7 @@ The first thing we can do is run scripts like linpeas or LinEnum to find out the
 
 lets run the script.
  
+### Interesting findings on linpeas
 
 
 
