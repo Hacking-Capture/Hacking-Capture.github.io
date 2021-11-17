@@ -144,6 +144,7 @@ The shell is not interactive, so it is a bit difficult to use. It lacks using ar
 Now lets get a proper shell with auto completion.
 
 >   python3 -c "import pty;pty.spawn('/bin/bash')"
+
 Hit CRTL+z to background the current process and on local box 
 
 > stty raw -echo
@@ -156,17 +157,28 @@ Now we have a proper shell.
 
 ### Privilege Escalation
 
+The first thing we can do is run scripts like linpeas or LinEnum to find out the potential privilege Escalation vectors. I personally like linpeas as it has coloring which makes life easier. As the box on THM doesnot have internet,we have to first download the script on our box, open up a python HTTP server and download on the remote box.
 
+### Download linpeas.sh
 
+<p align="left">
+<img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
+</p>
 
+### Serving the file using HTTP server
 
-> ls -la
-> stty raw -echo 
-> import TERM=xterm
+<p align="left">
+<img src="/assets/img/startup/python-server.png" width="350"/>
+</p>
 
-upload linpease.sh file  
+### Downloading the file on the remote server
 
+<p align="left">
+<img src="/assets/img/startup/python-server.png" width="350"/>
+</p>
 
+lets run the script.
+ 
 
 
 
