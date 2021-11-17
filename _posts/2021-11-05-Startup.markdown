@@ -95,7 +95,7 @@ Well this looks interesting as this contains the files and folders from FTP serv
 
 #### Content of shell.php
 
-Download 'php reverse shell'.
+Download `php reverse shell`.
 
 In php-shell script replace the IP and ports with our own ip and ports address.
 
