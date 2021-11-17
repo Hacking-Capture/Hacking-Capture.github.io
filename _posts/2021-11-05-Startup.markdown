@@ -121,7 +121,7 @@ The file has been successfully written.
 
 The file is also reflected in the webserver.
 
-#### Netcat listerner
+### Netcat listerner
 
 Run the commands on the system
 
@@ -131,6 +131,30 @@ Run the commands on the system
 <img src="/assets/img/startup/netcat-listerning.png" width="350"/>
 </p>
 
+Click on the PHP shell. Get a shell back
+
+<p align="left">
+<img src="/assets/img/startup/shell1.png" width="350"/>
+</p>
+
+The shell is not interactive, so it is a bit difficult to use. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. So We have to make this session a interactive session.
+
+### Getting a proper TTY
+
+Now lets get a proper shell with auto completion.
+
+>   python3 -c "import pty;pty.spawn('/bin/bash')"
+Hit CRTL+z to background the current process and on local box 
+
+> stty raw -echo
+
+and type fg and hit enter twice and on the reverse shell export the TERM as xterm.
+
+>  export TERM=xterm
+
+Now we have a proper shell.
+
+### Privilege Escalation
 
 
 
