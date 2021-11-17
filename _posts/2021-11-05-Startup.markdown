@@ -168,7 +168,7 @@ The first thing we can do is run scripts like linpeas or LinEnum to find out the
 ### Serving the file using HTTP server
 
 <p align="left">
-<img src="/assets/img/startup/python-server.png" width="350"/>
+<img src="/assets/img/startup/python-server.png" width="450"/>
 </p>
 
 ### Downloading the file on the remote server
