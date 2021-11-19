@@ -181,6 +181,45 @@ lets run the script.
  
 ### Interesting findings on linpeas
 
+Three unexpected directories in root. Check the directories
+
+/vagrant                                                                                                                                                                        
+/incidents                                                                                                                                                                      
+/lost+found                                                                                                                                                             
+/data 
+
+### /incidents
+
+<p align="left">
+<img src="/assets/img/startup/python-server.png" width="350"/>
+</p>
+
+A pcapng file on /incidents folder. Now to analyse the file,we have to download this file to our box and then we can use wireshark to check the content of this file. Check  `this' for downloading and installation instruction.
+  
+Open an HTTP server in Python on the remote box just as we did before, and download the file from our machine.
+
+ 
+### Run HTTP server on the remote box 
+ 
+<p align="left">
+<img src="/assets/img/startup/downloading-pcap.png" width="350"/>
+</p 
+ 
+### Downloading file on our box
+
+<p align="left">
+<img src="/assets/img/startup/downloading-pcap.png" width="350"/>
+</p>
+
+
+### Analysing with wireshark
+
+
+<p align="left">
+<img src="/assets/img/startup/downloading-pcap.gif" width="350"/>
+</p>
+
+In content of the stream lennie's password
 
 
 
@@ -196,9 +235,12 @@ lets run the script.
 
 
 
+### Downloading pspy on our local box
 
 
-
+<p align="left">
+<img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
+</p>
 
 
 
