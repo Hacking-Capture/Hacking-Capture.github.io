@@ -205,7 +205,7 @@ Open an HTTP server in Python on the remote box just as we did before, and downl
  
 <p align="left">
 <img src="/assets/img/startup/downloading-pcap.png" width="350"/>
-</p 
+</p>
  
 ### Downloading file on our box
 
