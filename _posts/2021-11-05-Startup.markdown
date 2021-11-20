@@ -183,10 +183,12 @@ lets run the script.
 
 Three unexpected directories in root. Check the directories
 
+```
 /vagrant                                                                                                                                                                        
 /incidents                                                                                                                                                                      
 /lost+found                                                                                                                                                             
 /data 
+```
 
 ### /incidents
 
