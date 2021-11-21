@@ -201,7 +201,7 @@ Three unexpected directories in root. Check the directories
 </p>
 
 
-A pcapng file on /incidents folder. Now to analyse the file,we have to download this file to our box and then we can use wireshark to check the content of this file. Check <a class="link-a" href="https://www.wireshark.org/#download">this</a> for downloading and installation instruction.
+A pcapng file on /incidents folder. Now to analyse the file,we have to download this file to our box and then we can use wireshark to check the content of this file. Check this  for downloading and installation instruction.
   
 Open an HTTP server in Python on the remote box just as we did before, and download the file from our machine.
  
