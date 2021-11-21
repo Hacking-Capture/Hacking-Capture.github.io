@@ -219,6 +219,7 @@ Open an HTTP server in Python on the remote box just as we did before, and downl
 
 ### Analysing with wireshark
 
+> wireshark suspicious.pcapng
 
 <p align="left">
 <img src="/assets/img/startup/ezgif.com-gif-maker.gif" width="350"/>
@@ -226,14 +227,9 @@ Open an HTTP server in Python on the remote box just as we did before, and downl
 
 In content of the stream lennie's password
 
-
-
-
-
-
-
-
-
+<p align="left">
+<img src="/assets/img/startup/suspious-lennie-password.png" width="350"/>
+</p>
 
 
 
