@@ -19,11 +19,12 @@ html {
      background-color: #93262600;
     -webkit-text-decoration-skip: objects;
     color: #ff6b00;
-    font-weight: 400;
+    font-weight: 652;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     padding: 0.1rem 0.5rem;
     text-decoration: none;
+    background-color: black;
 }
 
 
