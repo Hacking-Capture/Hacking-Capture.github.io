@@ -1,12 +1,15 @@
 ---
 layout: post
-title: Startup | Tryhackme
+title: Startup | Tryhackme /Abuse traditional vulnerabilities via untraditional means.
 date: 2021-11-05
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
+<p align="center">
+<img src="/assets/img/startup/init.png" width="450"/>
+</p>
 
 
 Let's start....
@@ -218,7 +221,7 @@ Open an HTTP server in Python on the remote box just as we did before, and downl
 
 
 <p align="left">
-<img src="/assets/img/startup/downloading-pcap.gif" width="350"/>
+<img src="/assets/img/startup/ezgif.com-gif-maker.gif" width="350"/>
 </p>
 
 In content of the stream lennie's password
