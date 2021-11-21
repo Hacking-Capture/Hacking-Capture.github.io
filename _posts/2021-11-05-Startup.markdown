@@ -235,16 +235,10 @@ In content of the stream lennie's password
 </p>
 
 
-
-
-<!--
-
 ### Downloading pspy on our local box
 
 
 <p align="left">
 <img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
 </p>
-
--->
 
