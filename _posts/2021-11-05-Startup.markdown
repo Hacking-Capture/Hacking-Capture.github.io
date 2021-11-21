@@ -14,7 +14,7 @@ tags: [] # add tag
 
 Let's start....
 
-#### Add to hosts file
+### Add to hosts file
 
 > sudo leafpad /etc/hosts
 
@@ -23,7 +23,7 @@ Let's start....
   ```
 file is a simple text file that associates IP addresses with hostnames, one line per IP address.
 
-#### Scan the host in Nmap
+### Scan the host in Nmap
 
     sudo nmap -sC -sV startup.thm
      
@@ -46,7 +46,7 @@ From the output, we can see we have 3 ports open. FTP is running on port SSH run
 
 In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As we can see few files and we can read them looking at the permission on the left side, lets download them to our box.
 
-#### Downloading files from ftp
+### Downloading files from ftp
 
 > get important.jpg
 >
@@ -83,7 +83,7 @@ Here, I decided to brute-force the directory using the wfuzz tool.
 <img src="/assets/img/startup/wfuzz.png" width="350"/>
 </p>
 
-#### Checking the /files.
+### Checking the /files.
 
 <p align="left">
 <img src="/assets/img/startup/files-dir.png" width="350"/>
@@ -91,7 +91,7 @@ Here, I decided to brute-force the directory using the wfuzz tool.
 
 Well this looks interesting as this contains the files and folders from FTP service. If we have a write permission on that FTP server, we can upload a PHP script on the webserver.
 
-#### Revisiting the FTP server 
+### Revisiting the FTP server 
 
 <p align="left">
 <img src="/assets/img/startup/ftp-per.png" width="350"/>
@@ -99,7 +99,7 @@ Well this looks interesting as this contains the files and folders from FTP serv
 
 /ftp directory have write permission. Upload a PHP reverse shell to ftp.
 
-#### Content of shell.php
+### Content of shell.php
 
 Download <a class="link-a" href="https://www.github.com/">PHP SHELL</a>.
 
@@ -109,7 +109,7 @@ In php-shell script replace the IP and ports with our own ip and ports address.
 <img src="/assets/img/startup/php-shell.png" width="350"/>
 </p>
 
-#### Uploading the file to the FTP Server
+### Uploading the file to the FTP Server
 
  > put phpshell.php 
  
