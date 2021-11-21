@@ -23,6 +23,7 @@ html {
     -webkit-border-radius: 3px;
     border-radius: 3px;
     padding: 0.1rem 0.5rem;
+    text-decoration: none;
 }
 
 
