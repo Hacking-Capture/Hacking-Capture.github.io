@@ -222,7 +222,7 @@ Open an HTTP server in Python on the remote box just as we did before, and downl
 > wireshark suspicious.pcapng
 
 <p align="left">
-<img src="/assets/img/startup/ezgif.com-gif-maker.gif" width="350"/>
+<img src="/assets/img/startup/ezgif.com-gif-maker.gif" width="450"/>
 </p>
 
 In content of the stream lennie's password
