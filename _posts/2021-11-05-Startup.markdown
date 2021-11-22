@@ -190,6 +190,10 @@ lets run the script.
 ### Interesting findings on linpeas
 
 <p align="left">
+<img src="/assets/img/startup/writable-linpeas.png" width="350"/>
+</p>
+
+<p align="left">
 <img src="/assets/img/startup/unexpected-root.png" width="350"/>
 </p>
 
