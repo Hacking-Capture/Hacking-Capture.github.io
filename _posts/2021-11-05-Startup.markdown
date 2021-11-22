@@ -300,5 +300,22 @@ Upload `pspy64` and run it. This monitors any commands or cronjobs run that is v
 <img src="/assets/img/startup/scp-psy.png" width="350"/>
 </p>
 
+file make a executable and run it. Wait for the cron to run and the pspy will show the result.
 
+<p align="left">
+<img src="/assets/img/startup/scp-psy.png" width="350"/>
+</p>
 
+> ./pspy64 
+
+<p align="left">
+<img src="/assets/img/startup/scp-psy.png" width="350"/>
+</p>
+
+### analyse the pspy result
+
+<p align="left">
+<img src="/assets/img/startup/scp-psy.png" width="350"/>
+</p>
+
+If edit planner.sh with my a reverse shell, it wil gain root access. However, when trying to do, find that root owns the file and is the only user allowed to edit.
