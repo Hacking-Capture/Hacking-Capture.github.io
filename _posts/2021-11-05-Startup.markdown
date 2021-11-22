@@ -144,6 +144,12 @@ Click on the PHP shell. Get a shell back
 <img src="/assets/img/startup/shell1.png" width="350"/>
 </p>
 
+We found a file that gives us the secret ingredient of the recipe.
+
+<p align="left">
+<img src="/assets/img/startup/incredient.png" width="350"/>
+</p>
+
 The shell is not interactive, so it is a bit difficult to use. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. So We have to make this session a interactive session.
 
 
@@ -249,4 +255,21 @@ In content of the stream lennie's password
 <img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
 </p>
 
+### Login SSH service 
+
+SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.default port number is 22.
+
+> ssh lennie@startup.thm 
+
+<p align="left">
+<img src="/assets/img/startup/ssh-login.png" width="350"/>
+</p>
+
+list the files using `ls` command 
+
+There is files and directory. 
+
+<p align="left">
+<img src="/assets/img/startup/user.txt.png" width="350"/>
+</p>
 
