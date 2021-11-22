@@ -289,7 +289,7 @@ Upload `pspy64` and run it. This monitors any commands or cronjobs run that is v
 >  wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64 
 
 <p align="left">
-<img src="/assets/img/startup/list-all-lennie.png" width="350"/>
+<img src="/assets/img/startup/pspy64-download.png" width="350"/>
 </p>
 
 ### Uploading file to the remote box
