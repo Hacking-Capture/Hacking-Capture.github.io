@@ -51,6 +51,12 @@ In analyze of FTP service,  dir -a is used to list all files and folders, even t
 <img src="/assets/img/startup/download-ftp-files.png" width="350"/>
 </p>
 
+Content of notice.txt
+
+<p align="left">
+<img src="/assets/img/startup/notice-text.png" width="350"/>
+</p>
+
 Here ftp directory check the directory for further steps.
 
 <p align="left">
