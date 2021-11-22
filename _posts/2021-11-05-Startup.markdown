@@ -147,7 +147,7 @@ Click on the PHP shell. Get a shell back
 We found a file that gives us the secret ingredient of the recipe.
 
 <p align="left">
-<img src="/assets/img/startup/incredient.png" width="350"/>
+<img src="/assets/img/startup/reciept.png" width="350"/>
 </p>
 
 The shell is not interactive, so it is a bit difficult to use. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. So We have to make this session a interactive session.
@@ -249,11 +249,6 @@ In content of the stream lennie's password
 <img src="/assets/img/startup/suspious-lennie-password.png" width="350"/>
 </p>
 
-### Downloading pspy on our local box
-
-<p align="left">
-<img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
-</p>
 
 ### Login SSH service 
 
@@ -267,9 +262,43 @@ SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol th
 
 list the files using `ls` command 
 
-There is files and directory. 
+There is files and directory. read user.txt
 
 <p align="left">
 <img src="/assets/img/startup/user.txt.png" width="350"/>
 </p>
+
+### Getting a root shell
+
+Looking under lennie’s home directory, folder named `scripts`.
+
+<p align="left">
+<img src="/assets/img/startup/list-all-lennie.png" width="350"/>
+</p>
+
+Script named `planner.sh` Reading this file makes me believe that a cronjob is running
+
+<p align="left">
+<img src="/assets/img/startup/list-all-lennie.png" width="350"/>
+</p>
+
+Upload `pspy64` and run it. This monitors any commands or cronjobs run that is viewable to our user.
+
+### Downloading pspy on our local box
+
+>  wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64 
+
+<p align="left">
+<img src="/assets/img/startup/list-all-lennie.png" width="350"/>
+</p>
+
+### Uploading file to the remote box
+
+> scp pspy64 lennie@startup.thm:/dev/thm/pspy64
+
+<p align="left">
+<img src="/assets/img/startup/scp-psy.png" width="350"/>
+</p>
+
+
 
