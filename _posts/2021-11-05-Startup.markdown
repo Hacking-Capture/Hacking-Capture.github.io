@@ -7,8 +7,6 @@ img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
-<img src="/assets/img/startup/init.png" width="150"/>
-
 
 Let's start....
 
@@ -193,50 +191,4 @@ Three unexpected directories in root. Check the directories
 /lost+found                                                                                                                                                             
 /data 
 ```
-
-### /incidents
-
-<p align="left">
-<img src="/assets/img/startup/dir-incidents.png" width="350"/>
-</p>
-
-
-A pcapng file on /incidents folder. Now to analyse the file,we have to download this file to our box and then we can use wireshark to check the content of this file. Check this  for downloading and installation instruction.
-  
-Open an HTTP server in Python on the remote box just as we did before, and download the file from our machine.
- 
-### Run HTTP server on the remote box 
- 
-<p align="left">
-<img src="/assets/img/startup/python-server.png" width="350"/>
-</p>
- 
-### Downloading file on our box
-
-<p align="left">
-<img src="/assets/img/startup/file-download-suspicious.png" width="350"/>
-</p>
-
-
-### Analysing with wireshark
-
-> wireshark suspicious.pcapng
-
-<p align="left">
-<img src="/assets/img/startup/ezgif.com-gif-maker.gif" width="450"/>
-</p>
-
-In content of the stream lennie's password
-
-<p align="left">
-<img src="/assets/img/startup/suspious-lennie-password.png" width="350"/>
-</p>
-
-
-### Downloading pspy on our local box
-
-
-<p align="left">
-<img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
-</p>
 
