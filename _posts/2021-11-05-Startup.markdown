@@ -96,3 +96,47 @@ Well this looks interesting as this contains the files and folders from FTP serv
 ### Content of shell.php
 
 Download <a class="link-a" href="https://www.github.com">PHP SHELL</a>
+
+
+In php-shell script replace the IP and ports with our own ip and ports address.
+
+<p align="left">
+<img src="/assets/img/startup/php-shell.png" width="350"/>
+</p>
+
+### Uploading the file to the FTP Server
+
+ > put phpshell.php 
+ 
+<p align="left">
+<img src="/assets/img/startup/file-upload-ftp.png" width="350"/>
+</p>
+
+The file has been successfully written.
+
+### Checking the webserver
+
+<p align="left">
+<img src="/assets/img/startup/file-uploaded-web.png" width="350"/>
+</p>
+
+The file is also reflected in the webserver.
+
+### Netcat listerner
+
+Run the commands on the system
+
+> nc -lvnp 33456
+
+<p align="left">
+<img src="/assets/img/startup/netcat-listerning.png" width="350"/>
+</p>
+
+Click on the PHP shell. Get a shell back
+
+<p align="left">
+<img src="/assets/img/startup/shell1.png" width="350"/>
+</p>
+
+The shell is not interactive, so it is a bit difficult to use. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. So We have to make this session a interactive session.
+
