@@ -29,7 +29,7 @@ file is a simple text file that associates IP addresses with hostnames, one line
 <img src="/assets/img/startup/nmap-full-scan.png" width="450"/>
 </p>
 
-From the output, we can see we have 3 ports open. FTP is running on port SSH runs on port 22, while HTTP runs on port 80. Now we know what ports are open and what services they are running.FTP login with username is anonymous and password is anonymous.
+From the output, we can see we have 3 ports open. FTP is running on port 21 and SSH runs on port 22, while HTTP runs on port 80. Now we know what ports are open and what services they are running.FTP login with username is anonymous and password is null.
 
 ### Enumerating FTP service
 
@@ -195,7 +195,7 @@ Three unexpected directories in root. Check the directories
 <img src="/assets/img/startup/dir-incidents.png" width="350"/>
 </p>
 
-A pcapng file on /incidents folder. Now to analyse the file,we have to download this file to our box and then we can use wireshark to check the content of this file. Check this  for downloading and installation instruction.
+A pcapng file on /incidents folder. Now to analyse the file,we have to download <a class="link-a" href="https://www.wireshark.org/#download">this</a> file to our box and then we can use wireshark to check the content of this file. Check this  for downloading and installation instruction.
   
 Open an HTTP server in Python on the remote box just as we did before, and download the file from our machine.
  
