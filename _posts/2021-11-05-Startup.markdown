@@ -186,6 +186,12 @@ The first thing we can do is run scripts like linpeas or LinEnum to find out the
 </p>
 
 lets run the script.
+
+> bash linpeas.sh
+
+<p align="left">
+<img src="/assets/img/startup/linpeas-run.png" width="350"/>
+</p>
  
 ### Interesting findings on linpeas
 
