@@ -7,5 +7,45 @@ img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
+Let's start....
+
+### Add to hosts file
+
+> sudo leafpad /etc/hosts
+
+  ```
+     ip   startup.thm
+  ```
+file is a simple text file that associates IP addresses with hostnames, one line per IP address.
+
+### Scan the host in Nmap
+
+    sudo nmap -sC -sV startup.thm
+     
+    -sC is for running default scripts
+    -sV is for enumerating version
+
+<p align="left">
+<img src="/assets/img/startup/nmap-full-scan.png" width="450"/>
+</p>
+
+From the output, we can see we have 3 ports open. FTP is running on port SSH runs on port 22, while HTTP runs on port 80. Now we know what ports are open and what services they are running.FTP login with username is anonymous and password is anonymous.
+
+### Enumerating FTP service
+
+> ftp startup.thm
+
+<p align="left">
+<img src="/assets/img/startup/ftp-dir-1.png" width="350"/>
+</p>
+
+In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As we can see few files and we can read them looking at the permission on the left side, lets download them to our box.
+
+### Downloading files from ftp
+
+> get important.jpg
+>
+> get notice.txt
+
 
 
