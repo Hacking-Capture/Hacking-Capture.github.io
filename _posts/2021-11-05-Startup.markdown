@@ -180,7 +180,7 @@ Now we have a proper shell.
 
 ### Privilege Escalation
 
-Run <a href="https://github.com/safwanpaloli/PEASS-ng/tree/master/linPEAS">linpeas</a> or <a href="https://github.com/safwanpaloli/LinEnum">LinEnum</a> scripts to identify possible privilege escalation point-to-point vectors. Linpeas has color highlighting so it makes life easier; open a python HTTP server and download the script from the remote machine.
+Run <a class="link-a" href="https://github.com/safwanpaloli/PEASS-ng/tree/master/linPEAS">linpeas</a> or <a class="link-a" href="https://github.com/safwanpaloli/LinEnum">LinEnum</a> scripts to identify possible privilege escalation point-to-point vectors. Linpeas has color highlighting so it makes life easier; open a python HTTP server and download the script from the remote machine.
 
 ### Download linpeas.sh
 
