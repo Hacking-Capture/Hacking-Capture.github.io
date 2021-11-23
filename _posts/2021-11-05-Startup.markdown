@@ -363,7 +363,7 @@ Set up a nc listener and wait around a minute for a callback
 <img src="/assets/img/startup/root-access.png" width="350"/>
 </p>
 
-As root, now read root.txt
+As root user, now read root.txt
 
 <p align="left">
 <img src="/assets/img/startup/root.png" width="350"/>
