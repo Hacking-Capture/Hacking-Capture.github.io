@@ -158,11 +158,6 @@ Click on the PHP shell. Get a shell back
 <img src="/assets/img/startup/shell1.png" width="350"/>
 </p>
 
-We found a file that gives us the secret ingredient of the recipe.
-
-<p align="left">
-<img src="/assets/img/startup/reciept.png" width="350"/>
-</p>
 
 The shell is not interactive, so it is a bit difficult to work with. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. Make this a more interactive session.
 
@@ -182,6 +177,12 @@ and type fg and hit enter twice and on the reverse shell export the TERM as xter
 >  export TERM=xterm
 
 Now we have a proper shell.
+
+We found a file that gives us the secret ingredient of the recipe.
+
+<p align="left">
+<img src="/assets/img/startup/reciept.png" width="350"/>
+</p>
 
 ### Privilege Escalation
 
