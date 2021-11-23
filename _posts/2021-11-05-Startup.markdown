@@ -7,7 +7,7 @@ img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
-<p align="left">
+<p align="center">
 <img src="/assets/img/startup/init.png" width="550"/>
 </p>
 
@@ -111,6 +111,10 @@ Download <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/b
 In php-shell script replace the IP and ports with our own ip and ports address.
 
 Check the local system IP address
+
+```
+ ifconfig tun0 | grep -i 'inet ' | awk -F' ' '{print $2}'
+```
 
 <p align="left">
 <img src="/assets/img/startup/ip.png" width="350"/>
