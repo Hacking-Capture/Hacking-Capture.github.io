@@ -117,7 +117,7 @@ Check the local system IP address
 ```
 
 <p align="left">
-<img src="/assets/img/startup/ip.png" width="350"/>
+<img src="/assets/img/startup/ip.png" width="450"/>
 </p>
 
 <p align="left">
