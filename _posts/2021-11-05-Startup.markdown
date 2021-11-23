@@ -7,8 +7,8 @@ img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
-<p align="left">
-<img src="/assets/img/startup/init.png" width="450"/>
+<p align="center">
+<img src="/assets/img/startup/init.png" width="650"/>
 </p>
 
 Let's start....
