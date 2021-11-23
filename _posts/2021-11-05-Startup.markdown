@@ -184,6 +184,8 @@ Run <a class="link-a" href="https://github.com/safwanpaloli/PEASS-ng/tree/master
 
 ### Download linpeas.sh
 
+> wget https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh
+
 <p align="left">
 <img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
 </p>
