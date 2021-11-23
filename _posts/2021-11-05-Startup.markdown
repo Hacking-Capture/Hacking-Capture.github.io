@@ -322,25 +322,25 @@ file make a executable and run it. Wait for the cron to run and the pspy will sh
 ### analyse the pspy result
 
 <p align="left">
-<img src="/assets/img/startup/cron-job.png" width="350"/>
+<img src="/assets/img/startup/cron-job.png" width="450"/>
 </p>
 
 Edit planner.sh with a reverse shell, it will gain root access. When trying to edit the file, find that root owns it and is the only one who has access to it.
 
 <p align="left">
-<img src="/assets/img/startup/ls-planner.png" width="350"/>
+<img src="/assets/img/startup/ls-planner.png" width="450"/>
 </p>
 
 In the planner.sh script, at the end of the script it executes /etc/print.sh
 
 <p align="left">
-<img src="/assets/img/startup/read-planner.png" width="350"/>
+<img src="/assets/img/startup/read-planner.png" width="450"/>
 </p>
 
 Looking at /etc/print.sh and find lennie is allowed to edit this file
 
 <p align="left">
-<img src="/assets/img/startup/ls-print.png" width="350"/>
+<img src="/assets/img/startup/ls-print.png" width="450"/>
 </p>
 
 Perfect, now edit the file so that when root runs planner.sh it will also execute print.sh. Create a reverse shell command using the <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/blob/main/Reverse%20shell%20payloads">Reverse Shell Cheatsheet</a>, editing only the local IP address of your system
