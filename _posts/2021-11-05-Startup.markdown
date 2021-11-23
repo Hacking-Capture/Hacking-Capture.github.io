@@ -7,6 +7,11 @@ img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
+<p align="left">
+<img src="/assets/img/startup/init.png" width="550"/>
+</p>
+
+
 Let's start....
 
 ### Add to hosts file
@@ -39,7 +44,7 @@ From the output, we can see we have 3 ports open. FTP is running on port 21 and 
 <img src="/assets/img/startup/ftp-dir-1.png" width="350"/>
 </p>
 
-In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As few files and read them looking at the permission on the left side, lets download them to our box.
+In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As few files and read them looking at the permission on the left side, lets download them to our machine.
 
 ### Downloading files from ftp
 
@@ -180,7 +185,9 @@ Run <a class="link-a" href="https://github.com/safwanpaloli/PEASS-ng/tree/master
 
 ### Download linpeas.sh
 
-> wget https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh
+```
+ wget https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh
+```
 
 <p align="left">
 <img src="/assets/img/startup/download-linpeas-sh.png" width="350"/>
