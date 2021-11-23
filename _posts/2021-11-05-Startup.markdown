@@ -7,10 +7,6 @@ img: startup/images.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
-<p align="center">
-<img src="/assets/img/startup/init.png" width="650"/>
-</p>
-
 Let's start....
 
 ### Add to hosts file
