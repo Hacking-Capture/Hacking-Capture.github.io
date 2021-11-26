@@ -15,6 +15,19 @@ html {
   /* 2 */
 }
 
+.code-label {
+background-color: #e5e5e5;
+border-radius: 3px 3px 0 0;
+color: #323232;
+display: block;
+font-size: 14px;
+font-weight: 400;
+padding: 8px 15px;
+position: relative;
+text-align: center;
+z-index: 2;
+}
+
 .link-a {
      background-color: #93262600;
     -webkit-text-decoration-skip: objects;
