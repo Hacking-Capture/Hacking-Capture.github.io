@@ -28,6 +28,8 @@ html {
     text-shadow: none;
     word-break: normal;
     word-spacing: normal;
+    margin-left: 17px;
+    max-width: 87%;
 }
 
 .code-label {
