@@ -1,4 +1,4 @@
----
+
 layout: post
 title: SSH
 date: 2021-11-23
@@ -19,17 +19,37 @@ Before the ssh installation,update the system.
 > sudo apt update -y
    
 > sudo apt-get install openssh-server
-
-<p align="center">
-<img src="/assets/img/ssh/installation.png" width="350"/>
-</p>
-            
-### Connect to Remote host 
+           
+### Connecting to SSH Over Internet  
 
 > ssh {user}@{host}
- 
-For example, connect to lennie user 
+ If the ufw is active, allow ssh
+For example, connect to lennie user and ip is 
 
 <p align="center">
-<img src="/assets/img/git/git.jpeg" width="350"/>
+<img src="/assets/img/git/"> width="350"/>
 </p>
+
+After installing SSH.
+
+Check the status of ssh.
+
+> sudo systemctl status ssh
+
+To stop ssh 
+
+> sudo systemctl stop ssh.
+
+To disable the SSH service to start during system boot run
+
+> sudo systemctl disable ssh.
+
+To enable it again type:
+
+> sudo systemctl enable ssh.
+
+
+Allow ssh if the ufw is active
+
+> sudo ufw allow ssh
+
