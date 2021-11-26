@@ -26,6 +26,8 @@ padding: 8px 15px;
 position: relative;
 text-align: center;
 z-index: 2;
+margin-left: 17px;
+max-width: 87%;
 }
 
 .link-a {
