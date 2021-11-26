@@ -6,3 +6,22 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: ssh/ssh.png  # Add image post (optional)
 tags: [] # add tag
 ---
+
+### 
+
+SSH, or Secure Shell, is a remote administration protocol that allows users to control and modify their remote servers over the Internet. 
+
+
+### How to use SSH In Ubuntu 18.04
+
+> sudo apt-get install 
+
+<p align="left">
+  <img src="/ssh">
+</p>
+            
+### Connect to Remote host 
+
+> ssh {user}@{host}
+        
+ 
