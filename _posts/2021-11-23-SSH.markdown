@@ -18,7 +18,7 @@ Before the ssh installation,update the system.
 
 > sudo apt update -y
    
-> sudo apt-get install 
+> sudo apt-get install openssh-server
 
 <p align="center">
 <img src="/assets/img/ssh/installation.png" width="350"/>
