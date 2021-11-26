@@ -15,6 +15,21 @@ html {
   /* 2 */
 }
 
+.new-align {
+    -moz-hyphens: none;
+    -moz-tab-size: 2;
+    background: #f2f2f2;
+    color: #545454;
+    direction: ltr;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    text-align: left;
+    text-shadow: none;
+    word-break: normal;
+    word-spacing: normal;
+}
+
 .code-label {
 background-color: #e5e5e5;
 border-radius: 3px 3px 0 0;
