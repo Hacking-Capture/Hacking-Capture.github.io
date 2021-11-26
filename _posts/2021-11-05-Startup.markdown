@@ -16,11 +16,11 @@ Let's start....
 
 ### Add to hosts file
 
-> sudo leafpad /etc/hosts
+>  sudo leafpad /etc/hosts
 
 <div>
-<div class="code-label" title="/var/www/your_domain/html/index.html">/var/www/your_domain/html/index.html</div>
-hello
+<div class="code-label" title="/var/www/your_domain/html/index.html">/etc/hosts</div>
+  <div class="new-align"> hello</div>
 </div>
   
 file is a simple text file that associates IP addresses with hostnames, one line per IP address.
