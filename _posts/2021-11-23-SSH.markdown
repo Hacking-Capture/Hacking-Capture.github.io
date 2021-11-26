@@ -14,14 +14,22 @@ SSH, or Secure Shell, is a remote administration protocol that allows users to c
 
 ### How to use SSH In Ubuntu 18.04
 
+Before the ssh installation,update the system.
+
+> sudo apt update -y
+   
 > sudo apt-get install 
 
-<p align="left">
-  <img src="/ssh">
+<p align="center">
+<img src="/assets/img/ssh/installation.png" width="350"/>
 </p>
             
 ### Connect to Remote host 
 
 > ssh {user}@{host}
-        
  
+For example, connect to lennie user 
+
+<p align="center">
+<img src="/assets/img/git/git.jpeg" width="350"/>
+</p>
