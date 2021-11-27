@@ -47,7 +47,7 @@ Allow ssh if the ufw is active
 
 For example, connect to lennie user and ip is 
 
-<p align="center">
+<p align="left">
 <img src="/assets/img/git/fdf.jpg" width="350"/>
 </p>
 
@@ -67,13 +67,13 @@ To create on the local machine
 
 -b 4096 : Specifies the number of bits in the key to create. The default bit number is 2048.
 
-<p align="center">
+<p align="left">
 <img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
 </p> 
 
 The keys pairs are located in /home/hacking-capture/.ssh/id_rsa
 
-<p align="center">
+<p align="left">
 <img src="/assets/img/ssh/list-files.png" width="350"/>
 </p>
 
@@ -81,7 +81,7 @@ The keys pairs are located in /home/hacking-capture/.ssh/id_rsa
   $HOME/.ssh/id_rsa– contains private key.
   $HOME/.ssh/id_rsa.pub – contain public key.
 
-<p align="center">
+<p align="left">
 <img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
 </p>
 
@@ -92,7 +92,7 @@ For example,  $HOME/.ssh/id_rsa.pub) to on our machine on the remote server/host
 
 > ssh-copy-id -i ~/.ssh/id_rsa lennie@10.10.20.255
 
-<p align="center">
+<p align="left">
 <img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
 </p>
 
