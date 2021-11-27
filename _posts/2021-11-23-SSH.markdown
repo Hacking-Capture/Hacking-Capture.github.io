@@ -18,17 +18,7 @@ Before the ssh installation,update the system.
 > sudo apt update -y
    
 > sudo apt-get install openssh-server
-           
-### Connecting to SSH Over Internet  
-
-> ssh {user}@{host}
-
-For example, connect to lennie user and ip is 
-
-<p align="center">
-<img src="/assets/img/git/fdf.jpg" width="350"/>
-</p>
-
+  
 After installing SSH.
 
 Check the status of ssh.
@@ -47,10 +37,19 @@ To enable it again type:
 
 > sudo systemctl enable ssh.
 
-
 Allow ssh if the ufw is active
 
 > sudo ufw allow ssh
+
+### Connecting to SSH Over Internet  
+
+> ssh {user}@{host}
+
+For example, connect to lennie user and ip is 
+
+<p align="center">
+<img src="/assets/img/git/fdf.jpg" width="350"/>
+</p>
 
 ###  Set Up SSH Keys
 
@@ -61,7 +60,7 @@ Allow ssh if the ufw is active
 </p> 
 
 <p align="center">
-<img src="/assets/img/ssh/listing-files.png" width="350"/>
+<img src="/assets/img/ssh/list-files.png" width="350"/>
 </p>
 
 <p align="center">
