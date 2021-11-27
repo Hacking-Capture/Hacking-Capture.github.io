@@ -53,6 +53,13 @@ For example, connect to lennie user and ip is 10.10.124.192
 The authenticity of host '10.10.124.192 (10.10.124.192)' can't be established.ECDSA key fingerprint is SHA256:xXyVGVy1l27TVcjIQj2kgTTmLYN6WCB93YJB3mAHLkA.
 Are you sure you want to continue connecting (yes/no)? yes
 ```
+```
+lennie@10.10.124.192's password: 
+```
+
+<p align="left">
+<img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
+</p> 
 
 ###  Set Up SSH Keys
 
