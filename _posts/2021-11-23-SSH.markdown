@@ -47,10 +47,6 @@ Allow ssh if the ufw is active
 
 For example, connect to lennie user and ip is 
 
-<p align="left">
-<img src="/assets/img/git/fdf.jpg" width="350"/>
-</p>
-
 ###  Set Up SSH Keys
 
 Though SSH supports password-based authentication, it is generally recommended that you use SSH keys instead. SSH keys are a more secure method of logging into an SSH server, because they are not vulnerable to common brute-force password hacking attacks.
@@ -66,6 +62,19 @@ To create on the local machine
 -t rsa : Specifies the type of key to create. The possible values are “rsa1” for protocol version 1 and “dsa”, “ecdsa”, “ed25519”, or “rsa” for protocol version 2.
 
 -b 4096 : Specifies the number of bits in the key to create. The default bit number is 2048.
+
+```
+Enter file in which to save the key (/home/hacking-capture/.ssh/id_rsa): 
+```
+The default location for saving the files is the .ssh directory in the home directory.
+
+###  Creating a Passphrase
+
+SSH-keygen will ask you for a passphrase:
+
+```
+Enter passphrase (empty for no passphrase): 
+```
 
 <p align="left">
 <img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
