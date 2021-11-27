@@ -71,7 +71,7 @@ To create on the local machine
 <img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
 </p> 
 
-The keys pairs are located in /home/hacking-capture/.ssh/id_rsa
+The keys pairs are located in `/home/hacking-capture/.ssh/`
 
 <p align="left">
 <img src="/assets/img/ssh/list-files.png" width="350"/>
