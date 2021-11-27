@@ -22,11 +22,11 @@ Before the ssh installation,update the system.
 ### Connecting to SSH Over Internet  
 
 > ssh {user}@{host}
- If the ufw is active, allow ssh
+
 For example, connect to lennie user and ip is 
 
 <p align="center">
-<img src="/assets/img/git/"> width="350"/>
+<img src="/assets/img/git/fdf.jpg" width="350"/>
 </p>
 
 After installing SSH.
@@ -57,14 +57,14 @@ Allow ssh if the ufw is active
 > ssh-keygen -t rsa -b 4096
 
 <p align="center">
-<img src="/assets/img/ssh/ssh-keygen-gen.png"> width="350"/>
+<img src="/assets/img/ssh/ssh-keygen-gen.png"width="350"/>
+</p> 
+
+<p align="center">
+<img src="/assets/img/ssh/listing-files.png" width="350"/>
 </p>
 
 <p align="center">
-<img src="/assets/img/ssh/listing-files.png"> width="350"/>
-</p>
-
-<p align="center">
-<img src="/assets/img/ssh/read-id-rsa-pub.png"> width="350"/>
+<img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
 </p>
 
