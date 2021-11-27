@@ -53,17 +53,51 @@ For example, connect to lennie user and ip is
 
 ###  Set Up SSH Keys
 
+Though SSH supports password-based authentication, it is generally recommended that you use SSH keys instead. SSH keys are a more secure method of logging into an SSH server, because they are not vulnerable to common brute-force password hacking attacks.
+
+Generating an SSH key pair creates two long strings of characters: a public and a private key. The public key placed on any server, and then connect to the server using an SSH client that has access to the private key.
+
+### Creating key pair
+
+To create on the local machine 
+
 > ssh-keygen -t rsa -b 4096
+
+-t rsa : Specifies the type of key to create. The possible values are “rsa1” for protocol version 1 and “dsa”, “ecdsa”, “ed25519”, or “rsa” for protocol version 2.
+
+-b 4096 : Specifies the number of bits in the key to create. The default bit number is 2048.
 
 <p align="center">
 <img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
 </p> 
 
+The keys pairs are located in /home/hacking-capture/.ssh/id_rsa
+
 <p align="center">
 <img src="/assets/img/ssh/list-files.png" width="350"/>
 </p>
 
+
+  $HOME/.ssh/id_rsa– contains private key.
+  $HOME/.ssh/id_rsa.pub – contain public key.
+
 <p align="center">
 <img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
 </p>
+
+###  Copying the Public Key to Your Server
+
+Use ssh-copy-id command to copy your public key file. 
+For example,  $HOME/.ssh/id_rsa.pub) to on our machine on the remote server/host (lennie@IP).
+
+> ssh-copy-id -i ~/.ssh/id_rsa lennie@10.10.20.255
+
+<p align="center">
+<img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
+</p>
+
+Let's see if it works
+
+> ssh lennie@ip
+
 
