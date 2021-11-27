@@ -57,7 +57,7 @@ Allow ssh if the ufw is active
 > ssh-keygen -t rsa -b 4096
 
 <p align="center">
-<img src="/assets/img/ssh/ssh-keygen-gen.png"width="350"/>
+<img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
 </p> 
 
 <p align="center">
