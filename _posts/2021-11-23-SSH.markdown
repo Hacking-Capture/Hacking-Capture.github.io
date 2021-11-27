@@ -7,7 +7,6 @@ img: ssh/ssh.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
-### 
 
 SSH, or Secure Shell, is a remote administration protocol that allows users to control and modify their remote servers over the Internet. 
 
@@ -52,4 +51,20 @@ To enable it again type:
 Allow ssh if the ufw is active
 
 > sudo ufw allow ssh
+
+###  Set Up SSH Keys
+
+> ssh-keygen -t rsa -b 4096
+
+<p align="center">
+<img src="/assets/img/ssh/ssh-keygen-gen.png"> width="350"/>
+</p>
+
+<p align="center">
+<img src="/assets/img/ssh/listing-files.png"> width="350"/>
+</p>
+
+<p align="center">
+<img src="/assets/img/ssh/read-id-rsa-pub.png"> width="350"/>
+</p>
 
