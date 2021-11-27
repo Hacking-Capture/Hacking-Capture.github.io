@@ -88,6 +88,7 @@ The keys pairs are located in `/home/hacking-capture/.ssh/`
 
 
   $HOME/.ssh/id_rsa– contains private key.
+  
   $HOME/.ssh/id_rsa.pub – contain public key.
 
 <p align="left">
