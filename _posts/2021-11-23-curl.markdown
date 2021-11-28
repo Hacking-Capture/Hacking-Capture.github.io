@@ -48,13 +48,12 @@ HTTP requests include information about the user agent. Specify the User-Agent s
 ``` 
 curl -H "User-Agent: dummy-name" https://hacking-capture.github.io
 ```
-Send the custom header with no-value then its header must be terminated with a semicolon, such as -H "X-Custom-Header;" to send "X-Custom-Header:". This mostly used cases are website testing.
+Send the custom header with no-value then its header must be terminated with a semicolon, such as -H "X-Custom-Header;" to send "X-Custom-Header:". Most of these cases are used when testing websites.
 
 > Curl -H "X-Custom-Header;" https://hacking-capture.github.io
 > 
 > curl -H "X-Custom-Header:" https://hacking-capture.github.io
 
-### Specify Methods
 
 
 
