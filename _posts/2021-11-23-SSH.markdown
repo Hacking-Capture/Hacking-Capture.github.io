@@ -13,7 +13,7 @@ SSH, or Secure Shell, is a remote administration protocol that allows users to c
 
 ### How to use SSH In Ubuntu 18.04
 
-Before the ssh installation,update the system.
+Before the ssh installation, update the system.
 
 > sudo apt update -y
    
