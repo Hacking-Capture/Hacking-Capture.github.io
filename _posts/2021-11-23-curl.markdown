@@ -32,6 +32,7 @@ cURL, which stands for client URL, is a command line tool that developers use to
 
 ### Download 
 
-> curl -o file.pdf https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf
+```
+curl -o file.pdf https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf
+```
 
-### 
