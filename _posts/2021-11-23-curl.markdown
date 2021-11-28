@@ -1,10 +1,37 @@
 ---
 layout: post
-title: Curl Command in Linux
+title: cURL Command in Linux
 date: 2021-11-28
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: curl/logo.png  # Add image post (optional)
 tags: [curl,LINUX-ADMINISTRATION]
 ---
 
+cURL, which stands for client URL, is a command line tool that developers use to transfer data to and from a server. Curl deals with a bunch of Internet Protocols like HTTP, FTP, SMTP, TELNET and so on.
 
+### version 
+
+> curl -V
+
+-V Displays information about curl and the libcurl version it uses.
+
+<p align="left">
+<img src="/assets/img/curl/curl-version.png" width="350"/>
+</p> 
+
+### Content of website
+
+> curl https://hacking-capture.github.io
+
+
+#### HTTP Headers
+
+> curl -I https://hacking-capture.github.io
+
+-I returns only the HTTPS headers
+
+### Download 
+
+> curl -o file.pdf https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf
+
+### 
