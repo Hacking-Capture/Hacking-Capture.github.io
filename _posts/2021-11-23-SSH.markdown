@@ -50,6 +50,8 @@ For example, connect to lennie user and ip is 10.10.9.74
 > ssh lennie@10.10.9.74
 
 ```
+output
+
 The authenticity of host '10.10.9.74 (10.10.9.74)' can't be established.
 ECDSA key fingerprint is SHA256:xXyVGVy1l27TVcjIQj2kgTTmLYN6WCB93YJB3mAHLkA.
 Are you sure you want to continue connecting (yes/no)? yes
