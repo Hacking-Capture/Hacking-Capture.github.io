@@ -24,7 +24,7 @@ cURL, which stands for client URL, is a command line tool that developers use to
 > curl https://hacking-capture.github.io
 
 <p align="left">
-<img src="/assets/img/curl/curl-version.png" width="350"/>
+<img src="/assets/img/curl/curl-1.png" width="350"/>
 </p> 
 
 #### HTTP Headers
@@ -41,18 +41,21 @@ curl -o file.pdf https://file-examples-com.github.io/uploads/2017/10/file-sample
 
 ### Create Custom Headers
 
-This option can be used multiple times to add/replace/remove multiple headers.  Extra header to include in the request when sending HTTP to a server.
+This option can be used multiple times to add/replace/remove multiple headers.  Extra header to include in the request when sending HTTP to a server.Using the -H option, existing headers can be modified or add custom named headers.
 
-If want to User-agent change to 'dummy_name'.
+HTTP requests include information about the user agent. Specify the User-Agent string to send to the HTTP server. For example user-agent change to 'dummy-name'.
 
 ``` 
-curl -H "User-agent:dummy_name" https://hacking-capture.github.io
+curl -H "User-Agent: dummy-name" https://hacking-capture.github.io
 ```
 Send the custom header with no-value then its header must be terminated with a semicolon, such as -H "X-Custom-Header;" to send "X-Custom-Header:". This mostly used cases are website testing.
 
 > Curl -H "X-Custom-Header;" https://hacking-capture.github.io
 > 
 > curl -H "X-Custom-Header:" https://hacking-capture.github.io
+
+### Specify Methods
+
 
 
 
