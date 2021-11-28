@@ -142,8 +142,3 @@ Let's see if it work
 ```
 Enter passphrase for key '/home/hacking-capture/.ssh/id_rsa':
 ```
-
-<p align="left">
-<img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
-</p>
-
