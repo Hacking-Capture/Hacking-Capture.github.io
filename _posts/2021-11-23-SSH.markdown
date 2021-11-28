@@ -45,9 +45,9 @@ Allow ssh if the ufw is active
 
 > ssh {user}@{host}
 
-For example, connect to lennie user and ip is 10.10.124.192
+For example, connect to lennie user and ip is 10.10.9.74
 
-> ssh lennie@10.10.124.192
+> ssh lennie@10.10.9.74
 
 ```
 The authenticity of host '10.10.9.74 (10.10.9.74)' can't be established.
@@ -59,7 +59,7 @@ lennie@10.10.9.74's password:
 ```
 
 <p align="left">
-<img src="/assets/img/ssh/ssh-keygen-gen.png" width="350"/>
+<img src="/assets/img/ssh/first-page.png" width="350"/>
 </p> 
 
 ###  Set Up SSH Keys
@@ -115,16 +115,20 @@ The keys pairs are located in `/home/hacking-capture/.ssh/`
 Use ssh-copy-id command to copy your public key file. 
 For example,  $HOME/.ssh/id_rsa.pub) to on our machine on the remote server/host (lennie@IP).
 
-> ssh-copy-id -i ~/.ssh/id_rsa lennie@10.10.20.255
+> ssh-copy-id -i ~/.ssh/id_rsa lennie@10.10.9.74
 
 <p align="left">
-<img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
+<img src="/assets/img/ssh/ssh-copy.png" width="350"/>
 </p>
 
 Let's see if it work
 
 > ssh -i ~/.ssh/id_rsa lennie@10.10.9.74
 
+ -i identity_file
+             Selects a file from which the identity (private key) for public
+             key authentication is read.  The default is ~/.ssh/id_dsa,
+             ~/.ssh/id_ecdsa, ~/.ssh/id_ed25519 and ~/.ssh/id_rsa.
 ```
 Enter passphrase for key '/home/hacking-capture/.ssh/id_rsa':
 ```
@@ -133,6 +137,3 @@ Enter passphrase for key '/home/hacking-capture/.ssh/id_rsa':
 <img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
 </p>
 
-
-
-### scp 
