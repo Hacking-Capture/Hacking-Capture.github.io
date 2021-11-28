@@ -7,7 +7,7 @@ img: curl/images-01.jpeg  # Add image post (optional)
 tags: [curl,LINUX-ADMINISTRATION]
 ---
 
-cURL, which stands for client URL, is a command line tool that developers use to transfer data to and from a server. Curl deals with a bunch of Internet Protocols like HTTP, FTP, SMTP, TELNET and so on.
+cURL, which stands for client URL, is a command line tool that developers use to transfer data to and from a server. Curl deals with a bunch of Internet Protocols like HTTP, FTP, SMTP, TELNET, SCP, LDAP and so on.
 
 ### version 
 
@@ -19,20 +19,41 @@ cURL, which stands for client URL, is a command line tool that developers use to
 <img src="/assets/img/curl/curl-version.png" width="350"/>
 </p> 
 
-### Content of website
+### Content of Website
 
 > curl https://hacking-capture.github.io
 
+<p align="left">
+<img src="/assets/img/curl/curl-version.png" width="350"/>
+</p> 
 
 #### HTTP Headers
 
 > curl -I https://hacking-capture.github.io
 
--I returns only the HTTPS headers
+-I returns only the HTTPS response headers.
 
-### Download 
+### Download File
 
 ```
 curl -o file.pdf https://file-examples-com.github.io/uploads/2017/10/file-sample_150kB.pdf
 ```
+
+### Create Custom Headers
+
+This option can be used multiple times to add/replace/remove multiple headers.  Extra header to include in the request when sending HTTP to a server.
+
+If want to User-agent change to 'dummy_name'.
+
+``` 
+curl -H "User-agent:dummy_name" https://hacking-capture.github.io
+```
+Send the custom header with no-value then its header must be terminated with a semicolon, such as -H "X-Custom-Header;" to send "X-Custom-Header:". This mostly used cases are website testing.
+
+> Curl -H "X-Custom-Header;" https://hacking-capture.github.io
+> curl -H "X-Custom-Header:" https://hacking-capture.github.io
+
+
+
+
 
