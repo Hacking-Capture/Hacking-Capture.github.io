@@ -4,7 +4,7 @@ title: SSH
 date: 2021-11-23
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: ssh/ssh.png  # Add image post (optional)
-tags: [] # add tag
+tags: [SSH,LINUX,]
 ---
 
 ### What is SSH?
