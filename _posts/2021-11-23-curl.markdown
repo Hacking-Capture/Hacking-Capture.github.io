@@ -51,6 +51,7 @@ curl -H "User-agent:dummy_name" https://hacking-capture.github.io
 Send the custom header with no-value then its header must be terminated with a semicolon, such as -H "X-Custom-Header;" to send "X-Custom-Header:". This mostly used cases are website testing.
 
 > Curl -H "X-Custom-Header;" https://hacking-capture.github.io
+> 
 > curl -H "X-Custom-Header:" https://hacking-capture.github.io
 
 
