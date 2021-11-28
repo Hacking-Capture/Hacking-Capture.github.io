@@ -78,9 +78,13 @@ To create on the local machine
 
 -b 4096 : Specifies the number of bits in the key to create. The default bit number is 2048.
 
+
+## Specifying where the keys should be saved
+
 ```
 Enter file in which to save the key (/home/hacking-capture/.ssh/id_rsa): 
 ```
+
 The default location for saving the files is the  `.ssh` directory in the home directory.
 
 ###  Creating a Passphrase
