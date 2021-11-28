@@ -121,8 +121,18 @@ For example,  $HOME/.ssh/id_rsa.pub) to on our machine on the remote server/host
 <img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
 </p>
 
-Let's see if it works
+Let's see if it work
 
-> ssh lennie@ip
+> ssh -i ~/.ssh/id_rsa lennie@10.10.9.74
+
+```
+Enter passphrase for key '/home/hacking-capture/.ssh/id_rsa':
+```
+
+<p align="left">
+<img src="/assets/img/ssh/read-id-rsa-pub.png" width="350"/>
+</p>
 
 
+
+### scp 
