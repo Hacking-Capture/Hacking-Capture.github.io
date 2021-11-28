@@ -7,9 +7,13 @@ img: ssh/ssh.png  # Add image post (optional)
 tags: [] # add tag
 ---
 
+### What is SSH?
 
-SSH, or Secure Shell, is a remote administration protocol that allows users to control and modify their remote servers over the Internet. 
+SSH, also known as Secure Shell or Secure Socket Shell, is a network protocol that gives users, particularly system administrators, a secure way to access a computer over an unsecured network.
 
+SSH also refers to the suite of utilities that implement the SSH protocol. Secure Shell provides strong password authentication and public key authentication, as well as encrypted data communications between two computers connecting over an open network, such as the internet.
+
+In addition to providing strong encryption, SSH is widely used by network administrators to manage systems and applications remotely, enabling them to log in to another computer over a network, execute commands and move files from one computer to another.
 
 ### How to use SSH In Ubuntu 18.04
 
