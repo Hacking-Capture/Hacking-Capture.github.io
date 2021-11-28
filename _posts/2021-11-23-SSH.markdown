@@ -122,7 +122,7 @@ For example,  $HOME/.ssh/id_rsa.pub) to on our machine on the remote server/host
 > ssh-copy-id -i ~/.ssh/id_rsa lennie@10.10.9.74
 
 
- -i identity_file
+ -i identity_file, 
              Selects a file from which the identity (private key) for public
              key authentication is read.  The default is ~/.ssh/id_dsa,
              ~/.ssh/id_ecdsa, ~/.ssh/id_ed25519 and ~/.ssh/id_rsa.
@@ -135,7 +135,7 @@ Let's see if it work
 
 > ssh -i ~/.ssh/id_rsa lennie@10.10.9.74
 
- -i identity_file
+ -i identity_file, 
              Selects a file from which the identity (private key) for public
              key authentication is read.  The default is ~/.ssh/id_dsa,
              ~/.ssh/id_ecdsa, ~/.ssh/id_ed25519 and ~/.ssh/id_rsa.
