@@ -29,6 +29,8 @@ cURL, which stands for client URL, is a command line tool that developers use to
 
 #### HTTP Response Headers
 
+Curl sends HTTP requests using the GET method by default.
+
 > curl -I https://hacking-capture.github.io
 
 -I returns only the HTTPS response headers.
