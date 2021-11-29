@@ -21,6 +21,9 @@ cURL, which stands for client URL, is a command line tool that developers use to
 
 ### Content of Website
 
+
+Curl sends HTTP requests using the GET method by default.
+
 > curl https://hacking-capture.github.io
 
 <p align="left">
@@ -28,8 +31,6 @@ cURL, which stands for client URL, is a command line tool that developers use to
 </p> 
 
 #### HTTP Response Headers
-
-Curl sends HTTP requests using the GET method by default.
 
 > curl -I https://hacking-capture.github.io
 
