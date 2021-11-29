@@ -27,7 +27,7 @@ cURL, which stands for client URL, is a command line tool that developers use to
 <img src="/assets/img/curl/curl-1.png" width="350"/>
 </p> 
 
-#### HTTP Headers
+#### HTTP Response Headers
 
 > curl -I https://hacking-capture.github.io
 
