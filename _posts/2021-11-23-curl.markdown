@@ -21,7 +21,7 @@ cURL, which stands for client URL, is a command line tool that developers use to
 
 ### Verbose mode 
 
-During the operation, make curl verbose. Understanding the debugging process and what's going on behind the scenes. An (>) means header data sent by curl, and an (\*) means header data received by curl that is hidden in normal cases.
+During the operation, make curl verbose. Understanding the debugging process and what's going on behind the scenes. A line starting with '>' means header data sent by curl, '<' means header data received by curl that is hidden in normal cases.
 
 > curl -v https://hacking-capture.github.io
 
