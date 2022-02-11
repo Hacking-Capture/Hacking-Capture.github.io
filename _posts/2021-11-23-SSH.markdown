@@ -3,7 +3,7 @@ layout: post
 title: SSH
 date: 2021-11-23
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: ssh/2906035-01.jpeg  # Add image post (optional)
+img: ssh/ssh_1.jpeg # Add image post (optional)
 tags: [SSH,LINUX,]
 ---
 
@@ -149,4 +149,3 @@ Let's see if it work
 Enter passphrase for key '/home/hacking-capture/.ssh/id_rsa':
 ```
 Now login succussfully.
-
