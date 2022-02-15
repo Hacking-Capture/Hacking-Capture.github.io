@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Firewalld
-date: 2021-10-04
+date: 2022-02-15
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: firewall/logo.png  # Add image post (optional)
 tags: [] # add tag
